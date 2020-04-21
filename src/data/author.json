@@ -1,0 +1,23 @@
+{
+    "name": "Julien Brionne",
+    "email": "julien.brionne@gmail.com",
+    "avatar": "/assets/images/avatar/julien.jpeg",
+    "social": {
+        "twitter": {
+            "name": "akashrine",
+            "url": "https://twitter.com/akashrine"
+        },
+        "github": {
+            "name": "akashrine",
+            "url": "https://github.com/akashrine"
+        },
+        "dribbble": {
+            "name": "akashrine",
+            "url": "https://dribbble.com/akashrine"
+        },
+        "instagram": {
+            "name": "akashrine",
+            "url": "https://instagram.com/julien.brionne"
+        }
+    }
+}

@@ -25,3 +25,16 @@
 
 {# RSS Feed #}
 <link type="application/atom+xml" rel="alternate" href="{{ meta.url }}/feed.xml" title="{{ meta.title }}">
+<link rel="dns-prefetch" href="//julien-brionne.fr/">
+<link rel="preconnect" href="{{meta.url}}">
+<link rel="prefetch" href="{{meta.url}}">
+<link rel="prerender" href="{{meta.url}}">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{meta.googleAnalytics}}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{meta.googleAnalytics}}');
+</script>
