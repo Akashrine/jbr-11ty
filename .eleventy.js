@@ -6,6 +6,7 @@ const transforms = require('./utils/transforms.js')
 const shortcodes = require('./utils/shortcodes.js')
 const iconsprite = require('./utils/iconsprite.js')
 
+
 module.exports = function (config) {
     // Plugins
     config.addPlugin(pluginRss)
@@ -45,6 +46,8 @@ module.exports = function (config) {
     // Layouts
     config.addLayoutAlias('base', 'base.njk')
     config.addLayoutAlias('post', 'post.njk')
+    config.addLayoutAlias('page', 'page.njk')
+
 
     // Pass-through files
     config.addPassthroughCopy('src/robots.txt')

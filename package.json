@@ -38,6 +38,7 @@
     "webpack": "^4.42.1"
   },
   "devDependencies": {
+    "@11ty/eleventy-navigation": "^0.1.5",
     "cross-env": "^7.0.2"
   }
 }
