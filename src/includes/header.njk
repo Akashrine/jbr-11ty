@@ -1,14 +1,23 @@
 <header class="header" role="banner">
     <div class="container">
         <h1><a href="{{ '/' | url }}">Julien Brionne</a><br /><small>Product Manager</small></h1>
-        {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
         <nav>    
             <ul class="nav">
-            {%- for entry in collections.all | eleventyNavigation %}
-                <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
-            {%- endfor %}
+            {%- for nav in collections.nav -%}
+                {%- set isCurrent = (nav.url == page.url) -%}
+                {%- set isParent = nav.url != '/' and page.url and nav.url in page.url -%}
+                <li class="nav__item{% if isCurrent or isParent %} nav__item--active{% endif %}">
+                    <a
+                        href="{% if isCurrent %}#main{% else %}{{ nav.url | url }}{% endif %}"
+                        class="nav__link"
+                        {% if isCurrent %}aria-current="page"{% endif %}
+                    >
+                        <span class="nav__num" aria-hidden="true">0{{ loop.index }}</span>
+                        {{ nav.data.navtitle }}
+                    </a>
+                </li>
+            {%- endfor -%}
             </ul>
-            {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
         </nav>
     </div>
 </header>
