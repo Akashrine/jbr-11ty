@@ -1,11 +1,6 @@
 <footer class="footer" role="contentinfo">
     <div class="container">
         <span>&copy; copyright {{ build.timestamp | dateToFormat('yyyy') }}</span>
-        <ul>
-            {% for socialize in author.socials %}
-                <li><a href="{{ socialize.details.url }}">{% icon socialize.details.icon %}</a></li>
-            {% endfor %}
-        </ul>
     </div>
 
 </footer>
