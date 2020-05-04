@@ -7,13 +7,5 @@
 	"lang": "fr",
 	"locale": "fr_fr",
 	"googleAnalytics": "UA-3248722-6",
-	"disqus": "akashrine",
-	"social": {
-		"dribbble": "https://dribbble.com/akashrine",
-		"facebook": "https://facebook.com/julien.brionne",
-		"github": "https://github.com/akashrine",
-		"linkedin": "https://linkedin.com/in/julienbrionne",
-		"instagram": "https://instagram.com/julien.brionne",
-		"twitter": "https://twitter.com/akashrine"
-	}
+	"disqus": "akashrine"
 }

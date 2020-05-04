@@ -1,23 +1,55 @@
 {
-    "name": "Julien Brionne",
-    "email": "julien.brionne@gmail.com",
+	"name": "Julien Brionne",
+	"email": "julien.brionne@gmail.com",
     "avatar": "/assets/images/avatar/julien.jpeg",
-    "social": {
-        "twitter": {
-            "name": "akashrine",
-            "url": "https://twitter.com/akashrine"
+    "socials": [
+        {
+            "type": "Social",
+            "details": {
+                "name": "twitter",
+                "url": "https://twitter.com/akashrine",
+                "icon": "twitter"
+            }
         },
-        "github": {
-            "name": "akashrine",
-            "url": "https://github.com/akashrine"
+        {
+            "type": "Social",
+            "details": {
+                "name": "github",
+                "url": "https://github.com/akashrine",
+                "icon": "github"
+            }
         },
-        "dribbble": {
-            "name": "akashrine",
-            "url": "https://dribbble.com/akashrine"
+        {
+            "type": "Social",
+            "details": {
+                "name": "dribbble",
+                "url": "https://dribbble.com/akashrine",
+                "icon": "dribbble"
+            }
         },
-        "instagram": {
-            "name": "akashrine",
-            "url": "https://instagram.com/julien.brionne"
+        {
+            "type": "Social",
+            "details": {
+                "name": "instagram",
+                "url": "https://instagram.com/julien.brionne",
+                "icon": "instagram"
+            }
+        },
+        {
+            "type": "Social",
+            "details": {
+                "name": "facebook",
+                "url": "https://facebook.com/julien.brionne",
+                "icon": "facebook"
+            }
+        },
+        {
+            "type": "Social",
+            "details": {
+                "name": "linkedin",
+                "url": "https://linkedin.com/in/julienbrionne",
+                "icon": "linkedin"
+            }
         }
-    }
+    ]
 }

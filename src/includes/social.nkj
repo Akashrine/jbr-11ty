@@ -1,24 +1,29 @@
-<a href="{{ meta.social.github }}">
+<a href="{{ author.github.url }}">
     <span class="sr-only">Voir mon profil github</span>
     {% icon "github" %}
 </a>
 <span> | </span>
-<a href="{{ meta.social.dribbble }}">
+<a href="{{ author.dribbble.url }}">
     <span class="sr-only">Voir mon profil dribbble</span>
     {% icon "dribbble" %}
 </a>
 <span> | </span>
-<a href="{{ meta.social.instagram }}">
+<a href="{{ author.instagram.url }}">
     <span class="sr-only">Voir mon profil instagram</span>
     {% icon "instagram" %}
 </a>
 <span> | </span>
-<a href="{{ meta.social.twitter }}">
+<a href="{{ author.twitter.url }}">
     <span class="sr-only">Voir mon profil twitter</span>
     {% icon "twitter" %}
 </a>
 <span> | </span>
-<a href="{{ meta.social.linkedin }}">
+<a href="{{ author.linkedin.url }}">
     <span class="sr-only">Voir mon profil linkedin</span>
     {% icon "linkedin" %}
 </a>
+<a href="{{ author.facebook.url }}">
+    <span class="sr-only">Voir mon profil facebook</span>
+    {% icon "facebook" %}
+</a>
+
