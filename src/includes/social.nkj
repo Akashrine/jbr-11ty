@@ -1,0 +1,24 @@
+<a href="{{ meta.social.github }}">
+    <span class="sr-only">Voir mon profil github</span>
+    {% icon "github" %}
+</a>
+<span> | </span>
+<a href="{{ meta.social.dribbble }}">
+    <span class="sr-only">Voir mon profil dribbble</span>
+    {% icon "dribbble" %}
+</a>
+<span> | </span>
+<a href="{{ meta.social.instagram }}">
+    <span class="sr-only">Voir mon profil instagram</span>
+    {% icon "instagram" %}
+</a>
+<span> | </span>
+<a href="{{ meta.social.twitter }}">
+    <span class="sr-only">Voir mon profil twitter</span>
+    {% icon "twitter" %}
+</a>
+<span> | </span>
+<a href="{{ meta.social.linkedin }}">
+    <span class="sr-only">Voir mon profil linkedin</span>
+    {% icon "linkedin" %}
+</a>

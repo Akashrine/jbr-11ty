@@ -1,11 +1,19 @@
 {
-    "title": "Julien Brionne | Senior Product Manager",
-    "description": "Personal Website of Julien Brionne | Product & Music Lover",
-    "domain":"julien-brionne.fr",
-    "url": "https://julien-brionne.fr",
-    "repo": "https://github.com/akashrine/jbr-11ty",
-    "lang": "fr",
-    "locale": "fr_fr",
-    "googleAnalytics": "UA-3248722-6",
-    "disqus": "akashrine"
+	"title": "Julien Brionne | Senior Product Manager",
+	"description": "Personal Website of Julien Brionne | Product & Music Lover",
+	"domain": "julien-brionne.fr",
+	"url": "https://julien-brionne.fr",
+	"repo": "https://github.com/akashrine/jbr-11ty",
+	"lang": "fr",
+	"locale": "fr_fr",
+	"googleAnalytics": "UA-3248722-6",
+	"disqus": "akashrine",
+	"social": {
+		"dribbble": "https://dribbble.com/akashrine",
+		"facebook": "https://facebook.com/julien.brionne",
+		"github": "https://github.com/akashrine",
+		"linkedin": "https://linkedin.com/in/julienbrionne",
+		"instagram": "https://instagram.com/julien.brionne",
+		"twitter": "https://twitter.com/akashrine"
+	}
 }
