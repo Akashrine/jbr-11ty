@@ -46,7 +46,18 @@ module.exports = function (config) {
 
     // Layouts
     config.addLayoutAlias('base', 'base.njk')
+    config.addLayoutAlias('page', 'page.njk')
     config.addLayoutAlias('post', 'post.njk')
+
+    // Collections: Posts
+    config.addCollection('posts', function (collection) {
+        const pathsRegex = /\/posts\//
+        return collection
+            .getAllSorted()
+            .filter((item) => item.inputPath.match(pathsRegex) !== null)
+            .filter((item) => item.data.permalink !== false)
+            .filter((item) => !(item.data.draft && isProduction))
+    })
 
     // Pass-through files
     config.addPassthroughCopy('src/robots.txt')

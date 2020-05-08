@@ -36,4 +36,4 @@ class Navigation {
 
 if (document.querySelector(SELECTORS.nav)) {
     new Navigation()
-}
+} 

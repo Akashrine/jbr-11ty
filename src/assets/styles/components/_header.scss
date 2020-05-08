@@ -6,4 +6,13 @@
         justify-content: space-between;
         align-items: center;
     }
+    &__branding {
+        text-decoration: none;
+    }
+    &__branding__text {
+        font-family: $font-family-base;
+        font-size: 1.3rem;
+        letter-spacing: -1px;
+        color: $gray-darkest;
+    }
 }

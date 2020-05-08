@@ -28,22 +28,30 @@ $z-layers: (
 //
 // Grayscale.
 
-$gray-darkest: #373a3c;
-$gray-dark: #55595c;
-$gray: #818a91;
-$gray-light: #eceeef;
-$gray-lightest: #f7f7f9;
+$gray-lightest: #F2F2F2;
+$gray-light: #A6A6A6;
+$gray: #737373;
+$gray-dark: #404040;
+$gray-darkest: #202020;
+
 
 // Brand Colors
 
-$brand-red: #fc6767;
+/* Color Theme Swatches in Hex */
+$brand-blue: #025159;
+$brand-green: #03A696;
+$brand-yellow: #F28705;
+$brand-orange: #F25D27;
+$brand-red: #e40a4b;
+
+$twitter-brand-primary: #1da1f2;
 
 // Color Mappings
 
-$bg-color: #fff;
+$bg-color: #fffffe;
 $text-color: $gray-darkest;
-$brand-color-primary: $brand-red;
-$brand-color-primary-offset: darken($brand-red, 6%);
+$brand-color-primary: $brand-blue;
+$brand-color-primary-offset: darken($brand-blue, 6%);
 
 // Typography
 //
