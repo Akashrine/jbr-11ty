@@ -1,3 +1,12 @@
+#diag {
+    position: absolute;
+    background-color: #DDD;
+    background-image: -webkit-linear-gradient(105deg, #FFF 50%, $brand-gradient 0%);
+    min-height: 800px;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.06;
+}
 .header {
     padding: $spacing-y 0;
 

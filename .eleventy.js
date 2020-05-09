@@ -49,6 +49,14 @@ module.exports = function (config) {
     config.addLayoutAlias('page', 'page.njk')
     config.addLayoutAlias('post', 'post.njk')
 
+    // Pass-through files
+    config.addPassthroughCopy('src/robots.txt')
+    config.addPassthroughCopy('src/site.webmanifest')
+    config.addPassthroughCopy('src/assets/images')
+    config.addPassthroughCopy('src/assets/fonts')
+    config.addPassthroughCopy("src/posts/**/*.jpg")
+    config.addPassthroughCopy("src/posts/**/*.png")
+
     // Collections: Posts
     config.addCollection('posts', function (collection) {
         const pathsRegex = /\/posts\//
@@ -59,11 +67,7 @@ module.exports = function (config) {
             .filter((item) => !(item.data.draft && isProduction))
     })
 
-    // Pass-through files
-    config.addPassthroughCopy('src/robots.txt')
-    config.addPassthroughCopy('src/site.webmanifest')
-    config.addPassthroughCopy('src/assets/images')
-    config.addPassthroughCopy('src/assets/fonts')
+
 
     // Deep-Merge
     config.setDataDeepMerge(true)
@@ -79,6 +83,7 @@ module.exports = function (config) {
         },
         templateFormats: ['njk', 'md', '11ty.js'],
         htmlTemplateEngine: 'njk',
-        markdownTemplateEngine: 'njk'
+        markdownTemplateEngine: 'njk',
+        passthroughFileCopy: true
     }
 }

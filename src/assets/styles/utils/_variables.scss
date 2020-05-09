@@ -38,11 +38,9 @@ $gray-darkest: #202020;
 // Brand Colors
 
 /* Color Theme Swatches in Hex */
-$brand-blue: #025159;
-$brand-green: #03A696;
-$brand-yellow: #F28705;
-$brand-orange: #F25D27;
-$brand-red: #e40a4b;
+$brand-blue: #1570BF;
+$brand-red: #F25764;
+
 
 $twitter-brand-primary: #1da1f2;
 
@@ -50,8 +48,9 @@ $twitter-brand-primary: #1da1f2;
 
 $bg-color: #fffffe;
 $text-color: $gray-darkest;
-$brand-color-primary: $brand-blue;
+$brand-color-primary: $brand-red;
 $brand-color-primary-offset: darken($brand-blue, 6%);
+$brand-gradient: $brand-blue;
 
 // Typography
 //
