@@ -60,6 +60,7 @@ module.exports = function (config) {
     // Collections: Posts
     config.addCollection('posts', function (collection) {
         const pathsRegex = /\/posts\//
+        
         return collection
             .getAllSorted()
             .filter((item) => item.inputPath.match(pathsRegex) !== null)
@@ -68,6 +69,14 @@ module.exports = function (config) {
     })
 
 
+    // Get the first `n` elements of a collection.
+    config.addFilter("head", (array, n) => {
+        if( n < 0 ) {
+        return array.slice(n);
+        }
+
+        return array.slice(0, n);
+    })
 
     // Deep-Merge
     config.setDataDeepMerge(true)

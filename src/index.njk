@@ -7,16 +7,67 @@ eleventyNavigation:
 <div class="hero fade-in">
   <div class="hero__inner">
     <header>
-      <h1>👋 <br /> Hey je m'appelle <span class="primary">Julien</span> et je résous des <span class="red">problèmes</span> utilisateurs.</h1>
+      <span class="hero__subline red">👋 HEY ! C'EST JULIEN.</span>
+      <h1>Senior Product Manager chez Heetch, fan de design, musique addict et Papa poule !</h1>
       <span class="min">A PARIS, FRANCE</span>
       <hr />
     </header>
-    <section role="presentation">
-
+    <section class="section" role="presentation">
+      <div class="section__title">INTRODUCTION</div>
+      <div class="presentation">
+        <p class="presentation__left">Enchanté et bienvenue. Ancien designer, ancien dev front je m'attèle désormais à définir des problèmes :)</p>
+        <p class="presentation__right">Avec désormais un peu plus de 10 ans d'expérience dans le produit, je travaille actuellement chez <a href="https://heetch.com" class="brand-heetch">Heetch</a> du côté de la team customer care en tant que senior product manager. Avant j'étais directeur produit pendant 1 an 1/2 chez <a href="https://iwd.io/" class="brand-iwd">IWD</a> et encore avant j'étais product manager dans le E-Commerce chez <a href="https://the-other-store.com/" class="brand-toz">The Other Store</a> pendant 5 ans. Papa depuis maintenant 2 ans, je passe une partie de ma vie à surfer entre les legos, les playmobil et le net. 🏄</p>
+      </div>
     </section>
     <footer role="social-link">
       {% include "social.njk" %}
     </footer>
+    <section class="section" role="last articles">
+      <header>
+        <div class="section_title">DERNIER ARTICLE</div>
+        <h2>Quelques mots exprimant mes pensées</h2>
+      </header>
+        {% set latest_posts = collections.posts | reverse %} 
+        {% for post in latest_posts.slice(0,1) %}
+            <h2 class="postlist__title">
+                <a
+                    href="{{ post.url | url }}"
+                    class="postlist__link"
+                    rel="bookmark"
+                > 
+                    {{ post.data.title }}
+                </a>
+            </h2>
+
+            <div class="postlist__meta">
+                <time class="postlist__date dt-published">
+                    {{ post.date | readableDate('dd LLL yyyy') }}
+                </time>
+
+                {% if post.data.tags %}
+                    <span aria-hidden="true">&sdot;</span>
+                    <span class="postlist__tags p-category">
+                        {{ post.data.tags|join(', ') }}
+                    </span>
+                {% endif %}
+
+
+            </div>
+
+            <p class="postlist__excerpt p-summary">
+            {% if post.data.description %}
+                {{ post.data.description }}
+            {% else %}
+                {{ post.templateContent | excerpt | striptags }}
+            {% endif %}
+            </p>
+        {% endfor %}
+        
+    </section>
+    <section>
+      <ul class="insta"></ul>
+    </section>
   </div>
 </div>
+
 
