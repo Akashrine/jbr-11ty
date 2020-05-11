@@ -1,0 +1,232 @@
+
+<!-- saved from url=(0045)https://marvelapp.com/39fa612/screen/39378565 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="format-detection" content="telephone=no">
+<meta name="mobile-web-app-capable" content="yes">
+
+
+    <meta name="twitter:card" content="player">
+    <meta name="twitter:site" content="@marvelapp">
+    <!-- <meta name="twitter:creator" content="@"> -->
+    <meta name="twitter:title" content="Mantik">
+    <meta name="twitter:description" content="Marvel Prototype for Mantik">
+    <!-- <meta name="twitter:image:src" content="https://marvel-live.freetls.fastly.net/serve/2018/4/52acaf008c2c462fbf315c3d1588885f.png?quality=95&amp;fake=.png"> -->
+    <meta name="twitter:player" content="https://marvelapp.com/39fa612?emb=1&amp;">
+    <meta name="twitter:player:width" content="1920">
+    <meta name="twitter:player:height" content="987">
+    <meta name="twitter:player:stream" content="https://marvelapp.com/39fa612?emb=1&amp;">
+    <meta name="twitter:player:stream:content_type" content="image/jpeg">
+
+    <meta property="og:title" content="Mantik">
+    <meta property="og:image" content="https://marvel-live.freetls.fastly.net/serve/2018/4/52acaf008c2c462fbf315c3d1588885f.png?quality=95&amp;fake=.png">
+    <meta property="og:site_name" content="Marvel Prototyping">
+    <meta property="og:description" content="Marvel Prototype for Mantik">
+
+<script async="" src="./Mantik_files/analytics.js"></script><script type="text/javascript" src="./Mantik_files/polyfill.min.js"></script><script data-dapp-detection="">
+(function() {
+  let alreadyInsertedMetaTag = false
+
+  function __insertDappDetected() {
+    if (!alreadyInsertedMetaTag) {
+      const meta = document.createElement('meta')
+      meta.name = 'dapp-detected'
+      document.head.appendChild(meta)
+      alreadyInsertedMetaTag = true
+    }
+  }
+
+  if (window.hasOwnProperty('web3')) {
+    // Note a closure can't be used for this var because some sites like
+    // www.wnyc.org do a second script execution via eval for some reason.
+    window.__disableDappDetectionInsertion = true
+    // Likely oldWeb3 is undefined and it has a property only because
+    // we defined it. Some sites like wnyc.org are evaling all scripts
+    // that exist again, so this is protection against multiple calls.
+    if (window.web3 === undefined) {
+      return
+    }
+    __insertDappDetected()
+  } else {
+    var oldWeb3 = window.web3
+    Object.defineProperty(window, 'web3', {
+      configurable: true,
+      set: function (val) {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        oldWeb3 = val
+      },
+      get: function () {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        return oldWeb3
+      }
+    })
+  }
+})()</script>
+<link type="text/css" href="./Mantik_files/prototype.c816ff11526bec69b3f9.css" rel="stylesheet">
+
+<script id="settings" type="application/json">{"CANVAS_EASEL_HOST": "https://easel.marvelapp.com", "DISALLOWED_FILENAME_CHARACTERS": "\\\"\u003C\u003E=", "MIXPANEL_TOKEN": "e12a882f7a6eaf4730758a8a61ac2501", "ENVIRONMENT": "live", "BOX_COM_CLIENT_ID": "wo18m8uju79g09r64gf5r7xm59xf6zif", "CANVAS_TOKEN_PROVIDER_HOST": "", "ENABLE_HUBSPOT": true, "ENABLE_FB": true, "MARVEL_CORS_PROXY": "https://marvelapp.com/proxy/", "HEAP_APP_ID": 3884544131, "MKIII_HOST": "https://m3-static.marvelapp.com", "STRIPE_PUBLISHABLE": "pk_live_1afBzKMbfYd1vhu8lsneB1Zb", "BOB_ROSS_HOST": "https://bob-ross.marvelapp.com", "PUSHER": {"PROTOTYPE_CHANNEL_PREFIX": "prototype-production_", "PROJECT_CHANNEL_PREFIX": "private-project-production_", "PRESENCE_CHANNEL_PREFIX": "presence-presence-production_", "ANON_CHANNEL_PREFIX": "anon-production_", "USER_CHANNEL_PREFIX": "private-user-production_"}, "BASE_URL": "https://marvelapp.com", "APP_SENTRY_DSN": "https://873a8ca087a0492d8d22b808d6931306@sentry.io/97119", "USER_TEST_RECORDING_SENTRY_DSN": "https://b961e7063f854c859a78f1c4a9e5f3a5@sentry.io/1503747", "DISABLE_COMMENT_WRITES": false, "LAUNCH_DARKLY_API_KEY": "5b993ab7e7585f1695351237", "GOOGLE_CLIENT_ID": "308573482263-ddask8oq90fg9n9o5t6ub8190v5nqvta.apps.googleusercontent.com", "PROTOTYPE_SENTRY_DSN": "https://883389dfaa2349e891ef7b4f0a6cec51@sentry.io/96884", "ENABLE_GA": true, "SITE_SENTRY_DSN": "https://3fad520e195b4e168ceb79d16cbce216@app.getsentry.com/38273", "REVISION": "r2249"}</script>
+<script id="project_config" type="application/json">{"last_active": "2018-04-20 19:31:53.239470", "is_archived": false, "owner": {"username": "sophie fages", "company_is_enterprise": false, "id": 1560599, "avatar": {"url": "https://secure.gravatar.com/avatar/7f5136c1805156d5148466a6eb082312?s=300\u0026d=blank", "colour": "#FF977A"}, "company_id": 1263493}, "likes": 0, "owner_fk": 1560599, "images": {"1": {"preview_thumbnail": null, "hotspots": [], "is_desktop": true, "seq": 1, "source_platform_human": "Desktop", "top_pixel_colour": "110, 117, 127, 1.0", "height": 987, "source_platform": "4", "es_canvas_id": null, "is_app_icon": false, "id": 39378565, "size": 1570542, "display_name": null, "uuid": "728f7a4d-0d72-4a06-9e7d-141d4d1e0474", "bright_pixel_colour": null, "width": 1920, "comment_count": 0, "version": 14, "hotspots_delta": "cceaa428a5d067e39a7fa97368306e93", "thumbnail": "https://marvel-live.freetls.fastly.net/serve/2018/4/52acaf008c2c462fbf315c3d1588885f.png?quality=90\u0026fit=fit\u0026height=230\u0026fake=.png", "revision": null, "status": 5, "preview_thumbnail_640": "https://marvel-live.freetls.fastly.net/serve/2018/4/52acaf008c2c462fbf315c3d1588885f.png?width=640\u0026quality=95\u0026height=456\u0026crop=640:456,offset-y0\u0026fake=.png", "description": null, "section_id": null, "bottom_pixel_colour": "114, 121, 129, 1.0", "content_type": "image/png", "name": "login-mantik.png", "layer_sync_uri": "", "url": "https://marvel-live.freetls.fastly.net/serve/2018/4/52acaf008c2c462fbf315c3d1588885f.png?quality=95\u0026fake=.png", "layer_parent": null, "directory": null, "external_id": null, "status_pixel_colour": "67, 67, 129, 1.0"}}, "team_name": null, "project_image": "https://marvel-live.freetls.fastly.net/serve/2018/4/52acaf008c2c462fbf315c3d1588885f.png?quality=90\u0026fit=fit\u0026height=230\u0026fake=.png", "id": 2776127, "published_time": "2018-03-07 09:34:19", "team_fk": null, "pusher_channel": "private-project-production_2776127", "uuid": "81ad0093-388a-48ee-adc4-1c9de5bd5e8e", "sync_started": null, "total_size": 61725243, "bright_pixel_colour": null, "team_icon": null, "state": 1, "sequence_delta": "a2adc5d60c9e0d5045b99cf08b46cc2b", "vanity_url": "https://marvelapp.com/39fa612", "user_test_pk": null, "sync_ended": null, "version": 2, "hotspots_delta": "ada19ea5b9004c39c5d2c0fc95822cb9", "type": 1, "owner_username": "sophie fages", "explore_url": null, "embed_url": "https://marvelapp.com/39fa612?emb=1\u0026iosapp=false\u0026frameless=false", "description": "None", "views": 0, "es_canvas_id": null, "company": 1263493, "num_images": 71, "human_url": null, "pusher_public_channel": "prototype-production_2776127", "isprivate": 1, "project_base_image": "https://marvel-live.freetls.fastly.net/serve/2018/4/52acaf008c2c462fbf315c3d1588885f.png?quality=95\u0026fake=.png", "password": null, "properties": [{"read_only": true, "id": 56656449, "uuid": "ab081d0d-5747-487f-afd8-c74b095008fc", "name": "prj-lookback-ever-enabled", "value": "0", "description": "Lookback ever been enabled for this project"}, {"read_only": true, "id": 56656447, "uuid": "c232c174-c408-48a2-9f51-7b3c32fe27c0", "name": "prj-comments-ever-enabled", "value": "1", "description": "Comments have ever been enabled for this project"}, {"read_only": false, "id": 56656453, "uuid": "53da5b80-283f-4c31-a32e-9c3006f0ea1e", "name": "ui-prj-remove-status", "value": "0", "description": "Removes status bar on project"}, {"read_only": false, "id": 56656455, "uuid": "6a02672c-1073-4a74-8446-ed93ddc7de58", "name": "ui-prj-center-image", "value": "0", "description": "Center image instead of aligning left"}, {"read_only": false, "id": 56656457, "uuid": "6119254b-ffc7-4a45-81e5-68ab9da9ab64", "name": "ui-prj-prototype-background-hex", "value": "FFFFFF", "description": "Set background for prototype background"}, {"read_only": false, "id": 56656464, "uuid": "03d07a94-0d33-4e6c-ad6e-24782dd5b4f9", "name": "ui-prj-show-hints", "value": "0", "description": "Show hints on prototype"}, {"read_only": false, "id": 56656466, "uuid": "1c16ea5e-2817-4d20-af2f-a9c9bafb6ccb", "name": "ui-prj-frame-colour", "value": "black", "description": "Set phone colour"}, {"read_only": false, "id": 56656451, "uuid": "a78cf700-7346-4954-abe4-45e3ee7c9898", "name": "ui-prj-responsive", "value": "0", "description": "Set images as responsive"}, {"read_only": false, "id": 56656459, "uuid": "4e138f37-cc8a-4155-b488-dbe2428c7654", "name": "ui-prj-center-overflow", "value": "0", "description": "Center images and hide overflow on non-responsive images"}, {"read_only": false, "id": 56656450, "uuid": "bba44b31-d41b-41ce-a7c5-660ac0d87c80", "name": "ui-prj-background-hex", "value": "FFFFFF", "description": "Set background colour for prototype preview"}, {"read_only": false, "id": 56656452, "uuid": "12b216fa-563a-4bf0-bcbf-a4f12ee6776a", "name": "ui-prj-thumbnail-width", "value": "0", "description": "Set thumbnail width for project view"}, {"read_only": false, "id": 56656463, "uuid": "fab4a408-3d37-4628-b45e-824a54269810", "name": "prj-comments-enabled", "value": "1", "description": "Enable comments for this project"}, {"read_only": false, "id": 56656461, "uuid": "7d67b920-86e7-49f5-a9ef-ced8a94827ef", "name": "ui-prj-disable-frame", "value": "1", "description": "New site features for user"}, {"read_only": false, "id": 79198492, "uuid": "a6a99f7c-cae6-4880-87b5-d42fad516cbe", "name": "ui-proj-thumbnail-size", "value": "M", "description": "Marvel 3 thumbnail size for grid"}, {"read_only": false, "id": 56656448, "uuid": "b0572552-7b39-475a-9329-1bb5f15043d4", "name": "ui-prj-status-bar", "value": "0", "description": "Set status bar background colour"}, {"read_only": false, "id": 56656465, "uuid": "59715fc8-a568-4796-a6b6-ca2fbaf71605", "name": "ui-prj-explore-background-hex", "value": "#000000", "description": "Set background colour for explore view"}, {"read_only": false, "id": 56656460, "uuid": "704d72eb-b208-4ba5-93d7-05faa99caf3a", "name": "prj-lookback-enabled", "value": "0", "description": "Enable Lookback for this project"}, {"read_only": false, "id": 56656446, "uuid": "b9cf275d-caf6-4b7d-85e5-db5ad7af2fd8", "name": "ui-prj-frame", "value": "web-frame", "description": "Set phone frame"}, {"read_only": false, "id": 56656458, "uuid": "2af7ae32-35ca-48e8-9f8b-4d3d2cc6f39e", "name": "ui-prj-disable-swipe", "value": "1", "description": "Disable prototype swipes"}, {"read_only": false, "id": 56656462, "uuid": "3c13ad7d-faec-4c1d-ab8f-45ebeefd4470", "name": "ui-prj-orientation", "value": "portrait", "description": "Set phone orientation"}, {"read_only": false, "id": 56656456, "uuid": "acb21208-f565-4fc6-943e-5d1c31a1836d", "name": "ui-prj-retina-scale", "value": "0", "description": "Scale images to half their original width for retina images"}], "app_icon": null, "canvas_images": [], "is_deleted": false, "name": "Mantik", "date_modified": "2020-05-11 09:56:08", "sections": [], "pusher_anon_channel_prefix": "anon-production", "cursor": "", "has_sections": false, "team_uri": null, "published": false, "is_syncing": 0, "date_created": "2018-03-07 09:31:16", "is_pro": false, "resource_uri": "/project/2776127/"}</script>
+<script id="user_data" type="application/json">"{}"</script>
+
+<script type="text/javascript">
+(function () {
+    // Define if this is offline
+    var offline = false;
+
+    var trackerReady;
+
+    
+        function initGoogleAnalytics() {
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-38711157-1', 'auto');
+          ga('send', 'pageview', "prototype-view");
+        }
+
+        function initTracker() {
+          return fetch('/api/v1/integration/snippet/?project_id=2776127')
+            .then(function(response) {
+              if (!response.ok) {
+                return Promise.reject(response);
+              }
+              return response.json();
+            })
+            .then(function(response) {
+              var gaSnippet = response.snippets.filter(function(snippet) {
+                return snippet.provider === 'ga';
+              })[0];
+              if (!gaSnippet) {
+                return Promise.reject(response);
+              }
+              ga('create', gaSnippet.tracker_id, 'auto', 'marvelUserGATracker');
+            })
+            .catch(function(error){
+              // catching it so it does not create noise in the console
+            });
+        }
+
+        initGoogleAnalytics();
+        trackerReady = initTracker();
+    
+
+    window.MARVELAPP = {
+      offline: offline,
+      projectId: "39fa612",
+      
+        projectConfig: JSON.parse(document.getElementById('project_config').textContent),
+        settings: JSON.parse(document.getElementById('settings').textContent),
+        currentUser: JSON.parse(document.getElementById('user_data').textContent),
+      
+      iOSApp: 0,
+      role: "Client",
+
+      trackAsync: function(location, screenName) {
+        
+            trackerReady.then(function() {
+                ga('marvelUserGATracker.send', 'pageview', {
+                    page: location.pathname + screenName,
+                    title: screenName
+                });
+            });
+        
+      }
+    };
+})();
+</script>
+<style type="text/css"></style><style type="text/css">@keyframes resizeanim { from { opacity: 0; } to { opacity: 0; } } .resize-triggers { animation: 1ms resizeanim; visibility: hidden; opacity: 0; } .resize-triggers, .resize-triggers > div, .contract-trigger:before { content: " "; display: block; position: absolute; top: 0; left: 0; height: 100%; width: 100%; overflow: hidden; } .resize-triggers > div { background: #eee; overflow: auto; } .contract-trigger:before { width: 200%; height: 200%; }</style><title>Mantik</title><link href="https://marvelapp.com/static/apple-touch-icon-4.769b1826c5190382248925acfd6bc7da.png" rel="apple-touch-icon" data-react-helmet="true"><link href="https://marvelapp.com/static/apple-touch-icon-4.769b1826c5190382248925acfd6bc7da.png" rel="icon" data-react-helmet="true"><link href="https://marvelapp.com/static/favicon.fcc1c1ce0c1f9a5fc40a597379ebe6ff.png" rel="shortcut icon" type="image/png" data-react-helmet="true"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" data-react-helmet="true"><meta name="apple-mobile-web-app-status-bar-style" content="black" data-react-helmet="true"></head>
+<body>
+  <div id="prototype"><div><div id="marvel-prototype-viewer" class="height-100" style="transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1) 0s; padding-left: 0px;"><div class="height-100 position-relative"><div class="Project__project___3KZeN height-100 width-100"><div class="height-100" id="marvel-prototype-resize-root" style="position: relative;"><div><div class="Player__player___1Cqud" style="background-color: rgb(255, 255, 255);"><div style="background-color: rgb(67, 67, 129); height: 0px;"></div><div><div class="Screen__screenWrap___E6WBR"><div class="HoverOutLayer__screenArea___3oZ-2 height-100 position-absolute width-100"><div class="ScrollableArea__scrollable___3cX58 ps" style="width: 1675px; height: 886px; padding-top: 0px;"><div style="margin-left: 0px; width: 1675px;"><div class="ScreenImage__imgWrapper___lROGZ"><div class="overflow-hidden" style="height: 862px; margin-top: 0px; margin-bottom: 0px;"><img alt="" src="./Mantik_files/52acaf008c2c462fbf315c3d1588885f.png" class="ScreenImage__img___1DNfD" style="width: 1675px; height: 862px;"></div><div class="ScreenImage__hotspotLayerWrapper___1AI3H"><div class="HotspotLayer__hotspotLayer___3l6ct width-100 position-relative" style="height: 861.055px;"><div class="Hotspot__hotspot___1uv7p" style="left: 1251px; top: 525px; width: 233px; height: 80px;"></div><div class="Hotspot__hotspot___1uv7p" style="left: 1437px; top: 632px; width: 129px; height: 56px;"></div><div></div></div></div></div></div><div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></div></div></div></div></div></div><a class="Banner__link___-eE4S display-block marginBottom-xs marginRight-xs pinBR position-fixed zi-100" href="https://marvelapp.com/?signup" target="_blank"><div class="Banner__logo___1EnDG fill-marvel"><svg width="50" height="22" class="display-block" viewBox="0 0 60 26"><path d="M50.925 16.73c-21.825-1.728-39.899 3.607-43.949 5.561-2.25 1.052-2.4 2.33-2.1 3.081.225.601 1.35.902 2.55.301 8.7-4.659 26.249-8.341 43.499-7.289.825-.075 1.2-1.503 0-1.653zm5.4-6.538c-.975 1.052-2.25 1.804-2.7 1.428-.45-.376 0-1.578 0-1.578 2.175-1.353 6.375-4.96 6.375-7.665 0-2.555-2.25-3.306-4.65-.977-1.65 1.578-3.225 4.509-4.05 7.44-1.2 1.202-3.15 2.78-4.95 2.78-.975 0-1.2-.676-1.05-1.503 1.5-.075 5.625-1.202 5.625-4.734-.075-1.503-1.2-2.029-2.325-2.029-1.875 0-4.275 1.954-5.475 4.659-.3-.075-.675-.15-.975-.376.375-.827.675-1.578.675-2.029.225-1.428-.375-2.33-1.5-2.254-.75.075-1.65.676-1.8 2.254-.15 1.052.375 2.254.375 2.254-.375 1.578-2.4 3.607-3.15 3.532-.675 0 .15-2.931.825-5.035.375-.451.75-.977.975-1.428.15-.676-.075-.977-.375-1.202-.45-.376-1.95-.225-2.775 1.202-.225.376-.45.977-.75 1.653-.6.676-1.5 1.653-1.8 1.503-.375-.225.9-2.029.675-3.006-.15-.902-.9-1.353-1.65-1.278-1.125.15-2.625 2.48-2.625 2.48s.3-.676.3-1.278c-.075-.827-1.65-1.202-2.4.376-.3.601-.75 2.63-1.2 4.584-.375.676-1.65 2.78-2.625 2.856-.825.075.15-3.682.3-3.908.45-.676 1.05-2.179.975-2.856-.075-.902-.675-1.052-1.2-.977-.825.15-1.2.977-1.2.977s-.45-.676-1.575-.601c-3.45.376-5.7 6.388-5.4 9.243.15 1.503.975 2.48 2.25 2.33 1.5-.15 2.775-2.405 2.775-2.405s.375 1.804 1.95 1.578c1.05-.15 2.175-1.127 3.075-2.104-.075.15-.075.376-.075.376-.225 1.503 2.325 1.353 2.475.15.75-5.786 2.625-8.191 3.225-8.191.45 0-1.2 2.705-.225 3.757.75.902 2.025.15 3.15-.751-.15.751-.3 1.503-.3 2.254-.075 1.653.525 2.931 2.1 2.856 2.1-.075 4.275-2.63 5.775-5.11.375.225.75.376 1.2.526-.15.601-.15 1.202-.15 1.804.15 1.879 1.425 2.63 2.925 2.555 1.8-.075 3.825-1.428 5.325-2.63 0 .075 0 .15-.075.15-.15.902.075 2.63 1.35 2.63 1.5.15 4.125-1.428 5.4-3.081.825-1.052-.225-2.104-1.05-1.202zm1.425-7.815c.15 0 .225.15.225.376 0 1.578-4.05 5.035-4.05 5.035s2.7-5.411 3.825-5.411zm-9.75 3.382c.375 0 .45.15.45.526 0 .902-1.2 1.578-2.625 1.653.75-1.127 1.575-2.179 2.175-2.179zm-27.074 2.555c-.15.977-1.8 5.335-2.775 5.335-1.2.075.6-6.162 2.475-6.162.45.075.45.301.3.827zm-14.7 1.202c1.125 0-.9 5.786-.675 8.341.225 2.555 3.075 1.804 2.85.376-.3-2.48 1.35-10.295 3.075-10.295 1.2 0-1.35 5.335-.825 8.792.375 2.254 3.375 1.503 3 .15-.975-4.434 2.175-8.717 1.8-11.798-.15-1.278-.975-2.029-1.8-2.029-2.85 0-5.025 5.711-5.025 5.711s.225-3.231-2.025-3.382c-3.3-.225-6.675 8.041-6.6 15.555.075 2.405 3.075 2.029 2.85.075-.225-3.532 1.725-11.498 3.375-11.498z"></path></svg></div></a><div class="resize-triggers"><div class="expand-trigger"><div style="width: 1676px; height: 887px;"></div></div><div class="contract-trigger"></div></div></div><div class="SidebarHandoff__handoffSidebar___3Ojdd position-fixed pinTR overflowY-scroll bg-white borderWidth-0 borderLeftWidth-1 borderStyle-solid borderColor-snow--xd fontSize-s" style="width: 301px;"><div class="SidebarHandoff__iconClose___2Ev5k modal-icon modal-icon--s modal-icon--light modal-iconClose--outside modal-iconClose zi-100"></div></div></div></div></div><div><div class="comment-details"><div class="c-slate fontSize-m truncateText lineHeight-m screen-name">login-mantik.png</div></div><div id="annotations-sidebar"><div class="annotations-inner"><div id="no-comments" class="js-empty-state position-absolute pinFill display-table">
+	<div class="display-tableCell textAlign-center verticalAlign-middle paddingLeftRight-m position-relative" style="top: -32px; padding-top: 0;">
+		<div class="fontSize-m lineHeight-m marginBottom-xxs"><span class="js-no-comments-title">No comments yet</span> <span class="js-no-comments-emoji marginRight-xxs"><span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(/static/assets/images/sheet_apple_64.png);background-position:67.5% 45%;background-size:4100%"></span></span></span></div>
+		<div class="fontSize-s lineHeight-s fontWeight-3 c-silver js-no-comments-text">You can <span class="fontWeight-4">@mention</span> someone to start a conversation!</div>
+	</div>
+</div>
+
+<div id="enable-comments" class="js-empty-state position-absolute pinFill display-table state-hidden">
+	<div class="display-tableCell textAlign-center verticalAlign-middle position-relative paddingLeftRight-l" style="top: -32px; padding-top: 0;">
+		<div class="fontSize-m lineHeight-m marginBottom-xxs">Start commenting on this project <span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(/static/assets/images/sheet_apple_64.png);background-position:47.5% 7.5%;background-size:4100%"></span></span></div>
+		<div class="fontSize-s lineHeight-s fontWeight-3 c-silver">Enable comments on this project to add feedback and annotations on screens</div>
+		<div class="button button--m button--flat marginTop-s bg-blue enable-comments">Enable comments</div>
+	</div>
+</div>
+
+<div id="upgrade-pro" class="js-empty-state position-absolute pinFill display-table state-hidden">
+	<div class="display-tableCell textAlign-center verticalAlign-middle position-relative paddingLeftRight-l" style="top: -32px; padding-top: 0;">
+		<div class="fontSize-m lineHeight-m marginBottom-xxs">Upgrade your plan to start commenting <span class="emoji-outer emoji-sizer"><span class="emoji-inner" style="background: url(/static/assets/images/sheet_apple_64.png);background-position:32.5% 80%;background-size:4100%"></span></span></div>
+		<div class="fontSize-s lineHeight-s fontWeight-3 c-silver centered" style="max-width: 240px;">Get commenting on unlimited projects on all of our paid plans</div>
+		<a class="button button--m button--flat marginTop-s bg-blue href-pro-account" href="https://marvelapp.com/upgrade/">Upgrade to Pro</a>
+	</div>
+</div>
+
+<div class="comments-list bg-snow" style="height: calc(100% - 110px);"></div>
+<div class="js-wait-loader is-loading is-loading--xl display-none"></div>
+<div class="js-emoji-overlay position-absolute pinAll bg-snow opacity-0 pointerEvents-none cursor-pointer transitionProperty-opacity transitionDuration-m transitionTimingFunction-cv-easeOutCircular" style="top: 1px; z-index: 1;"></div>
+
+<div class="comment-area bg-snow padding-s" style="min-height: 100px">
+	
+		<div class="position-absolute pinAll display-flex justifyContent-center alignItems-center">
+			<div>
+				<h5 class="fontSize-s marginBottom-s">To leave a comment on this prototype</h5>
+				<div class="display-flex alignItems-center justifyContent-center">
+					<a href="https://marvelapp.com/signin?next=/39fa612/screen/39378565/comments&amp;out=true&amp;commenter=true" class="button button--ghost button--s bg-green--hover js-sign-in-redirect">Sign in</a><span class="marginLeftRight-s">or</span><a href="https://marvelapp.com/signup?next=/39fa612/screen/39378565/comments&amp;out=true&amp;commenter=true" class="button button--flat button--s bg-green js-sign-up-redirect">Sign up</a>
+				</div>
+			</div>
+		</div>
+	
+</div>
+
+<div class="close modal-icon modal-icon--light modal-iconClose modal-icon--s"></div>
+
+<div class="position-absolute" style="top: -38px; right: 70px;">
+	<div class="popover popover--default popover--m popover--bottom has-animation has-caret textAlign-left js-comment-feed-popover" style="width:200px;">
+		<div class="popover-select-item paddingLeftRight-m paddingTopBottom-s has-border is-active" data-type="all">
+			<div class="display-flex alignItems-center">
+				<div class="verticalAlign-middle marginRight-m">
+					<div class="select-toggle"></div>
+				</div>
+				<div class="verticalAlign-middle">
+					<span class="popover-select-title fontWeight-5">All (<span class="js-all-comment-count">0</span>)</span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="popover-select-item paddingLeftRight-m paddingTopBottom-s" data-type="resolved">
+			<div class="display-flex alignItems-center">
+				<div class="verticalAlign-middle marginRight-m">
+					<div class="select-toggle"></div>
+				</div>
+				<div class="verticalAlign-middle alignItems-center display-flex">
+					<span class="popover-select-title fontWeight-5">Resolved (<span class="js-resolved-comment-count">0</span>)</span>
+					<div class="popover-trigger position-relative marginLeft-xs">
+						<div class="popover popover--dark popover--s popover--right has-animation has-caret whiteSpace-nowrap" style="width: auto">
+							<div class="fontSize-xs textAlign-center c-white padding-xs">Comments that have been marked as resolved</div>
+						</div>
+						<svg class="fill-smoke--d fill-smoke--xd--hover" width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8 0c4.417 0 8 3.583 8 8s-3.583 8-8 8-8-3.583-8-8 3.583-8 8-8zm-.5 10.133h1.083c.3 0 .533-.267.533-.567.1-.45.467-.817.8-1.1.733-.667 1.25-1.183 1.467-1.583.233-.383.383-.8.383-1.25 0-.783-.35-1.55-.983-2.15-.617-.583-1.45-.867-2.5-.867-1.9 0-3.067 1.35-3.433 2.517l-.033.1-.017.133c0 .3.233.5.533.5h1.117c.25 0 .467-.15.517-.4.133-.5.7-1.067 1.4-1.067.433 0 .783.15 1.033.383.25.25.367.45.367.783 0 .25-.05.483-.217.683-.783.983-2.55 1.7-2.6 3.35 0 .3.25.533.55.533zm.5 3.883c.65 0 1.217-.567 1.217-1.217 0-.65-.567-1.217-1.217-1.217-.65 0-1.217.567-1.217 1.217 0 .65.567 1.217 1.217 1.217z"></path></svg>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="js-comment-feed-toggle cursor-pointer c-silver c-slate--hover display-flex">
+		<span class="js-comment-feed-label">All</span>
+		<svg class="fill-smoke--xd marginLeft-xxs" width="6" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M1 7h5l-3 3-3-3z" fill-rule="evenodd"></path></svg>
+	</div>
+</div>
+
+</div></div></div></div></div>
+  
+    <script type="text/javascript" src="./Mantik_files/common-bundle.a8d1944d36071ef25a58.js"></script>
+  
+  <script type="text/javascript" src="./Mantik_files/prototype-bundle.e084f20527acbbfc340a.js"></script><div style="display: none;"><img src="./Mantik_files/52acaf008c2c462fbf315c3d1588885f.png"><img src="./Mantik_files/c08cb32be92f4c61b3c1862c1749a64d.png"><img src="./Mantik_files/b6ca5306aa1e48f9a61a4f18191f1071.png"><img src="./Mantik_files/6462aa99731a4ffeb0ce27b260c091da.png"><img src="./Mantik_files/1ede346f9e614c58a23f162ca8f20478.png"><img src="./Mantik_files/5e08673bcb2a44788f61617c485acb37.png"><img src="./Mantik_files/569104a65a6744dcb5f42362614e42ae.png"></div>
+
+
+</body></html>
