@@ -7,10 +7,10 @@ eleventyNavigation:
 <div class="hero fade-in">
   <div class="hero__inner">
     <header>
-      <span class="hero__subline red">👋 HEY ! C'EST JULIEN.</span>
+      <span class="hero__subline">HEY ! C'EST JULIEN.</span>
       <h1>Senior Product Manager chez Heetch, fan de design, musique addict et Papa poule !</h1>
-      <span class="min">A PARIS, FRANCE</span>
-      <hr />
+      <span class="here_subline">A PARIS, FRANCE</span>
+      <hr/>
     </header>
     <section class="section" role="presentation">
       <div class="section__title">INTRODUCTION</div>
@@ -27,47 +27,44 @@ eleventyNavigation:
         <div class="section_title">DERNIER ARTICLE</div>
         <h2>Quelques mots exprimant mes pensées</h2>
       </header>
-        {% set latest_posts = collections.posts | reverse %} 
-        {% for post in latest_posts.slice(0,1) %}
-            <h2 class="postlist__title">
-                <a
+      {% set latest_posts = collections.posts | reverse %}
+      {% for post in latest_posts.slice(0, 1) %}
+        <h2 class="postlist__title">
+          <a
                     href="{{ post.url | url }}"
                     class="postlist__link"
                     rel="bookmark"
-                > 
-                    {{ post.data.title }}
-                </a>
-            </h2>
+                >
+            {{ post.data.title }}
+          </a>
+        </h2>
 
-            <div class="postlist__meta">
-                <time class="postlist__date dt-published">
-                    {{ post.date | readableDate('dd LLL yyyy') }}
-                </time>
+        <div class="postlist__meta">
+          <time class="postlist__date dt-published">
+            {{ post.date | readableDate('dd LLL yyyy') }}
+          </time>
 
-                {% if post.data.tags %}
-                    <span aria-hidden="true">&sdot;</span>
-                    <span class="postlist__tags p-category">
-                        {{ post.data.tags|join(', ') }}
-                    </span>
-                {% endif %}
+          {% if post.data.tags %}
+            <span aria-hidden="true">&sdot;</span>
+            <span class="postlist__tags p-category">
+              {{ post.data.tags|join(', ') }}
+            </span>
+          {% endif %}
 
+        </div>
 
-            </div>
+        <p class="postlist__excerpt p-summary">
+          {% if post.data.description %}
+            {{ post.data.description }}
+          {% else %}
+            {{ post.templateContent | excerpt | striptags }}
+          {% endif %}
+        </p>
+      {% endfor %}
 
-            <p class="postlist__excerpt p-summary">
-            {% if post.data.description %}
-                {{ post.data.description }}
-            {% else %}
-                {{ post.templateContent | excerpt | striptags }}
-            {% endif %}
-            </p>
-        {% endfor %}
-        
     </section>
     <section>
       <ul class="insta"></ul>
     </section>
   </div>
 </div>
-
-

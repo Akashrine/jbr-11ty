@@ -24,33 +24,7 @@ $z-layers: (
     'content-overlay': 30
 );
 
-// Colors
-//
-// Grayscale.
 
-$gray-lightest: #F2F2F2;
-$gray-light: #A6A6A6;
-$gray: #737373;
-$gray-dark: #404040;
-$gray-darkest: #202020;
-
-
-// Brand Colors
-
-/* Color Theme Swatches in Hex */
-$brand-blue: #1570BF;
-$brand-red: #F25764;
-
-
-$twitter-brand-primary: #1da1f2;
-
-// Color Mappings
-
-$bg-color: #fffffe;
-$text-color: $gray-darkest;
-$brand-color-primary: $brand-red;
-$brand-color-primary-offset: darken($brand-blue, 6%);
-$brand-gradient: $brand-blue;
 
 // Typography
 //

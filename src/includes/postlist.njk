@@ -1,12 +1,8 @@
-<ol reversed class="postlist" start="{{ postlist.length }}">
+<ol reversed="reversed" class="postlist" start="{{ postlist.length }}">
     {% for post in postlist | reverse %}
         <li class="postlist__item h-entry">
             <h2 class="postlist__title">
-                <a
-                    href="{{ post.url | url }}"
-                    class="postlist__link"
-                    rel="bookmark"
-                > 
+                <a href="{{ post.url | url }}" class="postlist__link" rel="bookmark">
                     {{ post.data.title }}
                 </a>
             </h2>
@@ -23,15 +19,14 @@
                     </span>
                 {% endif %}
 
-
             </div>
 
             <p class="postlist__excerpt p-summary">
-            {% if post.data.description %}
-                {{ post.data.description }}
-            {% else %}
-                {{ post.templateContent | excerpt | striptags }}
-            {% endif %}
+                {% if post.data.description %}
+                    {{ post.data.description }}
+                {% else %}
+                    {{ post.templateContent | excerpt | striptags }}
+                {% endif %}
             </p>
         </li>
     {% endfor %}

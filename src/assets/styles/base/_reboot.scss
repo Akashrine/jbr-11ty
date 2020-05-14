@@ -80,8 +80,8 @@ body {
     font-size: $font-size-base;
     line-height: $line-height;
 
-    color: $text-color;
-    background-color: $bg-color;
+    color: var(--color-text);
+    background-color: var(--color-bg);
 
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;

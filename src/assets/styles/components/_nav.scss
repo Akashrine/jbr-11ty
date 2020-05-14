@@ -4,7 +4,8 @@
         position: absolute;
         left: 0;
         right: 0;
-        background-color: $gray-lightest;
+        background-color: var(--color-text);
+        color:var(--color-bg);
     }
     &__link {
         display: block;

@@ -73,9 +73,9 @@
 // Color Utils
 
 .primary {
-    color: $brand-color-primary;
+    color: var(--color-primary);
 }
-.red {
-    color: $brand-red;
+.secondary {
+    color: var(--color-secondary);
 }
 
