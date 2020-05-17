@@ -18,6 +18,7 @@
 @import 'base/colors';
 @import 'base/fonts';
 @import 'base/normalize';
+@import 'base/normalize-opentype';
 @import 'base/reboot';
 @import 'base/layout';
 @import 'base/typography';
@@ -34,4 +35,5 @@
 @import 'components/header';
 @import 'components/nav';
 @import 'components/footer';
+@import 'components/edito';
 @import 'components/icon';

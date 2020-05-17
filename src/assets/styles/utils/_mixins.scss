@@ -53,11 +53,25 @@
         white-space: normal;
     }
 }
+@mixin body-text() {
+    font-size: 1.125rem;
+    line-height: 1.65;
+
+    @include mq(md) {
+        font-size: 1.375rem;
+    }
+}
 
 @mixin hyphenate() {
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
+}
+
+@mixin truncate() {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 @mixin coverall() {
