@@ -1,12 +1,3 @@
-#diag {
-    position: absolute;
-    background-color: #DDD;
-    background-image: -webkit-linear-gradient(105deg, #FFF 50%, var(--color-primary) 0%);
-    min-height: 800px;
-    width: 100%;
-    z-index: 0;
-    opacity: 0.06;
-}
 .header {
     padding: $spacing-y 0;
 
@@ -20,7 +11,7 @@
     }
     &__branding__text {
         font-family: $font-family-base;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         letter-spacing: -1px;
         color: var(--color-text);
     }

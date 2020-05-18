@@ -67,55 +67,24 @@
         }
     }
     
-    blockquote.awesome {
-        text-align: center;
-        font-size: 20px;
-        border-top: 1px solid var(--color-border);
-        border-bottom: 1px solid var(--color-border);
-        font-family: $font-family-serif;
-        font-style: italic;
-        border-left: 0;
-        position: relative;
-        quotes: "“" "”" "‘" "’";
-        padding: 0;
-    
-        &:before {
-            color: #ccc;
-            content: open-quote;
-            font-size: 80px;
-            position: absolute;
-            left: 50%;
-            bottom: calc(100% - 20px);
-            background: var(--color-bg);
-            height: 55px;
-            width: 55px;
-            line-height: normal;
-            text-align: center;
-            transform: translateX(-50%);
-        }
-    
-        p {
-            padding: 20px;
-        }
-    }
     /*----------  Pre Code  ----------*/
-pre{
-    font-size: 0.8rem;
-    border-left:solid 2px color(brand);
-    border-bottom: solid 1px color(grey);
-    background: #f7f7f7;
-    padding: 1rem;
-    margin: 1rem 0;
-    width: 100%;
-    -webkit-transition: all 0.3s; /* Safari */
-    transition: all 0.3s;
-    &:hover{
-        width: 120%;
-        position: relative;
-        -webkit-transform: translate(-10%,0);
-        margin: 2rem;
+    pre{
+        font-size: 0.8rem;
+        border-left:solid 2px var(--color-primary);
+        border-bottom: solid 1px var(--color-border);
+        background: var(--color-bg);
+        padding: 1rem;
+        margin: 1rem 0;
+        width: 100%;
+        -webkit-transition: all 0.3s; /* Safari */
+        transition: all 0.3s;
+        &:hover{
+            width: 120%;
+            position: relative;
+            -webkit-transform: translate(-10%,0);
+            margin: 2rem;
+        }
     }
-}
     .gist pre{
         &:hover{
             width: 100%;
