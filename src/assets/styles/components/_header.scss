@@ -8,11 +8,27 @@
     }
     &__branding {
         text-decoration: none;
+        align-items: center;
+        color: inherit;
+
+        @include hover-focus {
+            color: inherit;
+        }
     }
     &__branding__text {
         font-family: $font-family-base;
         font-size: 1.2rem;
         letter-spacing: -1px;
         color: var(--color-text);
+        @include mq(xl) {
+            font-size: 1.4rem;
+        }
+    }
+    &__nav {
+        display: flex;
+        align-items: center;
+    }
+    @include mq(md) {
+        padding: 2.5rem 0;
     }
 }

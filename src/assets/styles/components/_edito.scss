@@ -91,7 +91,34 @@
             -webkit-transform: translate(0,0);
         }
     }
+    /* Images */
+    img,
+    video {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto 2rem;
+        color: var(--color-text-offset);
+        font-style: italic;
+        text-align: center;
+    }
 
+    figure {
+        max-width: none;
+        margin: 2rem auto;
+        text-align: center;
+
+        img {
+            margin-bottom: 0;
+        }
+    }
+
+    figcaption {
+        padding-top: 0.75rem;
+        font-style: italic;
+        font-size: 1rem;
+    }
+    
 
     /*----------  table  ----------*/
 
@@ -110,6 +137,22 @@
 
         //Table row
         tr td { border-bottom: 1px solid color(brand-annex); padding: { top: 10px; bottom: 10px; left: 10px; } }
+    }
+    
+    /*----------  extent  ---------*/
+    .full-width {
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+    }
+    .extent{
+        @include mq(lg) {
+            margin-left: -6rem;
+            margin-right: -6rem;
+        }
     }
 
 }
