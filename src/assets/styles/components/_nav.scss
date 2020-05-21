@@ -8,8 +8,38 @@
         color:var(--color-bg);
     }
     &__link {
-        display: block;
-        padding: 0.5em 1em;
+        display: inline-block;
+        position: relative;
+        padding: 0.5em 1em 0.25em;
+        outline: none;
+        text-decoration: none;
+        text-transform: lowercase;
+        font-weight: 500;
+        color:var(--color-text-offset);
+        text-shadow: 0 0 1px rgba(255,255,255,0.3);
+        &::after{
+            position: absolute;
+            top: 100%;
+            left: 1.25rem;
+            right: 1.25rem;
+            height: 1px;
+            background: var(--color-border);
+            content: '';
+            opacity: 0;
+            transition: height 0.3s, opacity 0.3s, transform 0.3s;
+            transform: translateY(-10px);
+        }
+        &:hover::after,a:focus::after,&[aria-current]::after{
+            height: 3px;
+            opacity: 1;
+            transform: translateY(0px);
+        }
+        &[aria-current] {
+            font-weight: bold;
+            &::after{
+                background-color: var(--color-primary);
+            }
+        }
     }
     &__toggle {
         @include button-reset;

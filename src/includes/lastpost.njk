@@ -1,0 +1,33 @@
+<div class="section__content">
+    {% for post in latest_posts.slice(0, 1) %}
+      <h2 class="postlist__title">
+        <a
+                  href="{{ post.url | url }}"
+                  class="postlist__link"
+                  rel="bookmark"
+              >
+          {{ post.data.title }}
+        </a>
+      </h2>
+
+      <div class="postlist__meta">
+        <time class="postlist__date dt-published">
+          {{ post.date | readableDate('dd LLL yyyy') }}
+        </time>
+        {% if post.data.tags %}
+          <span aria-hidden="true">&sdot;</span>
+          <span class="postlist__tags p-category">
+            {{ post.data.tags|join(', ') }}
+          </span>
+        {% endif %}
+      </div>
+
+      <p class="postlist__excerpt p-summary">
+        {% if post.data.description %}
+          {{ post.data.description }}
+        {% else %}
+          {{ post.templateContent | excerpt | striptags }}
+        {% endif %}
+      </p>
+    {% endfor %}
+  </div>

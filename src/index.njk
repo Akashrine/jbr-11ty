@@ -2,69 +2,51 @@
 layout: base
 eleventyNavigation:
   key: Home
+  order: 1
 ---
 
-<div class="hero fade-in">
+<div class="hero">
   <div class="hero__inner">
-    <header>
       <span class="hero__subline">HEY ! C'EST JULIEN.</span>
       <h1>Senior Product Manager chez Heetch, fan de design, musique addict et Papa poule !</h1>
-      <span class="here_subline">A PARIS, FRANCE</span>
+      <span class="here__subline">A PARIS, FRANCE</span>
       <hr/>
-    </header>
-    <section class="section" role="presentation">
-      <div class="section__title">INTRODUCTION</div>
-      <div class="presentation">
-        <p class="presentation__left">Enchanté et bienvenue. Ancien designer, ancien dev front je m'attèle désormais à définir des problèmes :)</p>
-        <p class="presentation__right">Avec désormais un peu plus de 10 ans d'expérience dans le produit, je travaille actuellement chez <a href="https://heetch.com" class="brand-heetch">Heetch</a> du côté de la team customer care en tant que senior product manager. Avant j'étais directeur produit pendant 1 an 1/2 chez <a href="https://iwd.io/" class="brand-iwd">IWD</a> et encore avant j'étais product manager dans le E-Commerce chez <a href="https://the-other-store.com/" class="brand-toz">The Other Store</a> pendant 5 ans. Papa depuis maintenant 2 ans, je passe une partie de ma vie à surfer entre les legos, les playmobil et le net. 🏄</p>
-      </div>
-    </section>
-    <footer role="social-link">
-      {% include "social.njk" %}
-    </footer>
-    <section class="section" role="last articles">
-      <header>
-        <div class="section_title">DERNIER ARTICLE</div>
-        <h2>Quelques mots exprimant mes pensées</h2>
-      </header>
-      {% set latest_posts = collections.posts | reverse %}
-      {% for post in latest_posts.slice(0, 1) %}
-        <h2 class="postlist__title">
-          <a
-                    href="{{ post.url | url }}"
-                    class="postlist__link"
-                    rel="bookmark"
-                >
-            {{ post.data.title }}
-          </a>
-        </h2>
-
-        <div class="postlist__meta">
-          <time class="postlist__date dt-published">
-            {{ post.date | readableDate('dd LLL yyyy') }}
-          </time>
-
-          {% if post.data.tags %}
-            <span aria-hidden="true">&sdot;</span>
-            <span class="postlist__tags p-category">
-              {{ post.data.tags|join(', ') }}
-            </span>
-          {% endif %}
-
-        </div>
-
-        <p class="postlist__excerpt p-summary">
-          {% if post.data.description %}
-            {{ post.data.description }}
-          {% else %}
-            {{ post.templateContent | excerpt | striptags }}
-          {% endif %}
-        </p>
-      {% endfor %}
-
-    </section>
-    <section>
-      <ul class="insta"></ul>
-    </section>
   </div>
 </div>
+<section class="section background" role="presentation">
+  <span class="section__subline">INTRODUCTION</span>
+  <div class="section__presentation">
+    <p class="section__left">Enchanté et bienvenue. Ancien designer, ancien dev front je m'attèle désormais à définir des problèmes :)</p>
+    <p class="section__right">Avec désormais un peu plus de 10 ans d'expérience dans le produit, je travaille actuellement chez <a href="https://heetch.com" class="brand-heetch">Heetch</a> du côté de la team customer care en tant que senior product manager. Avant j'étais directeur produit pendant 1 an 1/2 chez <a href="https://iwd.io/" class="brand-iwd">IWD</a> et encore avant j'étais product manager dans le E-Commerce chez <a href="https://the-other-store.com/" class="brand-toz">The Other Store</a> pendant 5 ans. Papa depuis maintenant 2 ans, je passe une partie de ma vie à surfer entre les legos, les playmobil et le net. 🏄</p>
+  </div>
+  <footer role="sociallink">
+    {% include "social.njk" %}
+  </footer>
+</section>
+
+<section class="section lastarticle" role="last articles">
+  <header>
+    <span class="section__subline">DERNIER ARTICLE</span>
+    <h1 class="section__title">Quelques mots exprimant mes pensées</h1>
+  </header>
+  {% set latest_posts = collections.posts | reverse %}
+  {% include "lastpost.njk" %}
+</section>
+<section role="experiences" class="section experience">
+  <header>
+    <span class="section__subline">Experiences professionelles</span>
+    <h1 class="section__title">Là où on m'a accordé la confiance</h1>
+  </header>
+  <div class="section__content">
+      {% include "jobs.njk" %}
+  </div>
+</section>
+<section class="section instagram" role="instagram">
+  <header>
+    <span class="section__subline">dernières photos</span>
+    <h1 class="section__title">Mon côté photographe</h1>
+  </header>
+  <div class="section__content">
+    {% include "insta.njk" %}
+  </div>
+</section>

@@ -1,0 +1,14 @@
+<div class="jobs">  
+    {% for jobs in experiences.jobs %}
+        <div class="job">
+            <div class="job__locdate">
+                <div class="job__company"><a href="{{jobs.link}}" title="{{jobs.company}}">{{ jobs.company }}</a></div>
+                <div class="job__date">{{ jobs.start_date }} - {{ jobs.end_date }}</div>
+            </div>
+            <div class="job__title">
+                <strong>{{jobs.title}}</strong>
+                <p>{{jobs.hightlights}}</p>
+            </div>
+        </div>
+    {% endfor %}
+</div>
