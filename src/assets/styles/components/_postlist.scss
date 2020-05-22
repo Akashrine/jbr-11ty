@@ -5,24 +5,70 @@
         margin-bottom: 3rem;
 
         @include mq(md) {
-            margin-bottom: 5rem;
+            margin-bottom: 5.625rem;
         }
     }
     &__link {
         display: block;
+        color: var(--color-primary);
+        text-decoration: none;
     }
     &__title {
-        margin-bottom: 0;
+        margin-bottom: 1.125rem;
     }
     &__meta {
         font-size: 1.125rem;
-        margin-bottom: 1rem;
         color: var(--color-text-offset);
+        font-variant-caps: all-small-caps;
     }
     &__tags {
+        font-family: $font-family-serif;
+        color: var(--color-secondary);
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    &__cover{
 
     }
     &__excerpt {
         @include body-text();
+        margin-bottom: 1.125rem;
+    }
+    &__readmore {
+        color: var(--color-text);
+        text-transform: uppercase;
+        text-decoration: none;
+        position: relative;
+        z-index: 1;
+        display: inline-flex;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        &::before{
+            content: "";
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(to top, var(--color-border) 25%, rgba(0, 0, 0, 0) 40%);
+            
+            position: absolute;
+            left: 0;
+            bottom: 2px;
+            z-index: -1;
+            
+            will-change: width;
+            transform: rotate(-2deg);
+            transform-origin: left bottom;
+            transition: width .1s ease-out
+        }
+        &:hover{
+            font-weight: normal;
+        }
+        &:hover::before{
+            width: 0;
+            transition-duration: .15s;
+        }
+
+        
     }
 }

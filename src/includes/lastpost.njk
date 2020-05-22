@@ -1,40 +1,15 @@
 <section class="section lastarticle" role="last articles">
   <header>
-    <span class="section__subline">DERNIER ARTICLE</span>
+    <span class="section__subline">DERNIERS ARTICLES</span>
     <h1 class="section__title">Quelques mots exprimant mes pensées</h1>
   </header>
-  {% set latest_posts = collections.posts | reverse %}
-  <div class="section__content">
-    {% for post in latest_posts.slice(0, 1) %}
-      <h2 class="postlist__title">
-        <a
-                  href="{{ post.url | url }}"
-                  class="postlist__link"
-                  rel="bookmark"
-              >
+  {% set postlist = collections.posts | head(-3) %}
+  {% set postlistCounter = collections.posts | length %}
+  {% for post in postlist | reverse %}
+    <h3 class="lastarticle__title">
+      <a href="{{ post.url | url }}" class="lastarticle__link" rel="bookmark">
           {{ post.data.title }}
-        </a>
-      </h2>
-
-      <div class="postlist__meta">
-        <time class="postlist__date dt-published">
-          {{ post.date | readableDate('dd LLL yyyy') }}
-        </time>
-        {% if post.data.tags %}
-          <span aria-hidden="true">&sdot;</span>
-          <span class="postlist__tags p-category">
-            {{ post.data.tags|join(', ') }}
-          </span>
-        {% endif %}
-      </div>
-
-      <p class="postlist__excerpt p-summary">
-        {% if post.data.description %}
-          {{ post.data.description }}
-        {% else %}
-          {{ post.templateContent | excerpt | striptags }}
-        {% endif %}
-      </p>
-    {% endfor %}
-  </div>
+      </a>
+    </h3>
+  {% endfor %}
 </section>

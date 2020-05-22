@@ -84,3 +84,14 @@
 .big{
     font-size: 2rem;
 }
+
+//shape
+.shape{
+    width: calc(100% * 8/12 - (200px / 12));
+    left: calc(100% * 4/12 + (200px / 12));
+    top: 0;
+    background: rgba(238, 59, 98, 0.04);
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
