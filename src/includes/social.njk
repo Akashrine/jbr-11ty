@@ -1,5 +1,3 @@
-<ul>
-    {% for socialize in author.socials %}
-        <li><a href="{{ socialize.details.url }}">{% icon socialize.details.icon %}</a></li>
-    {% endfor %}
-</ul>
+{% for socialize in author.socials %}
+    <a href="{{ socialize.details.url }}">{% icon socialize.details.icon %}</a>
+{% endfor %}

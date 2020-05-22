@@ -1,0 +1,20 @@
+<section class="section instagram" role="instagram">
+  <header>
+    <span class="section__subline">dernières photos</span>
+    <h1 class="section__title">Mon côté photographe</h1>
+  </header>
+  <div class="section__content">
+    <ul class="instas">  
+        {% for insta in instagram %}
+            <li class="insta {{ insta.id }}">
+                <figure class="insta__roll">
+                    <a href="{{ insta.instagramURL }}">
+                        <img src="{{ insta.imageURL }}" alt="{{ insta.title }}">
+                        <figcaption>{{ insta.title }}</figcaption>
+                    </a>
+                </figure>
+            </li>
+        {% endfor %}
+    </ul>
+  </div>
+</section>

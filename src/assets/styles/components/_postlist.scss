@@ -1,0 +1,28 @@
+.postlist {
+    @include container-blog;
+
+    &__item {
+        margin-bottom: 3rem;
+
+        @include mq(md) {
+            margin-bottom: 5rem;
+        }
+    }
+    &__link {
+        display: block;
+    }
+    &__title {
+        margin-bottom: 0;
+    }
+    &__meta {
+        font-size: 1.125rem;
+        margin-bottom: 1rem;
+        color: var(--color-text-offset);
+    }
+    &__tags {
+
+    }
+    &__excerpt {
+        @include body-text();
+    }
+}

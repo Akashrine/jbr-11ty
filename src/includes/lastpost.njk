@@ -1,4 +1,10 @@
-<div class="section__content">
+<section class="section lastarticle" role="last articles">
+  <header>
+    <span class="section__subline">DERNIER ARTICLE</span>
+    <h1 class="section__title">Quelques mots exprimant mes pensées</h1>
+  </header>
+  {% set latest_posts = collections.posts | reverse %}
+  <div class="section__content">
     {% for post in latest_posts.slice(0, 1) %}
       <h2 class="postlist__title">
         <a
@@ -31,3 +37,4 @@
       </p>
     {% endfor %}
   </div>
+</section>

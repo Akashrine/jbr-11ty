@@ -93,3 +93,10 @@
     background-color: transparent;
     -webkit-appearance: none;
 }
+
+@mixin container-blog() {
+    width: 100%;
+    max-width: $container-blog-max-width;
+    margin-left: auto;
+    margin-right: auto;
+}

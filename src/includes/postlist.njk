@@ -28,6 +28,9 @@
                     {{ post.templateContent | excerpt | striptags }}
                 {% endif %}
             </p>
+            <a href="{{ post.url | url }}" class="postlist__readmore" rel="bookmark">
+                Lire l'article
+            </a>
         </li>
     {% endfor %}
 </ol>
