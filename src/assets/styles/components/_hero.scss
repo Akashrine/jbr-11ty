@@ -1,0 +1,17 @@
+.hero{
+    padding: $spacing-y 0;
+
+    &__inner{
+        max-width: 700px;
+    }
+
+    &__subline{
+        text-transform: uppercase;
+        color: var(--color-primary);
+        letter-spacing: 1px;
+    }
+
+    &__title{
+        font-weight: bolder;
+    }
+}
