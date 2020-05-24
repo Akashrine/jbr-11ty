@@ -28,7 +28,7 @@
         font-weight: bold;
     }
     &__cover{
-
+        width: 100%;
     }
     &__excerpt {
         @include body-text();

@@ -1,0 +1,60 @@
+.section{
+    @include body-text();
+    &__subline{
+        text-transform: uppercase;
+        color: var(--color-primary);
+        letter-spacing: 1px;
+    }
+    &__reveal-line {
+        width: 30px;
+        height: 1px;
+        display: inline-block;
+        background: var(--color-primary);
+        margin:0 0 6px 2rem;
+    }
+}
+
+.background{
+    margin: 4rem 0;
+
+    &__presentation{
+        display: block;
+        @include mq(lg) {
+            display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            align-items: flex-start;
+        }
+    }
+    
+    &__left{
+        color: var(--color-text-offset);
+        font-size: 1.8rem;
+        margin: $spacing-y 0;
+
+        @include mq(lg) {
+            width: 35%;
+            max-width: 480px;
+            font-size: 2rem;
+            line-height: 2.5rem;
+        }
+    }
+    &__right{
+        margin-top: $spacing-y;
+
+        @include mq(lg) {
+            width: 65%;
+            max-width: 680px;
+            margin-left:  60px;
+        }
+    }
+    &__social{
+        font-size: 1rem;
+        color: var(--color-text);
+        margin-right: 0.5rem;
+        &:hover{
+            color: var(--color-primary);
+        }
+    }
+}
