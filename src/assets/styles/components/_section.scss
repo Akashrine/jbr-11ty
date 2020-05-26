@@ -15,7 +15,7 @@
 }
 
 .background{
-    margin: 4rem 0;
+    margin-bottom: 8rem;
 
     &__presentation{
         display: block;
@@ -53,8 +53,9 @@
         font-size: 1rem;
         color: var(--color-text);
         margin-right: 0.5rem;
-        &:hover{
+        @include hover-focus{
             color: var(--color-primary);
         }
     }
 }
+

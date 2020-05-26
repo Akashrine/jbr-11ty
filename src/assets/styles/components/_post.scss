@@ -1,0 +1,5 @@
+.post {
+    &__content {
+        @include container-blog;
+    }
+}
