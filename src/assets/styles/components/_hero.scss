@@ -17,6 +17,10 @@
         }
     }
 
+    &__social{
+        margin-top: $spacing-y;
+    }
+
     &__link{
         color: var(--color-primary);
         text-decoration: none;

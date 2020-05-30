@@ -1,4 +1,9 @@
 .section{
+    margin-bottom: 4rem;
+    @include mq(lg) {
+        margin-bottom: 8rem;
+    }
+
     @include body-text();
     &__subline{
         text-transform: uppercase;
@@ -12,10 +17,12 @@
         background: var(--color-primary);
         margin:0 0 6px 2rem;
     }
+    header{
+        margin-bottom: $spacing-y;
+    }
 }
 
 .background{
-    margin-bottom: 8rem;
 
     &__presentation{
         display: block;
@@ -59,3 +66,27 @@
     }
 }
 
+.lastarticle{
+    margin-bottom: 8rem;
+    header{
+        text-align: right;
+    }
+}
+
+.instagram{
+    &__instas{
+        display: block;
+        @include mq(lg) {
+            display: flex;
+        }
+    }
+    &__shot{
+        width: 100%;
+    }
+    &__roll{
+        width: 100%;
+    }
+    &__photo{
+        width: 100%;
+    }
+}
