@@ -67,9 +67,53 @@
 }
 
 .lastarticle{
+    text-align: center;
     margin-bottom: 8rem;
-    header{
-        text-align: right;
+    background: var(--color-bg-offset);
+    padding: $spacing-y 0;
+    position: relative;
+    @include mq(lg){
+        padding: 10rem 0;
+    }
+
+    &__post{
+        margin-bottom: 1.5rem;
+        @include mq(lg){
+            margin-bottom: 2.5rem;        
+        }
+    }
+    &__title{
+        font-size: 2rem;
+    }
+    &::before,&::after{
+        @include mq(lg){
+            content: '';
+            display: block;
+            height: 150px;
+            width: 120%;
+            position: absolute;
+            left: 50%;
+            -webkit-transform: rotate(-3deg)translateX(-50%);
+            -ms-transform: rotate(-3deg)translateX(-50%);
+            transform: rotate(-3deg)translateX(-50%);
+            -webkit-transform-origin: center top;
+            -ms-transform-origin: center top;
+            transform-origin: center top;
+            background: var(--color-bg);
+            -webkit-transform: rotate(-3deg)translateX(-50%)translateY(-100%);
+            -ms-transform: rotate(-3deg)translateX(-50%)translateY(-100%);
+            transform: rotate(-3deg)translateX(-50%)translateY(-100%);
+        }
+    }
+    &::before{
+        @include mq(lg){
+            top:0; 
+        }
+    }
+    &::after{
+        @include mq(lg){
+            top: 63vh;
+        }
     }
 }
 
@@ -90,3 +134,4 @@
         width: 100%;
     }
 }
+

@@ -39,5 +39,6 @@ a {
 
     @include hover-focus {
         color: var(--color-primary-offset);
+        font-weight: bold;
     }
 }

@@ -81,12 +81,11 @@ body {
     line-height: $line-height;
 
     color: var(--color-text);
-    //background-color: var(--color-bg);
+    background-color: var(--color-bg);
 
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 
-    background:linear-gradient(to right, var(--color-bg) 0%,var(--color-bg) 35%,var(--color-bg-offset) 35%,var(--color-bg-offset) 100%);
 }
 
 //

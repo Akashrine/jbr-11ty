@@ -36,6 +36,10 @@ body {
     margin-right: auto;
     max-width: $container-max-width;
 }
+.container-blog{
+    @include container-blog;
+}
+
 .full-width {
     width: 100%;
     left: 0;
