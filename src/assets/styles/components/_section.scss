@@ -5,6 +5,7 @@
     }
 
     @include body-text();
+
     &__subline{
         text-transform: uppercase;
         color: var(--color-primary);
@@ -23,7 +24,7 @@
 }
 
 .background{
-
+    z-index: 3;
     &__presentation{
         display: block;
         @include mq(lg) {
@@ -89,7 +90,7 @@
         @include mq(lg){
             content: '';
             display: block;
-            height: 150px;
+            height: 220px;
             width: 120%;
             position: absolute;
             left: 50%;
@@ -112,7 +113,7 @@
     }
     &::after{
         @include mq(lg){
-            top: 63vh;
+            top: 70vh;
         }
     }
 }
@@ -135,3 +136,26 @@
     }
 }
 
+.experience{
+    @include mq(lg){
+        margin-top: -4rem;
+        z-index:4; 
+    }
+    .jobs{
+        @include container-blog;
+        margin-right: 0;
+        margin-top: 2*$spacing-y;
+    }
+    .job{
+        margin-bottom: $spacing-y;
+        
+        &__locdate{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__date{
+            font-family: monospace;
+        }
+    }
+}
