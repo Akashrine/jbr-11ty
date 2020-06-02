@@ -1,5 +1,13 @@
 .hero{
-    padding: $spacing-y 0 4*$spacing-y;
+    padding: $spacing-y 0 $spacing-y;
+    
+    @include mq(md){
+        padding: $spacing-y 0 2*$spacing-y;
+    }
+
+    @include mq(lg){
+        padding: $spacing-y 0 4*$spacing-y;
+    }
 
     &__inner{
         max-width: 780px;
@@ -12,7 +20,11 @@
         margin-bottom: 0.33em;
 
         @include mq(md) {
-            font-size: 4rem;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        @include mq(lg) {
+            font-size: 4.2rem;
             font-weight: bolder;
         }
     }

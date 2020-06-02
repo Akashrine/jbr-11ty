@@ -2,12 +2,13 @@
     {% for post in postlist | reverse %}
         <li class="postlist__item h-entry">
             <div class="postlist__meta">
+                <span aria-hidden="true">🕐</span>
                 <time class="postlist__date dt-published">
                     {{ post.date | readableDate('dd LLL yyyy') }}
                 </time>
 
                 {% if post.data.tags %}
-                    <span aria-hidden="true">&sdot;</span>
+                    <span aria-hidden="true">🏷️</span>
                     <span class="postlist__tags p-category">
                         {{ post.data.tags|join(', ') }}
                     </span>
@@ -20,7 +21,7 @@
                 </a>
             </h2>
             {% if post.data.cover %}
-                <img class="postlis__cover" src="{{ post.data.cover }}" alt="{{ post.data.title }}">
+                <img class="postlist__cover" src="{{ post.data.cover }}" alt="{{ post.data.title }}">
             {% endif %}
             <p class="postlist__excerpt p-summary">
                 {% if post.data.description %}

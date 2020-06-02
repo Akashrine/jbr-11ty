@@ -1,5 +1,6 @@
 ---
 layout: base
+title: A propos
 permalink: /about/
 eleventyNavigation:
   key: About
@@ -7,5 +8,11 @@ eleventyNavigation:
 ---
 
 <div class="page page--about">
-    <h1>About</h1>
+  <header class="page__header">
+      <span class="page__subline">un peu plus sur moi</span>
+      <h1 class="page__title">{{ title }}</h1>
+  </header>
+  <div class="page__content--fullwidth edito">
+    <p>Lorem</p>
+  </div>
 </div>

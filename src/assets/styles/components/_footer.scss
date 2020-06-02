@@ -1,13 +1,16 @@
 .footer {
     font-size: 0.875rem;
     padding: 4*$spacing-y 0;
-    background: var(--color-border);
+    background: var(--color-bg-offset);
     .container{
         text-align: center;
     }
     .background__social{
-        font-size: 2rem;
+        @include mq(lg){
+            font-size: 2rem;
+        }
+        font-size: 1.5rem;
         margin-right: $spacing-y;
-        color: var(--color-bg);
+        color: var(--color-primary);
     }
 }

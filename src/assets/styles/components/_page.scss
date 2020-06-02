@@ -1,0 +1,42 @@
+.page {
+    &__header {
+        padding: 2rem 0;
+    }
+    &__subline {
+        text-transform: uppercase;
+        color: var(--color-primary);
+        letter-spacing: 1px;
+    }
+    &__content {
+        @include container-blog;
+        padding-bottom: 2rem;
+
+        &--fullwidth {
+            max-width: none;
+        }
+    }
+
+    @include mq(md) {
+        &__header {
+            padding: 4rem 0;
+            text-align: center;
+        }
+        &__title {
+            font-size: 4rem;
+            letter-spacing: -1px;
+        }
+        &__content {
+            padding-bottom: 4rem;
+        }
+    }
+
+    @include mq(lg) {
+        &__header {
+            padding: 5rem 0;
+        }
+        &__title {
+            font-size: 6rem;
+            letter-spacing: -2px;
+        }
+    }
+}
