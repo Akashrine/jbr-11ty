@@ -10,13 +10,17 @@ layout: base
   aria-labelledby="{{ title | slug }}-title"
 >
   <header class="post__header">
-    <h1 id="{{ title | slug }}" class="post__title">{{ title }}</h1>
-    <div class="post__meta">
-      <time class="post__date" itemprop="datePublished" datetime="{{ page.date | iso }}">{{ page.date | readableDate('dd LLL yyyy') }}</time>
-      {% if tags %}
-        &sdot; <span class="post__tags p-category">{{ tags | join(', ') }}</span>
+      <div class="post__meta">
+          {% if tags %}
+        <span aria-hidden="true">🏷️</span>
+        <span class="post__tags p-category">{{ tags | join(', ') }}</span>
       {% endif %}
+      <span aria-hidden="true">🕐</span>
+      <time class="post__date" itemprop="datePublished" datetime="{{ page.date | iso }}">{{ page.date | readableDate('dd LLL yyyy') }}</time>
+
     </div>
+    <h1 id="{{ title | slug }}" class="post__title">{{ title }}</h1>
+
   </header>
   <div class="post__content edito" itemprop="articleBody">
     {{ content | safe }}
