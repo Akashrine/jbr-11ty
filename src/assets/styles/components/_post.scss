@@ -4,6 +4,7 @@
     }
     &__title {
         @extend .page__title;
+
         @include mq(lg) {
             font-size: 8rem !important;
         }
@@ -15,12 +16,12 @@
         font-size: 1.125rem;
         color: var(--color-text-offset);
         font-variant-caps: all-small-caps;
-        text-align-last: left;
+        
     }
     &__tags {
         font-family: $font-family-serif;
         color: var(--color-secondary);
-        letter-spacing: 1px;
+        letter-spacing: 1px;    
         font-weight: bold;
     }
 }

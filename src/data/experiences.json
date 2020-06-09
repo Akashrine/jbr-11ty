@@ -4,16 +4,16 @@
             "title" : "Senior Product Manager",
             "link" : "https://heetch.com",
             "company" : "Heetch",
-            "start_date" : "déc 2019",
-            "end_date" :"Aujourd hui",
+            "start_date" : "Dec 2019",
+            "end_date" :"Today",
             "hightlights":""
         },
         {
             "title" : "Chief Product Officer",
             "link" : "https://iwd.io",
             "company" : "IWD",
-            "start_date" : "août 2018",
-            "end_date" :"déc 2019",
+            "start_date" : "Aug 2018",
+            "end_date" :"Dec 2019",
             "hightlights":""
         },
         {
@@ -21,31 +21,31 @@
             "company" : "The Other Store",
             "link" : "http://www.the-other-store.com/",
             "start_date" : "Oct 2016",
-            "end_date" :"juil 2018",
+            "end_date" :"Jul 2018",
             "hightlights":""
         },
         {
             "title" : "Product Manager",
             "company" : "The Other Store",
             "link" : "http://www.the-other-store.com/",
-            "start_date" : "janv 2016",
-            "end_date" :"oct 2016",
+            "start_date" : "Jan 2016",
+            "end_date" :"Oct 2016",
             "hightlights":""
         },
         {
             "title" : "Head of Front End",
             "company" : "The Other Store",
             "link" : "http://www.the-other-store.com/",
-            "start_date" : "avr 2014",
-            "end_date" :"janv 2016",
+            "start_date" : "Apr 2014",
+            "end_date" :"Jan 2016",
             "hightlights":""
         },
         {
             "title" : "E-Service Manager",
             "company" : "Pierre et Vacances",
             "link" : "https://www.pierreetvacances.com/",
-            "start_date" : "juil 2009",
-            "end_date" :"mars 2014",
+            "start_date" : "Jul 2009",
+            "end_date" :"Mar 2014",
             "hightlights":""
         }
     ]

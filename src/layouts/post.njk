@@ -10,17 +10,15 @@ layout: base
   aria-labelledby="{{ title | slug }}-title"
 >
   <header class="post__header">
-      <div class="post__meta">
-          {% if tags %}
+    <h1 id="{{ title | slug }}" class="post__title">{{ title }}</h1>
+    <div class="post__meta">
+      {% if tags %}
         <span aria-hidden="true">🏷️</span>
         <span class="post__tags p-category">{{ tags | join(', ') }}</span>
       {% endif %}
       <span aria-hidden="true">🕐</span>
       <time class="post__date" itemprop="datePublished" datetime="{{ page.date | iso }}">{{ page.date | readableDate('dd LLL yyyy') }}</time>
-
     </div>
-    <h1 id="{{ title | slug }}" class="post__title">{{ title }}</h1>
-
   </header>
   <div class="post__content edito" itemprop="articleBody">
     {{ content | safe }}
@@ -29,13 +27,13 @@ layout: base
   <footer class="post__footer">
     {% if nextPost.url %}
       <p class="ctr">
-        <strong>Suivant</strong>: 
+        <strong>Next</strong>: 
       <a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
       </p>
     {% endif %}
     {% if prevPost.url %}
       <p class="ctr">
-        <strong>Précédent</strong>: 
+        <strong>Previous</strong>: 
       <a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
       </p>
     {% endif %}
