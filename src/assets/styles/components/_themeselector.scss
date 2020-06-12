@@ -3,7 +3,9 @@
     display: flex;
     align-items: center;
     margin-left: 2rem;
-    margin-top:5px;
+    @include mq(lg){
+      margin-top:5px;
+    }
   
     strong {
       margin-left: 10px;

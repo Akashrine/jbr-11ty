@@ -19,4 +19,4 @@ function switchTheme(e) {
     }    
 }
 
-toggleSwitch.addEventListener('change', switchTheme, false);
+setTimeout(() => { toggleSwitch.addEventListener('change', switchTheme, false) }, 1200 );
