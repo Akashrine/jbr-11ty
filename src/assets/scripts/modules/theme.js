@@ -10,13 +10,11 @@ if (currentTheme) {
 }
 
 function switchTheme(e) {
-    if (e.target.checked) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark');
-    }
-    else {        document.documentElement.setAttribute('data-theme', 'light');
-          localStorage.setItem('theme', 'light');
-    }    
+    setTimeout(() => {
+        const theme = e.target.checked ? 'dark' : 'light'
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+    }, 400)
 }
 
-setTimeout(() => { toggleSwitch.addEventListener('change', switchTheme, false) }, 1200 );
+toggleSwitch.addEventListener('change', switchTheme, false);
