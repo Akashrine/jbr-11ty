@@ -69,12 +69,18 @@
 
 .lastarticle{
     text-align: center;
-    margin-bottom: 8rem;
     background: var(--color-bg-offset);
     padding: $spacing-y 0;
     position: relative;
     @include mq(lg){
-        padding: 10rem 0;
+        padding: 8rem 0;
+        transform: rotate(-3deg) skew(-3deg);
+    }
+
+    &__content{
+        @include mq(lg){
+            transform: rotate(3deg) skew(3deg);
+        }
     }
 
     &__post{
@@ -85,30 +91,6 @@
     }
     &__title{
         font-size: 2rem;
-    }
-    &::before,&::after{
-        @include mq(lg){
-            content: '';
-            display: block;
-            height: 220px;
-            width: 120%;
-            position: absolute;
-            left: 50%;
-            transform: rotate(-3deg)translateX(-50%);
-            transform-origin: center top;
-            background: var(--color-bg);
-            transform: rotate(-3deg)translateX(-50%)translateY(-100%);
-        }
-    }
-    &::before{
-        @include mq(lg){
-            top:0; 
-        }
-    }
-    &::after{
-        @include mq(lg){
-            top: 77vh;
-        }
     }
 }
 
@@ -210,10 +192,6 @@
 }
 
 .experience{
-    @include mq(lg){
-        margin-top: -4rem;
-        z-index:4; 
-    }
     .jobs{
         @include container-blog;
         margin-right: 0;
