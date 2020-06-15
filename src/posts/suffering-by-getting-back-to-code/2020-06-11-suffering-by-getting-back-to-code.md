@@ -1,4 +1,5 @@
 ---
+id: 54z51d87z21d2158
 title: Suffering by getting back to code
 tags: technical, personal
 image: 

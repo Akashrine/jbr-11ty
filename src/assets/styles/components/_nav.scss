@@ -4,8 +4,8 @@
         position: absolute;
         left: 0;
         right: 0;
-        background-color: var(--color-text);
-        color:var(--color-bg);
+        background-color: var(--color-bg-offset);
+        color:var(--color-text);
     }
     &__link {
         display: inline-block;
