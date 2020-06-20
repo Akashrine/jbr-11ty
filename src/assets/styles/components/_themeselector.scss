@@ -7,9 +7,8 @@
       margin-top:5px;
     }
   
-    strong {
-      margin-left: 10px;
-      font-size: 1.4rem;
+    svg {
+      font-size: 1rem;
     }
   }
   .theme-switch {
@@ -17,6 +16,7 @@
     height: 28px;
     position: relative;
     width: 50px;
+    margin: 0 0.5rem;
   }
   
   .theme-switch input {
