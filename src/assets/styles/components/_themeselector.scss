@@ -2,9 +2,12 @@
 .theme-switch-wrapper {
     display: flex;
     align-items: center;
-    margin-left: 2rem;
+    order: -1;
+    margin-right: 2rem;
     @include mq(lg){
+      order:1;
       margin-top:5px;
+      margin-left: $spacing-y;
     }
   
     svg {

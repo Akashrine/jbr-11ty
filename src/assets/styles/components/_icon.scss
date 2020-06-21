@@ -46,9 +46,9 @@
     }
 
     // Active State: Transform to "X"
-    .is-open & {
-        top: 2px;
-        transform: rotate(-180deg);
+    .nav--open & {
+        transform: translate(-1px, 0) rotate(270deg);
+
 
         .menuicon__bar {
             &:nth-child(1),

@@ -1,8 +1,8 @@
-<nav class="nav js-nav" role="navigation" tabindex="-1">
+<nav class="nav js-nav" aria-label="navigation" role="navigation" tabindex="-1">
 
     {# Menu Toggle Button #}
     <button
-        class="nav__toggle js-nav-toggle"
+        class="nav__togglebtn js-nav-toggle"
         aria-expanded="false"
         aria-controls="nav-menu"
     >
@@ -16,20 +16,27 @@
     </button>
 
     {# Nav Links  #}
-    <ul class="nav__menu js-nav-menu" id="nav-menu">
-    {%- for item in collections.all | eleventyNavigation -%}
-        {%- set isCurrent = (item.url == page.url) -%}
-        {%- set isParent = item.url != '/' and item.url in page.url -%}
-        <li class="nav__item{% if isCurrent or isParent %} nav__item--active{% endif %}">
-            <a
-                class="nav__link"
-                href="{% if isCurrent %}#main{% else %}{{ item.url | url }}{% endif %}"
-                {% if isCurrent %}aria-current="page"{% endif %}
-            >
-                {{ item.title }}
-            </a>
-        </li>
-    {%- endfor -%}
-    </ul>
+    <div class="nav__content">
+        <ul class="nav__menu js-nav-menu" id="nav-menu">
+        {%- for item in collections.all | eleventyNavigation -%}
+            {%- set isCurrent = (item.url == page.url) -%}
+            {%- set isParent = item.url != '/' and item.url in page.url -%}
+            <li class="nav__item{% if isCurrent or isParent %} nav__item--active{% endif %}">
+                <a
+                    class="nav__link"
+                    href="{% if isCurrent %}#main{% else %}{{ item.url | url }}{% endif %}"
+                    {% if isCurrent %}aria-current="page"{% endif %}
+                >
+                    {{ item.title }}
+                </a>
+            </li>
+        {%- endfor -%}
+        </ul>
+    </div>
+
+    {# Menu BG Animation #}
+    <div class="nav__bg">
+        <div class="nav__bg__circle"></div>
+    </div>
 
 </nav>

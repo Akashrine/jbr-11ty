@@ -1,22 +1,15 @@
 .nav {
+    display: flex;
+    align-items: center;
+    
     &__menu {
-        display: none;
-        position: absolute;
-        left: 0;
-        right: 0;
-        background-color: var(--color-bg-offset);
-        color:var(--color-text);
+        display: flex;
     }
-    &__link {
-        display: inline-block;
+
+    // Nav Item LI
+    &__item {
         position: relative;
-        padding: 0.5em 1em 0.25em;
-        outline: none;
-        text-decoration: none;
-        text-transform: lowercase;
-        font-weight: 500;
-        color:var(--color-text-offset);
-        text-shadow: 0 0 1px rgba(255,255,255,0.3);
+
         &::after{
             position: absolute;
             top: 100%;
@@ -29,36 +22,170 @@
             transition: height 0.3s, opacity 0.3s, transform 0.3s;
             transform: translateY(-10px);
         }
-        &:hover::after,a:focus::after,&[aria-current]::after{
+        &:hover::after,a:focus::after,&--active::after{
             height: 3px;
             opacity: 1;
             transform: translateY(0px);
         }
-        &[aria-current] {
+        &--active {
             font-weight: bold;
             &::after{
                 background-color: var(--color-primary);
             }
+        }        
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding: 0.5em 1em 0.25em;
+        outline: none;
+        text-decoration: none;
+        text-transform: lowercase;
+        font-weight: 500;
+        color:var(--color-bg);
+        text-shadow: 0 0 1px rgba(255,255,255,0.3);
+        white-space: nowrap;
+
+        
+
+        
+        @include mq(lg){
+            color: var(--color-text-offset);
         }
     }
-    &__toggle {
+    &__togglebtn {
         @include button-reset;
+        display: none;
     }
+
+    // ==================================
+    // MOBILE VERSION (TABLET AND DOWN)
+    // ==================================
 
     @include mq-down(lg) {
-        &.is-open &__menu {
-            display: block;
+        &__content {
+            display: none;
+            width: 100%;
+            height: 100%;
+            flex-direction: column;
+            justify-content: center;
+
+            position: fixed;
+            z-index: z('nav');
+            top: 0;
+            left: 0;
+        }
+
+        &__menu {
+            flex-direction: column;
+            justify-content: center;
+            flex: 1 0 auto;
+            opacity: 0;
+            transform: translateY(3.5rem);
+            transition: opacity 0.5s linear 0.25s,
+                transform 0.5s $animation-curve-default 0.25s;
+        }
+
+        &__item {
+            padding: 0 5rem;
+            font-family: $font-family-serif;
+            font-size: 3.5rem;
+            letter-spacing: 1px;
+            color: var(--color-text);
+
+            &::after {
+                left: 0;
+                right: 85%;
+                height: 4px;
+                top: 50%;
+                background-color: var(--color-text-offset);
+            }
+                // Current Page Active Item
+                &--active {
+                    &::after {
+                        background-color: var(--color-primary) !important;
+                        transform: none;
+                    }
+                    > a {
+                        color: var(--color-text);
+                    }
+                }
+        }
+
+        &__link {
+            padding: 1.5rem;
+            text-transform: none;
+            color: var(--color-bg) !important;
+        }
+
+        &__togglebtn {
+            display: flex;
+            position: relative;
+            z-index: z('nav') + 1;
         }
     }
-
-    @include mq(lg) {
-        &__toggle {
-            display: none;
-        }
-        &__menu {
+}
+.nav--open {
+    @include mq-down(lg) {
+        .nav__content {
             display: flex;
-            position: static;
+        }
+
+        .nav__menu--visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .nav__togglebtn {
+            color: var(--color-bg);
             background-color: transparent;
         }
+        .nav__bg{
+            visibility: visible;
+        }
+        .nav__bg__circle {
+            transform: scale(1);
+        }
+    }
+}
+
+.nav__bg {
+    position: fixed;
+    z-index: z('nav') - 1;
+    top: 16px;
+    right: 5%;
+    height: 4px;
+    width: 4px;
+    transform: translateX(-22px) translateY(22px);
+    pointer-events: none;
+    visibility: hidden;
+
+    &__circle {
+        display: block;
+        width: 300vmax;
+        height: 300vmax;
+
+        position: absolute;
+        top: -150vmax;
+        left: -150vmax;
+
+
+        border-radius: 10%;
+        backface-visibility: hidden;
+        background-color: var(--color-text);
+
+        transform: scale(0);
+        transform-origin: 50% 50%;
+        transition: transform 0.4s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        will-change: transform;
+    }
+
+    @include mq(md) {
+        top: 50px;
+    }
+    @include mq(lg) {
+        display: none;
     }
 }

@@ -11,19 +11,19 @@
 }
 
 
-[data-theme="brown"] { 
-    --color-bg: #102D40;
-    --color-bg-offset: rgba(191, 94, 59, 0.1);
+[data-theme="dark"] { 
+    --color-bg: #292929;
+    --color-bg-offset: rgba(172, 172, 172, 0.1);
     --color-text: #F2F2F2;
     --color-text-offset: #ebe9eb;
-    --color-border: #BF9663;
-    --color-primary: #BF5E3B;
-    --color-primary-offset: #59230F;
-    --color-secondary: #457B9D;
-    --color-secondary-offset: #1D3557;
+    --color-border: rgb(114, 114, 114);
+    --color-primary: #F2A81D;
+    --color-primary-offset: rgb(219, 147, 14);
+    --color-secondary: #2ABFBF;
+    --color-secondary-offset: #2aa7a7;
 }
 
-[data-theme="dark"] { 
+[data-theme="blue"] { 
     --color-bg: #021859;
     --color-bg-offset: rgba(42, 191, 191, 0.1);
     --color-text: #F2F2F2;

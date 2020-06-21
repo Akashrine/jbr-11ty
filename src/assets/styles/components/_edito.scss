@@ -2,11 +2,35 @@
     @include body-text();
     /* Vertical */
     > * {
-        margin-bottom: 2rem;
+        margin-bottom: $spacing-y;
+    }
+
+    h2,h3{
+        font-family: $font-family-serif;
+        letter-spacing: -1px;
     }
 
     a{
         @include hyphenate;
+    }
+
+    p.multi-column{
+        column-count: 2;
+        column-gap: 2rem;
+    }
+
+    q {
+        font-family: $font-family-sans-serif;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+        font-style: normal;
+        font-size: 2rem;
+        line-height: 1.25em;
+        text-transform: uppercase;
+        color: var(--color-primary);
+        float: right;
+        max-width: 350px;
+        margin: 10px -15% 10px 20px;
     }
     
     ul, ol, dl {
@@ -110,6 +134,9 @@
 
         img {
             margin-bottom: 0;
+        }
+        &.full-width{
+            @extend .full-width;
         }
     }
 
