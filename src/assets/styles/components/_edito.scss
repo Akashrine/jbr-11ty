@@ -28,9 +28,11 @@
         line-height: 1.25em;
         text-transform: uppercase;
         color: var(--color-primary);
-        float: right;
-        max-width: 350px;
-        margin: 10px -15% 10px 20px;
+        @include mq(lg){
+            float: right;
+            max-width: 350px;
+            margin: 10px -15% 10px 20px;
+        }
     }
     
     ul, ol, dl {
