@@ -6,19 +6,20 @@ image:
 description: "Launching a personal website in 2020 is feeling strange. Even worst when it's been 10 years you're not existing anymore online. "
 ---
 
-<p class="lead"> Launching a personal website in 2020 when you already got more than 10 years of experience is a strange feeling... I'll try explain to you what's my point behind it.</p>
+<p class="lead">Who will I cheat ? Launching a website is hard, launching <em>your</em> website is worst. Launching it in 2020 when you're already 35 years old, a dad and 2 loans to refund, needless to say we're flirting with insanity. It is not how I planned to start this first article but hey ! here we are </p>
 
-<q>Yeah and ? What about changing your job ?</q>
+In 2O08, I started my freelance activity as a __webdesigner / integrator__, with almost zero professional experience. At the time I just did one or two internships where I felt like I understood how to operate a client. And I said to myself, from the top of my 6 months accumulated experiences, and with the 3 contacts I had, I could live by word of mouth ...
 
-To be pretty honnest ... it's been now more than 7 years than i'm building, pimping, forgetting then destroying all of my tentatives of getting back online. The reason is ... i've changed my job and I had a small "impostor syndrom" and then I became lazy. So what happened ?
+This leads to today ... 
 
+## From webdesigner to Product Management
 
-
-## From webdesigner to front end developer
 
 <figure class="extent">
-    <img src="https://source.unsplash.com/2000x1500" />
+    <img src="scrum-kanban-agile.jpg" />
 </figure>
+
+So what happened ? 
 
 <p class="multi-column">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla gravida risus, tincidunt mattis dolor aliquam ut. Praesent orci justo, vestibulum at sem nec, viverra mollis turpis. Morbi consectetur cursus ante. Quisque vehicula massa at maximus dignissim. Quisque efficitur porttitor blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id ex vitae ipsum lobortis egestas. Duis gravida erat a quam laoreet vehicula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.

@@ -61,13 +61,6 @@ module.exports = function (config) {
     config.addCollection('posts', function (collection) {
         const pathsRegex = /\/posts\//
         const coll = collection.getAllSorted()
-        for(let i = 0; i < coll.length ; i++) {
-            const prevPost = coll[i-1];
-            const nextPost = coll[i + 1];
-        
-            coll[i].data["prevPost"] = prevPost;
-            coll[i].data["nextPost"] = nextPost;
-          }
 
         return coll
             .filter((item) => item.inputPath.match(pathsRegex) !== null)

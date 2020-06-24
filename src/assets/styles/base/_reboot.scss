@@ -87,6 +87,8 @@ body {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 
+    @include scrollbars (5px, var(--color-primary), var(--color-bg));
+
 }
 
 //
