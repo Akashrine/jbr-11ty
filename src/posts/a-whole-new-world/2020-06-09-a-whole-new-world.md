@@ -8,8 +8,11 @@ description: "Relancer un site perso en 2020 à 35 ans, ça ressemble pas forcé
 
 <p class="lead"> Je ne tromperai personne ... Lancer un site web est dur, lancer <em>son</em> site web est pire. Le lancer en 2020 quand tu as 35ans, que tu es papa et 2 prêt à rembourser, autant dire qu'on flirte avec la folie. Mais on a toujours trouvé des raisons à la folie et voici les miennes.  
 
-Alors bien sûr, ce n'est pas mon premier site, ce n'est pas non plus mon premier essai de relancer le site, pour être précis ce que vous voyez est la V6 et seule la V1 aura vu le jour jusqu'à présent. 
+Alors bien sûr, ce n'est pas mon premier site, ce n'est pas non plus mon premier essai de relancer mon site, pour être précis ce que vous voyez est la V6 et seule la V1 aura vu le jour jusqu'à présent... 
+
 En 2008, j'ai débuté mon activité de freelance en tant que Webdesign / Intégrateur avec quasiment aucune expérience professionnel. A l'époque j'avais dans les pattes 2-3 stages à mon actif et beaucoup de temps libres, et naïvement je m'étais dit que je savais gérer des clients, que j'étais prêt à gérer une activité d'entreprenariat avec tout ce que ça implique. Et surtout je me disais, du haut de mes 6 mois d'expérience cumulées et avec les 3 contacts que j'avais que je vivrais du bouche à oreille. La folie de la jeunesse dirons nous... N'empêche que, se lancer dans le vide sans filet c'est une jolie école de la vie, on apprend énormément (à ses dépends). 
+
+Pendant cette période j'avais tout le loisir d'exposer mes premiers travaux personnels, et surtout montrer les 2 ou 3 premiers travaux que j'avais fait pour de vrais clients. Remplir mon portfolio était facile, rapide et appréciable. 
 
 
 
