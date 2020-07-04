@@ -43,14 +43,9 @@
         outline: none;
         text-decoration: none;
         text-transform: lowercase;
-        font-weight: 500;
         color:var(--color-bg);
         text-shadow: 0 0 1px rgba(255,255,255,0.3);
         white-space: nowrap;
-
-        
-
-        
         @include mq(lg){
             color: var(--color-text-offset);
         }
