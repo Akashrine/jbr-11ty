@@ -1,5 +1,6 @@
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const pluginNavigation = require('@11ty/eleventy-navigation')
+const pluginEmbedTweet = require("eleventy-plugin-embed-tweet")
 const markdownIt = require('markdown-it')
 
 const filters = require('./utils/filters.js')
@@ -11,6 +12,13 @@ module.exports = function (config) {
     // Plugins
     config.addPlugin(pluginRss)
     config.addPlugin(pluginNavigation)
+
+    let tweetEmbedOptions = {
+        cacheDirectory: '', // default: ''
+        useInlineStyles: false // default: true
+    }
+    config.addPlugin(pluginEmbedTweet, tweetEmbedOptions)
+
 
     // Filters
     Object.keys(filters).forEach((filterName) => {
