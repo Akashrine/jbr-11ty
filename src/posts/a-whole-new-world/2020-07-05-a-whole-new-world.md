@@ -2,7 +2,7 @@
 title: A whole new world
 tags: personal
 image:
-description: "Launching a personal website in 2020 feels strange. Even worse when it's been 10 years you don't have an online presence."
+description: "Launching a personal website in 2020 feels strange. Even worse when it's been 10 years and you don't have an online presence."
 ---
 
 <p class="lead">Who am I kidding? Launching a website is hard, launching <em>your</em> website is worse. Launching it in 2020 when you're already 35 years old, a dad and 2 loans to pay off - needless to say we're flirting with insanity. But there are reasons!</p>
