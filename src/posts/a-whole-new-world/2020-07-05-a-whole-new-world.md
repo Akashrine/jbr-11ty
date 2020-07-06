@@ -14,7 +14,7 @@ Ok this is my first motivation to relaunch my website. It's been now 12 years si
 
 The last time I was online it was because I needed it. I was launching my freelance activity with less than 6 months of experience and only 2 or 3 "contacts". Needless to say the portfolio was a mandatory element ! 
 
-Now I'm not a webdesigner anymore, I've made small changes after small changes to become a [Product Manager](https://linkedin.com/in/julienbrionne). I'll talk about it one day. So the idea is to be back online once again and talk about what i'm working on, what i'm liking and any opinion I'd feel to express. I mean ... it is a blog...
+Now I'm not a webdesigner anymore, I've made small changes after small changes to become a [Product Manager](https://linkedin.com/in/julienbrionne). I'll talk about it one day. So the idea is to be back online once again and share my thoughts. 
 
 ## Experiment code again
 
@@ -38,16 +38,16 @@ In order to go back online I had to restart doing some code and even if it was h
     <figcaption>English is my language</figcaption>
 </figure>
 
-Even if I'm working in english everyday and feeling confident talking in english, when it comes to write longer posts I lack of vocabulary, I globally suck at using the right tense. As I want to progress my post will pass through the critical eyes of a native speaker (👋[Tam](https://github.com/tamarasaurus)). 
+Even if I'm working in english everyday and feeling confident talking in english, when it comes to write longer posts I lack of vocabulary, I globally suck at using the right tense. As I want to progress, my posts will pass through the critical eyes of a native speaker (👋[Tam](https://github.com/tamarasaurus)). 
 The second thing about writing in english is enhancing a little more the reach of my articles : I obviously don't want to be well known, but if some of my articles can be helpful, let's help more people. 
 
 ## Kill procrastination 
 
 {% tweet "1278882156983574529" %}
 
-When you have a kid, and when you have a daily job, it is really easy to become less creative / productive during the free time (unless 💤, an activity I've become good at). It is really easy to let the time flow through a good video game, a good show or worst a youtube marathon of video about obscure subject. 
+When you have a kid, and when you have a daily job, it is really easy to become less creative / productive during the free time (unless 💤, an activity I've become good at). It is much easier to let the time flow through a good video game, a good show or worst, a youtube marathon of video about obscure subject. 
 
-So when the confinement occured, I told myself, no more twitch, no more youtube, only constructive activity (even if it means playing a video game, at least you're making something with a goal.) And thanks to the Covid-19, this is the only reason I can say "thank you' to this, I've set myself ready to restart once again this website with all the stack I wanted to test. 
+So when the confinement occured, I told myself, no more twitch, no more youtube, only constructive activity (even if it means playing a video game, at least you're making something with a goal.) And thanks to the Covid-19, this is the only case I can say "thank you' to this, I've set myself ready to start once again this website with all the stack I wanted to test. 
 
 Now the idea is to work on it a little everyday, write words, test code, share thoughts ... 
 As James Clear, the author of [Atomic Habits](https://www.amazon.fr/dp/0735211299/ref=as_li_qf_asin_il_tl?ie=UTF8&linkCode=gs2&linkId=723bbc2363b811f5d76f4b77a8e2fb87&creativeASIN=0735211299&tag=dariusforou03-21&creative=9325) 
