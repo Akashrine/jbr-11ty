@@ -18,12 +18,17 @@ As usual you essentially learn in life by failing, and it is important to succee
 
 ## Problem oriented VS Solution oriented
 
-Jumping on solution, thinking too much about the solution or worse thinking too much about how to do the solution can be a huge blocker and can make your product really far from its real goals. 
-Simple exemple : I was talking with a friend about this mindset and asked him : 
+Jumping on solution, thinking too much about answering the problem or worse thinking too much about how to do the solution can be a huge blocker and can make your product really go far from its real goals. 
+Simple exemple : I was talking with a friend and he told me that one of his company product last feature was not used. His PM told him 
 
-> 
+> well we should communicate more on this feature !
+> Ok and so what will make them use it more ? 
+> They'll be aware of the feature ...
 
-I think a good product manager is able to right problem before solving the problem right. 
+Looks interesting ... if you want more people to see the feature, but what about __using it__ ? 
+The real subject is to understand why they don't use is. Worst thing that can happen is digging and finding the feature is not used because no one need it, it doesn't solve __anything__. 
+
+I think a good product manager is able to solve the right problem before solving the problem right. 
 
 
 ## Managing Problem
