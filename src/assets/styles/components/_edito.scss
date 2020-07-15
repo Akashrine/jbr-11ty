@@ -5,10 +5,10 @@
         margin-bottom: $spacing-y;
     }
 
-    h2,h3{
+    h2{
         font-family: $font-family-serif;
-        letter-spacing: -1px;
         position: relative;
+        font-size: 2.5rem;
         &::before{
             content: "";
             width: 20%;
@@ -24,13 +24,19 @@
             transition: width .1s ease-out;
         }
     }
+    h3{
+        font-family: $font-family-serif;
+        letter-spacing: normal;
+        color: var(--color-secondary);
+        font-size: 2rem;
+    }
 
     a{
         @include hyphenate;
         @include hover-focus {
             color: var(--color-primary-offset);
             text-decoration: underline;
-            font-weight: normal;
+            font-weight: inherit;
         }
     }
 
@@ -61,6 +67,7 @@
     ul, ol, dl {
         margin-top: 0;
         margin-bottom: 1rem;
+        font-size: 1.2rem;
     }
     
     dt {
@@ -72,8 +79,8 @@
     }
     
     ul {
-        list-style: inside circle;
-        padding-left: 0;
+        list-style: inside disc;
+        padding-left: 1rem;
     
         li {
             margin-bottom: .25rem;
@@ -83,12 +90,15 @@
         ol {
             margin-top: .25rem;
             margin-bottom: .5rem;
+            padding-left: 1rem;
+            font-size: 1rem;
         }
     }
     
     ol {
         list-style: inside decimal;
-        padding-left: 0;
+        padding-left: 1rem;
+
     
         li {
             margin-bottom: .25rem;
@@ -98,8 +108,11 @@
         ol {
             margin-top: .25rem;
             margin-bottom: .5rem;
+            padding-left: 1rem;
+            font-size: 1rem;
         }
     }
+
     abbr[title] {
         cursor: help;
         border-bottom: 1px dotted var(--color-border);
