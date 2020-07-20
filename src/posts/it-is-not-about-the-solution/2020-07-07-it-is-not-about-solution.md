@@ -1,7 +1,7 @@
 ---
 title: It is not about the solution
 tags: product
-image:
+image: problem.jpg
 description: "Product Managers are not the owners of a solution, they're not finding solutions by themselves. Being a Product Manager is about managing problems. This is an article about digging in to your problems more than how to solve them."
 ---
 

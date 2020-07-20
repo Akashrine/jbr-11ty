@@ -1,7 +1,7 @@
 ---
 title: A whole new world
 tags: personal
-image:
+image: 
 description: "Launching a personal website in 2020 feels strange. Even worse when it's been 10 years and you don't have an online presence."
 ---
 
