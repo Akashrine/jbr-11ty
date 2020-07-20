@@ -1,5 +1,40 @@
-<footer class="footer" role="contentinfo">
-    <div class="container">
-        {% include "social.njk" %}
+<footer class="footer h-card" role="contentinfo">
+    <div class="footer__inner container">
+        <div hidden>
+            <img class="u-photo" src="{{ author.avatar | url | absoluteUrl(site.url) }}" />
+            <p class="p-note">{{ site.description }}</p>
+        </div>
+        <p class="footer__item">
+            <strong>Made with ♥️ by :</strong><br />
+            <a class="p-name u-url" rel="me" href="{{ site.url }}">{{ author.name }}</a>
+        </p>
+
+        <p class="footer__item">
+            <strong>Contact ✉︎</strong><br />
+            <a
+                href="mailto:{{ author.email | obfuscate | safe }}"
+                rel="me"
+                class="u-email"
+            >
+                {{ author.email | obfuscate | safe }}
+            </a>
+        </p>
+
+        <p class="footer__item">
+            <strong>Social </strong><br />
+            <a href="{{ author.linkedin }}">LinkedIn</a> / 
+            <a href="{{ author.twitter }}">Twitter</a>
+        </p>
+        <p class="footer__item footer__item--right">
+            <a href="{{ "/feed.xml" | url }}" class="footer__icon" title="RSS Feed">
+                <span class="sr-only">RSS Feed</span>
+                {% icon "rss" %}
+            </a>
+            <a href="https://github.com/akashrine/jbr-11ty" class="footer__icon" title="RSS Feed">
+                <span class="sr-only">Project Code</span>
+                {% icon "github" %}
+            </a>
+            
+        </p>
     </div>
 </footer>
