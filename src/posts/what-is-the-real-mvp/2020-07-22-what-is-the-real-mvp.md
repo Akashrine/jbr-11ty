@@ -29,11 +29,23 @@ As a reminder, MVP is usually about this :
 MVP is built on a serie of iterations that we call "build-mesure-learn". 
 
 <figure class="extent">
-    <img src="mvp-metaphor.png" data-zoomable />
+    <img src="mvp-metaphor.jpg" data-zoomable />
     <figcaption>Iterate through MVP</figcaption>
 </figure>
 
-As people weren't convince by the efficience of this 3 letters, they come with a lot of fancy new accronyms such as : 
+{% tweet "1172062628568543233" %}
+
+__top line__ : The misconception about iterative and incremental development. It usually is one the main reason for a product to fail. It focuses on the components more than on the problem to be solved. While going closer and closer to the actual user needs. It will last 4 iterations before delivering the actual solution. And before that, your user isn't provided with a viable solution, nor can he provide feedbacks to help evolve your product. While being a way to do product, and while being agile, you don't allow helpful feedbacks from your end user.
+
+__middle line__ : Usually the metaphor stops here by saying : you should do this. Well, this solution is focused on the problem (going from A to B) and provides a chosen solutions every iterations. This solution allows you to validate, and invalidate your hypotheses, to quickly develop a prototype or a proof of concept. 
+Proof of concept is interesting to demonstrate an idea, a product, a service or to verify a feasability. However it does not answer the question : "Is this thing valuable for a user". If you deliver a skateboard, does it solve your user real need and problem ? Not really. Is it valuable, usable and a feasible solution. No. Every iteration looks like a new product and not an evolution. While this approach allows for user testing, feedback, and refinement of the solution, it doesn’t address the fact that our user needs a __car__. 
+
+__last line__ : This is how you do an MVP. From iteration 1 to iteration 4 you meet the needs of your end user. Each iteration is an evolution of the previous one. The solution is viable, feasible and usable. More than this, you can "feel" the business model and the strategy behind the product, not just an idea to solve a problem. 
+
+
+## New accronyms
+
+As people weren't convince by the efficience of this 3 letters (Viable is the hardest one to be understandable), they come with a lot of fancy new accronyms to help redefine what should be an MVP such as : 
 
 __MLP__ (Minimum Lovable Product) : The idea is to make your product instantly lovable by people, meaning you're playing on an emotional level. As opposed as the MVP your launching your most important features first, not the primoridial one. It's usually used when facing an already competiting environment. And it "usually" comes after your mvp. 
 
@@ -93,7 +105,30 @@ In order to be a *must have* feature, it should be a feature that, if not done, 
 
 ## Don't forget the learning part! 
 
-You're here to get feedbacks from your customer, so when setting what features should go in the MVP, you should also prepare an analysis plan on what you want to track, what KPIs you're following to know if you're going in the right direction or not. It could be as simple as a landing page of your upcoming product and you just measure the number of leads. As
+
+
+Main advantages of an mvp are : 
+* __Insights__ : Gather them all !! MVP will provide you a lot of feedbacks from your users and the way they use your product.
+* __value proposition__ (core product adjustment) : If you're not sure yet of your value proposition, the MVP will help you focus on what's really your core product
+* __shared creation__ : By involving your customers, you can get helps on what to do next, what's the most prioritize features, how their problems is evolving ...
+* __Evolutions__ : Reduce time to take decision on what to develop and what to delete in terms of features
+* __Increase Time to market__ : Well this one's pretty obvious. 
+
+<figure class="extent">
+    <img src="iterate-learn.jpg" data-zoomable />
+    <figcaption>Iterate to learn</figcaption>
+</figure>
+
+You're here to get feedbacks from your customer, so when setting what features should go in the MVP, you should also prepare an analysis plan on what you want to track, what KPIs you're following to know if you're going in the right direction or not. It could be as simple as a landing page of your upcoming product and you just measure the number of leads.
+
+
+## In short
+
+* MVP are hard to do 
+* the M and the V are oftenly misunderstood
+* You have to know where you're going even when doing the MVP
+* Proof of concept / Prototype ≠ MVP
+* You don't care about the accronym
 
 
 
