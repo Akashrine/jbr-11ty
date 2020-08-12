@@ -10,7 +10,7 @@ description: "When you've thought about the problem you want to solve, your solu
 
 ## MVP? What are we talking about?
 
-Before going further, what is an MVP? MVP is often attached to one of the most important techniques in a lean startup. The minimum viable product is that version of a new product which allows a team to collect the maximum amount of validated learning about customers with the least effort. (Nice one no ?).
+Before going further, what is an MVP? An MVP is often attached to one of the most important techniques in a lean startup. The minimum viable product is the version of a new product which allows a team to collect the maximum amount of validated learnings about customers with the least effort. (Nice one no ?).
 
 <blockquote cite="Marty Cagan">
     I have long defined minimum viable product as the smallest possible product that has three critical characteristics: people choose to use it or buy it; people can figure out how to use it; and we can deliver it when we need it with the resources available – also known as valuable, usable and feasible.<br />
@@ -129,7 +129,6 @@ You’re here to get feedback from your customer, so when setting what features 
 * You have to know where you're going even when doing the MVP
 * Proof of concept / Prototype ≠ MVP
 * You don't care about the accronym
-
 
 
 
