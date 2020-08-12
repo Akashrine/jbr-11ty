@@ -111,7 +111,7 @@ Main advantages of an mvp are :
 * __Insights__ : Gather them all !! An MVP will provide you a lot of feedback from your users and the way they use your product.
 * __value proposition__ (core product adjustment) : If you're not sure yet of your value proposition, the MVP will help you focus on what's really your core product
 * __shared creation__ : By involving your customers, you can get helps on what to do next, what's the most prioritize features, how their problems is evolving ...
-* __Evolutions__ : Reduce time to take decision on what to develop and what to delete in terms of features
+* __Evolutions__ : Reduce time to make a decision on what to develop and what to delete in terms of features
 * __Increase Time to market__ : Well this one's pretty obvious. 
 
 <figure class="extent">
@@ -129,7 +129,6 @@ You’re here to get feedback from your customer, so when setting what features 
 * You have to know where you're going even when doing the MVP
 * Proof of concept / Prototype ≠ MVP
 * You don't care about the accronym
-
 
 
 
