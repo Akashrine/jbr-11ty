@@ -119,7 +119,7 @@ Main advantages of an MVP are :
     <figcaption>Iterate to learn</figcaption>
 </figure>
 
-You’re here to get feedback from your customer, so when setting what features should go in the MVP, you should also prepare an analysis plan on what you want to track, what KPIs you’re following to know if you’re going in the right direction or not. It could be as simple as a landing page of your upcoming product and you just measure the number of leads.
+You’re here to get feedback from your customer, so when setting what features should go in the MVP, you should also prepare an analysis plan on what you want to track, what KPIs you’re following to know if you’re going in the right direction or not. It could be as simple as a landing page of your upcoming product and just measuring the number of leads.
 
 
 ## In short
@@ -129,7 +129,6 @@ You’re here to get feedback from your customer, so when setting what features 
 * You have to know where you're going even when doing the MVP
 * Proof of concept / Prototype ≠ MVP
 * You don't care about the accronym
-
 
 
 
