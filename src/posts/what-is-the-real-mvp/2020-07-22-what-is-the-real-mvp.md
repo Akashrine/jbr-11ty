@@ -5,7 +5,7 @@ image: mvp.jpg
 description: "When you've thought about the problem you want to solve, your solution is designed, your idea is validated, and your long term strategy is set. Now it's time to develop and launch your product, but what do you launch? | What features would you choose first? Here's a small story about MVP"
 ---
 <p class="lead">
-   It is quite common nowadays, to hear about doing an MVP when you're in the wonderful world of product or in a startup. Used as a keyword to say "we want to go live asap". Unfortunately, MVP is usually badly used or worst badly done. As everyone was using the MVP words without really knowing what was behind it, we came with new fancy acronym: MLP, MMP, RAT, SLC... But in the end, we talk about MVP. 
+   It is quite common nowadays, to hear about doing an MVP when you're in the wonderful world of product or in a startup. The term is often used as a keyword to say "we want to go live ASAP". Unfortunately, an MVP is usually badly used or worst badly done. As everyone uses the acronym MVP without really knowing what's behind it, we come up with new fancy acronyms: MLP, MMP, RAT, SLC... But in the end, we're talking about MVP. 
 </p>
 
 ## MVP? What are we talking about?
@@ -129,7 +129,6 @@ You’re here to get feedback from your customer, so when setting what features 
 * You have to know where you're going even when doing the MVP
 * Proof of concept / Prototype ≠ MVP
 * You don't care about the accronym
-
 
 
 
