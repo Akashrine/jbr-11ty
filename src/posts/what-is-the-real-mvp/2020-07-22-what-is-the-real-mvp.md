@@ -54,13 +54,13 @@ __RAT__ (Riskiest Assumption Test): Directly test your most dangerous assumption
 * Measure
 * Build fast
 
-__SLC__ (Simple, Lovable, Complete): This one’s more subtle. It’s like an MVP but with a strong emphasis on “Simple” opposed as minimum. The minimum variable is often seen as " we want to ship at this date, what do we cut, what features won’t make it". Simple is more about, these features are nice, but can we simplify them. The great thing about Simplicity is that it can be part of the conversation from the very beginning.
+__SLC__ (Simple, Lovable, Complete): This one’s more subtle. It’s like an MVP but with a strong emphasis on “Simple” opposed as minimum. The minimum viable is often seen as " we want to ship at this date, what do we cut, what features won’t make it". Simple is more about, these features are nice, but can we simplify them. The great thing about simplicity is that it can be part of the conversation from the very beginning.
 
 __MMP__ (Minimum marketable product) : To be simple, it's an MVP with more than one iteration. An MVP without the shame of it. 
 
 ## The MVP of your RAT is an MLP and an SLC
 
-Long story short, all of these new acronyms only exist because MVP suffers from its celebrity. MVP is used so much it’s lost its original meaning. It’s mistakenly applied to refer to the first release of a _rudimentary_ product. As a result, the term MVP has ended up becoming much more complex than the quick test it was supposed to be and far too badly done for a released product.
+Long story short, all of these new acronyms only exist because MVP suffers from its celebrity. The term MVP is used so much it’s lost its original meaning. It’s mistakenly applied to refer to the first release of a _rudimentary_ product. As a result, the term MVP has ended up becoming much more complex than the quick test it was supposed to be and far too badly done for a released product.
 
 <figure class="extent">
     <img src="mvp-circle.jpg" data-zoomable />
@@ -77,15 +77,14 @@ So, instead of searching for the MVP vs SLC vs RAT vs MLP winner, focus on build
 __This__, is the fundamental question you should spend time on. 3 things make this question hard to answer: 
 * We don't know what features our users will love until they get their hand on the actual product (🙀)
 * Users want everything, NOW !! 
-* MVP is not something you're doing quite often (a.k.a We kind of suck by not having enough experiences)
+* MVP is not something you're doing quite often (a.k.a We kind of suck by not having enough experience)
 
-Then you got other outside element making your mvp more difficult to define : 
+Then you have other outside elements making your MVP more difficult to define : 
 * Competitors
 * Money
 * Time 
 
-To give echo to my previous article ([It is not about the solution](https://www.julien-brionne.fr/posts/it-is-not-about-the-solution/)), in order to know what features you want to put in your MVP. 
-You have to be sure on :
+To echo my previous article ([It is not about the solution](https://www.julien-brionne.fr/posts/it-is-not-about-the-solution/)), in order to know what features you want to put in your MVP you have to be sure on:
 * What problem do you want to solve?
 * Who is having the problem? 
 * How big is the problem? 
@@ -95,7 +94,7 @@ And more than everything you must know __what your CORE product is__.
 
 It is really important to understand and know what is your CORE product. By doing a must-have/nice to have or any tool you prefer to prioritize features, you should keep the focus on your CORE material, only what brings value to the users by solving their problem.
 
-Be careful with this “core” logic. It doesn't mean your feature must be stripped-down, you have to keep in mind that every selected feature must be complete, viable, and with a great UX. Be careful with the __minimal__ in MVP.
+Be careful with this “core” logic. It doesn't mean that your feature must be stripped-down, you have to keep in mind that every selected feature must be complete, viable, and with a great UX. Be careful with the __minimal__ in MVP.
 To be a _must-have_ feature, it should be a feature that, if not done, could destroy the journey of a user.
 
 <figure class="extent">
