@@ -22,7 +22,7 @@ Pro-MVPs say that building the smallest amount will help you find out what featu
 
 As a reminder, a MVP is usually about this : 
 * __Learning__: You're here to validate ideas: What are we trying to learn?
-* __Iterate__: You're MVP will evolve fastly after each learning
+* __Iterate__: Your MVP will evolve quickly after each learning
 * __Viable__: Why is everyone forgetting that the V in MVP is viable. It is nice to be fast, but if it's crap ...
 * __Minimum__: One of the hardest parts, you have to come with the least number of features in order to stay reliable. 
 
@@ -129,7 +129,6 @@ You’re here to get feedback from your customer, so when setting what features 
 * You have to know where you're going even when doing the MVP
 * Proof of concept / Prototype ≠ MVP
 * You don't care about the accronym
-
 
 
 
