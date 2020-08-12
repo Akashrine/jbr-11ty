@@ -4,7 +4,7 @@
     <span class="section__subline">LAST ARTICLES</span><span class="section__reveal-line"></span>
     <h1 class="section__title">Small words expressing some thoughts</h1>
   </header>
-  {% set postlist = collections.posts | head(-3) %}
+  {% set postlist = collections.posts | head(-2) %}
   {% set postlistCounter = collections.posts | length %}
   {% for post in postlist | reverse %}
   <article class="lastarticle__post">
