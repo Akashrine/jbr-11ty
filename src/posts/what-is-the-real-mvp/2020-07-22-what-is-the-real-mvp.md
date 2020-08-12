@@ -49,7 +49,7 @@ As people weren’t convinced by the efficiency of these 3 letters (Viable is th
 
 __MLP__ (Minimum Lovable Product): The idea is to make your product instantly lovable by people, meaning you’re playing on an emotional level. As opposed to the MVP you're launching your most important features first, not the essential one. It’s usually used when facing an already competitive environment. And it “usually” comes after your MVP.
 
-__RAT__ (Riskiest Assumption Test): Test directly your most dangerous assumption. Once again it's about build, mesure and learn but more in this order : 
+__RAT__ (Riskiest Assumption Test): Directly test your most dangerous assumption. Once again it's about build, measure and learn but more in this order : 
 * Learn
 * Measure
 * Build fast
