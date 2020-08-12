@@ -20,7 +20,7 @@ Before going further, what is an MVP? An MVP is often attached to one of the mos
 Now what’s complicated is that even if defining it is quite “easy”, understanding it and doing it is much harder.
 Pro-MVPs say that building the smallest amount will help you find out what features your users really want, ensuring that you only build the right ones. Anti-MVPs will tell us that a MVP is just an unfinished product that no one will love and that will stay in this state forever.
 
-As a reminder, MVP is usually about this : 
+As a reminder, a MVP is usually about this : 
 * __Learning__: You're here to validate ideas: What are we trying to learn?
 * __Iterate__: You're MVP will evolve fastly after each learning
 * __Viable__: Why is everyone forgetting that the V in MVP is viable. It is nice to be fast, but if it's crap ...
@@ -129,7 +129,6 @@ You’re here to get feedback from your customer, so when setting what features 
 * You have to know where you're going even when doing the MVP
 * Proof of concept / Prototype ≠ MVP
 * You don't care about the accronym
-
 
 
 
