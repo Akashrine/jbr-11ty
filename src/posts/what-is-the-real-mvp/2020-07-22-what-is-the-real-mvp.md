@@ -47,7 +47,7 @@ __last line__: This is how you do an MVP. From iteration 1 to iteration 4 you me
 
 As people weren’t convinced by the efficiency of these 3 letters (Viable is the hardest one to be understandable), they come up with a lot of fancy new acronyms to help redefine what should be an MVP such as :
 
-__MLP__ (Minimum Lovable Product): The idea is to make your product instantly lovable by people, meaning you’re playing on an emotional level. As opposed to the MVP you're launching your most important features first, not the primordial one. It’s usually used when facing an already competitive environment. And it “usually” comes after your MVP.
+__MLP__ (Minimum Lovable Product): The idea is to make your product instantly lovable by people, meaning you’re playing on an emotional level. As opposed to the MVP you're launching your most important features first, not the essential one. It’s usually used when facing an already competitive environment. And it “usually” comes after your MVP.
 
 __RAT__ (Riskiest Assumption Test): Test directly your most dangerous assumption. Once again it's about build, mesure and learn but more in this order : 
 * Learn
