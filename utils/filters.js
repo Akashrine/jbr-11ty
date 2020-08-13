@@ -79,7 +79,7 @@ module.exports = {
         const path = page.inputPath.split('/')
         if (path.length && path.includes('posts')) {
             const subdir = path[path.length - 2]
-            return `/posts/${subdir}/${filename}`
+            return `https://julien-brionne.fr/posts/${subdir}/${filename}`
         }
         return filename
     },
