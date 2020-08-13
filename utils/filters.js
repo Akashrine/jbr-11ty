@@ -74,6 +74,15 @@ module.exports = {
         }
         return null
     },
+    
+    media: function (filename, page) {
+        const path = page.inputPath.split('/')
+        if (path.length && path.includes('posts')) {
+            const subdir = path[path.length - 2]
+            return `/posts/${subdir}/${filename}`
+        }
+        return filename
+    },
 
     excerpt: function (content) {
         const excerptMinimumLength = 80
