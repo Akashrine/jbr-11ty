@@ -1,7 +1,7 @@
 ---
 title: What is the real MVP?
 tags: product
-image: mvp.jpg
+image: cover.jpg
 description: "When you've thought about the problem you want to solve, your solution is designed, your idea is validated, and your long term strategy is set. Now it's time to develop and launch your product, but what do you launch? | What features would you choose first? Here's a small story about MVP"
 ---
 <p class="lead">
