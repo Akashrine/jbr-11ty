@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/akashrine
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://julien-brionne.fr
+  * I am akashrine (https://keybase.io/akashrine) on keybase.
+  * I have a public key ASC2LuHR15oU-cWDg04dZVXOQbK7pu4CHjRJ8rcALl249Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b62ee1d1d79a14f9c583834e1d6555ce41b2bba6ee021e3449f2b7002e5db8f40a",
+      "host": "keybase.io",
+      "kid": "0120b62ee1d1d79a14f9c583834e1d6555ce41b2bba6ee021e3449f2b7002e5db8f40a",
+      "uid": "bbdbdddc1377c3133d26afa6567a2419",
+      "username": "akashrine"
+    },
+    "merkle_root": {
+      "ctime": 1597703950,
+      "hash": "5af8620458cf14048452eda769775e2edeb6dc27805c4283abbb57645e004c02075e22ffef1e1364bf21bbe7bc0c736f9004cba95c156623ce9034f990647878",
+      "hash_meta": "9c5ccd50c584393a70d7ee0f3f94f1d96bb3dd79b332d32b20bb51fd16d0d891",
+      "seqno": 17306850
+    },
+    "service": {
+      "entropy": "a7Bc5IdO9vFuzCJyfV5QQuaX",
+      "hostname": "julien-brionne.fr",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1597704059,
+  "expire_in": 504576000,
+  "prev": "04c478493535d6bf05524026ac49620168982590ea102fddab276de3a529c4e3",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgti7h0deaFPnFg4NOHWVVzkGyu6buAh40SfK3AC5duPQKp3BheWxvYWTESpcCB8QgBMR4STU11r8FUkAmrEliAWiYJZDqEC/dqydt46UpxOPEICKYqoqo6rlNvqxXMNdB/HAfryXwvVf3SqqlGY1osP26AgHCo3NpZ8RArNKH0a7dELP0PZeQO35ZkSBUI0S77tWkrQMRkC6QmbuUyfDL1t6pkZJRphdXPu2VtTovcSSYexZSjuTBzpqQC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIL0HGVo4NMbPRhrjewpS34YzQ/ZjaYhYYRj7dwvfqqBHo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/akashrine
+
+==================================================================
