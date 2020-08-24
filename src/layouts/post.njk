@@ -23,4 +23,9 @@ layout: base
   <div class="post__content edito" itemprop="articleBody">
     {{ content | safe }}
   </div>
+  <div class="post__webmentions edito" itemprop="webmentions">
+    <h2>Webmentions</h2>
+    {% set webmentionUrl %}{{ page.url | url | absoluteUrl(site.url) }}{% endset %}
+    {% include 'webmentions.njk' %}
+  </div>
 </article>

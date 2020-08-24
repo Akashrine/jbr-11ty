@@ -24,4 +24,10 @@
         letter-spacing: 1px;    
         font-weight: bold;
     }
+    &__webmentions {
+        @include container-blog;
+        margin-top: $spacing-y;
+        padding-top: $spacing-y;
+        border-top: 1px solid var(--color-border);
+    }
 }
