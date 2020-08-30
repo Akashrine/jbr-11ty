@@ -1,0 +1,20 @@
+---
+layout: base
+title: Now
+tags: Page
+permalink: /now/
+eleventyNavigation:
+  key: Now
+  order: 3
+---
+
+<div class="page page--about">
+  <header class="page__header">
+      <span class="page__subline">What am I doing ?</span>
+      <h1 class="page__title">{{ title }}</h1>
+      <time class="post__date" itemprop="datePublished" datetime="{{ page.date | iso }}">{{ page.date | readableDate('dd LLL yyyy') }}</time>
+  </header>
+  <div class="page__content--fullwidth edito">
+    <p></p>
+  </div>
+</div>
