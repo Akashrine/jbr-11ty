@@ -9,6 +9,7 @@
     * Prioritization
     * Music and focus
     * BIAS
+    * Don't play by the rule
 
 
 
