@@ -27,6 +27,27 @@ Just to provide a small context, our team is composed of :
 So it makes a lot of people, and all this small world should be able to work in the most autonomous way and whenever they want. 
 
 ### Delivery weekly meeting
-Time : 1 hour
-Objective : Align the team on everything they have to know, from next quarter objectives, next big move in the company, measures, feedback. It's the meeting where everyone has the opportunity to demo his current work to everyone.  
+<dl>
+    <dt>Time</dt>
+    <dd> 1 hour</dd>
+    <dt>Objective</dt> 
+    <dd>Align the team on everything they have to know, from next quarter objectives, next big move in the company, measures, feedback. It's the meeting where everyone has the opportunity to demo his current work to everyone. Init the sprint</dd>
+    <dt>Attendees</dt>
+    <dd>All the team is in it</dd>
+    <dt>What's the structure ?</dt>
+    <dd>
+        <ul>
+            <li>Talk about the news</li>
+            <li>outages or big error</li>
+            <li>Team status</li>
+            <li>Support Leader</li>
+            <li>Focus of the week (Delivery and Discovery)</li>
+            <li>Monitoring</li>
+            <li>Decisions and CTA</li>
+            <li>Open Topics</li>
+        </ul>
+    </dd>
+    <dt>Tool used</dt> <dd>Notion with a nice template. The script changes every weeks</dd>
+</dl>
+
 
