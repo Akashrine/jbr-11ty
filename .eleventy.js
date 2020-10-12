@@ -7,6 +7,8 @@ const filters = require('./utils/filters.js')
 const transforms = require('./utils/transforms.js')
 const shortcodes = require('./utils/shortcodes.js')
 const iconsprite = require('./utils/iconsprite.js')
+const svgContents = require("eleventy-plugin-svg-contents");
+
 
 module.exports = function (config) {
     // Plugins
@@ -18,6 +20,7 @@ module.exports = function (config) {
         useInlineStyles: false // default: true
     }
     config.addPlugin(pluginEmbedTweet, tweetEmbedOptions)
+    config.addPlugin(svgContents);  
 
 
     // Filters
