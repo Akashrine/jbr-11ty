@@ -1,17 +1,28 @@
 ---
 title: Working remotely as a team
 tags: product, process, methodology
-image: 
+image: video-conference.png
 description: "Now that Covid-19 has forced a lot of people to work remotely, it's more than ever the time to be good to work with your team as a team. Good practices and some examples of what we're doing on our team."
 ---
 
-<p class="lead">Heetch has always been a remote-friendly company, even before the crisis situation I was working with a fully distributed team. Now that Covid-19 has forced a lot of person to work from home, it's time to share a little what are our process and our methodology and how we applied them remotely. </p>
+<p class="lead">Heetch has always been a remote-friendly company, even before the crisis situation I was working with a fully distributed team. Now that Covid-19 has forced a lot of persons to work from home, it's time to share a little how we succeed in working remotely. </p>
+
+<figure class="extent">
+    <img src="undraw_video_call.png" data-zoomable />
+    <figcaption>Stereo</figcaption>
+</figure>
 
 As the product manager of the customer care team which owns the internal platform, builds the B2B offer and manage the customer care domain (I should talk about DDD one day), I'm facing a lot of issues, talking to a lot of stakeholders, synchronizing with all my peers, following multiple features development. If we were not organized, I'd be drowning under pressure, stress and would be close to burnout. 
 Good news for me, I'm not because, we've succeeded as a team to find our organisations and how to balance the nice rhythm of synchrone VS asynchrone. 
 
-Let's talk about our rituals, our process, our methodologies and our tools. 
+Let's talk about **remote work**. 
 *NB : This is written in the state of the 30th of september, we're trying to adjust, adapt and evolve continuously our processes*
+
+
+
+
+
+
 
 ## Rituals
 
@@ -24,12 +35,17 @@ Just to provide a small context, our team is composed of :
 * 3 backend developers
 * 2 mobile developers
 
-So it makes a lot of people, and all this small world should be able to work in the most autonomous way and whenever they want. 
+So it makes a lot of people, and all this small world should be able to work in the most autonomous way and whenever they want in the condition they want.
+
+<figure class="extent">
+    <img src="remote-work.jpg" data-zoomable />
+    <figcaption></figcaption>
+</figure>
 
 ### Delivery weekly meeting
 <dl>
     <dt>Time</dt>
-    <dd> 1 hour</dd>
+    <dd> 1 hour once a week on tuesday</dd>
     <dt>Objective</dt> 
     <dd>Align the team on everything they have to know, from next quarter objectives, next big move in the company, measures, feedback. It's the meeting where everyone has the opportunity to demo his current work to everyone. Init the sprint</dd>
     <dt>Attendees</dt>
@@ -47,7 +63,24 @@ So it makes a lot of people, and all this small world should be able to work in 
             <li>Open Topics</li>
         </ul>
     </dd>
-    <dt>Tool used</dt> <dd>Notion with a nice template. The script changes every weeks</dd>
+    <dt>Tool used</dt> <dd>Notion with a nice template. The script changes every weeks.</dd>
 </dl>
 
+If we had to keep only one it would be this one. It's where everything important is share, where everything is shown.  
 
+### Project Touchpoint
+<dl>
+    <dt>Time</dt>
+    <dd>20 minutes once a week per project (usually 2)</dd>
+    <dt>Objective</dt>
+    <dd>Small point for the follow-up. What's the status of the loaded task in the sprint, what is blocking and what are the action plan</dd>
+    <dt>Attendees</dt>
+    <dd>People in the project</dd>
+    <dt>What's the structure</dt>
+    <dd>Usually done by the lead dev of the project, list all the current tasks in details (based on the user stories) and list all the subject we'll have to discuss</dd>
+    <dt>Tool used : Jira & Notion</dt>
+</dl>
+
+Project touchpoint is just a small way to exchange 
+
+### 
