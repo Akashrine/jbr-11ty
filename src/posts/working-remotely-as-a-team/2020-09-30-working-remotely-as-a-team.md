@@ -9,14 +9,14 @@ description: "Now that Covid-19 has forced a lot of people to work remotely, it'
 
 <figure class="extent">
     <img src="undraw_video_call.png" data-zoomable />
-    <figcaption>Stereo</figcaption>
+    <figcaption>Video Call</figcaption>
 </figure>
 
 As the product manager of the customer care team which owns the internal platform, builds the B2B offer and manage the customer care domain (I should talk about DDD one day), I'm facing a lot of issues, talking to a lot of stakeholders, synchronizing with all my peers, following multiple features development. If we were not organized, I'd be drowning under pressure, stress and would be close to burnout. 
 Good news for me, I'm not because, we've succeeded as a team to find our organisations and how to balance the nice rhythm of synchrone VS asynchrone. 
 
 Let's talk about **remote work**. 
-*NB : This is written in the state of the 30th of september, we're trying to adjust, adapt and evolve continuously our processes*
+*NB : This is written in the state of the 14th of October, we're trying to adjust, adapt and evolve continuously our processes*
 
 
 
@@ -39,7 +39,7 @@ So it makes a lot of people, and all this small world should be able to work in 
 
 <figure class="extent">
     <img src="remote-work.jpg" data-zoomable />
-    <figcaption></figcaption>
+    <figcaption>Work from anywhere you want</figcaption>
 </figure>
 
 ### Delivery weekly meeting
@@ -81,6 +81,17 @@ If we had to keep only one it would be this one. It's where everything important
     <dt>Tool used : Jira & Notion</dt>
 </dl>
 
-Project touchpoint is just a small way to exchange 
+Touchpoints are just a quick way to exchange on an ongoing project, listing call to actions etc ...
 
-### 
+### Retropective
+<dl>
+    <dt>Time</dt>
+    <dd>30 minutes on friday at the end of the sprint</dd>
+    <dt>Objective</dt>
+    <dd>Debrief on what went well, what was painful and how to continuously progress, evolve ...</dd>
+    <dt>Attendees</dt>
+    <dd>All the team</dd>
+    <dt>What's the structure</dt>
+    <dd>We're doing it asynchronously. With a Mad / Sad / Glad format on Miro, everyone had post-it, everyone comment on post and try to find call to actions. When we see each other we talked about voted and commented post it and talk about the action points. </dd>
+    <dt>Tool used : Miro</dt>
+</dl>
