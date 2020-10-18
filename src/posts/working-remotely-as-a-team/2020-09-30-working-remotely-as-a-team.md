@@ -18,7 +18,38 @@ Good news for me, I'm not because, we've succeeded as a team to find our organis
 Let's talk about **remote work**. 
 *NB : This is written in the state of the 14th of October, we're trying to adjust, adapt and evolve continuously our processes*
 
+# What do we need to be efficient
 
+## Strong team trust
+Looks pretty obvious but it's one of the hardest challenge to conquer. Usually when going remote, what can happen is the too recurrent question : Do my employees work less now they're home ? The worst result is falling into micro-management for a manager and overcompensate by working too much for employees. The final result is always the same for both : Burnout.
+
+Trust is something really hard to acquire, if you're the type of person to prefer doing something by himself to be sure it is well done, I'm not gonna lie ... it'll be hard. If you're the kind of manager who thinks his reps won't work when at home well it'll be hard too ...
+So how to bring trust in remote team ? 
+
+### Transparency
+In our team, there's no bad or good news, there's only news. With distance it is REALLY easy to withhold an information or not provide context enough for your teammates. At Buffer, they've put transparency as their first [value](https://buffer.com/about#values) : 
+* As individuals, we view transparency as a lifestyle of authenticity and honesty.
+* As a team, we view transparency as an effective way to work remotely and establish a culture of trust.
+* As a company, we view transparency as a tool to help others.
+* We share early in the decision process to avoid “big revelations.”
+* We strive to make all communication clear and avoid making assumptions.
+
+So how does it translate on a day to day basics ? Slack is our first tool to communicate altogether. 
+
+
+
+### Clear expectations
+
+### Output before number of hours
+
+### Empower
+
+
+
+
+
+## Over Communication
+## Async AND Sync
 
 
 
