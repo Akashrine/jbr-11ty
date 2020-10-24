@@ -24,7 +24,7 @@ Let's talk about **remote work**.
 Looks pretty obvious but it's one of the hardest challenge to conquer. Usually when going remote, what can happen is the too recurrent question : Do my employees work less now they're home ? The worst result is falling into micro-management for a manager and overcompensate by working too much for employees. The final result is always the same for both : Burnout.
 
 Trust is something really hard to acquire, if you're the type of person to prefer doing something by himself to be sure it is well done, I'm not gonna lie ... it'll be hard. If you're the kind of manager who thinks his reps won't work when at home well it'll be hard too ...
-So how to bring trust in remote team ? 
+**So how to bring trust in remote team ? **
 
 ### Transparency
 In our team, there's no bad or good news, there's only news. With distance it is REALLY easy to withhold an information or not provide context enough for your teammates. At Buffer, they've put transparency as their first [value](https://buffer.com/about#values) : 
@@ -34,21 +34,65 @@ In our team, there's no bad or good news, there's only news. With distance it is
 * We share early in the decision process to avoid “big revelations.”
 * We strive to make all communication clear and avoid making assumptions.
 
-So how does it translate on a day to day basics ? Slack is our first tool to communicate altogether. 
+So how does it translate on a day to day basics ? 
+
+**Communication**
+Slack is our first tool to communicate altogether and what's great is that, by definition Slack is a transparent communication tool. Most of our channels are public and there's almost no noise at all in this kind of channels. If I take an example of my current Slack, here's the chans concerning only my team : 
+
+![Slack Configuration](slack.png)
+
+Every channel has a purpose and everyone can follow / interact in the channel. A topic is defined for every room to be sure to avoid talking in the wrong place. Even when we need the answer of one person in particular, we don't ask directly in direct message. With this way of functionning, we don't receive mail from the intern and everyone can be aware of anything he wants. I'll talk more about communication below. 
+
+**Meeting notes & Documentations**
+We're using notion to write down every information needed for the whole company. From company values to technical specs to "How to". Everything is written down and accessible for everyone. It means, even our meeting notes of One on One are public. 
+
+**Feedbacks**
+Feedbacks are really important to enhance the trust of our team, everyone has the right to say anything he wants without being judged. 
+We're doing our retrospectives in Retrium or Miro
+
+### Consistency
+We are quite predictable and consistent. We work with workflows, process and protocols and we tend to respect them everytime. It concerns every member of the team whatever the skills.
+
+### Confidence
+We're in the team for a reason, for a competence, for an experience and for a personality and we're here for a common goal : have impact for the team and the company. We trust each other through the confidence we have for every team members. 
+
+### Accountability
+Everyone is delivering what they are attending to deliver. No one want to carry the team or a task because another member is not playing the game.
+
+### Commitment
+We need to be commited to meeting deadlines, we need to accomplish the goals we've setted to ourself our by our leaders.
 
 
 
-### Clear expectations
 
-### Output before number of hours
+## Setting clear expectations
+You can't work in a proper way with a remote team if you don't what is expected from you. And i'm not talking just about "what is my mission exactly ?". I'm talking about being clear on every aspects awaited by / from you on your team. Just saying is NOT enough.
 
-### Empower
+### Communication 
+As my colleagues are not just behind / next to me, to avoid communication to fall through the cracks, we had to set expectations from the start : 
+* What do we use to communicate
+* How often ?
+* Is it in the calendar as a placeholder or is it mandatory ?
+* When can you mention someone
+* When are you doing a meeting instead of a long Slack message ... 
+
+### Work hours
+Some people in the team have kids and prefer starting early in the morning then having a break to get the kid to the kindergarten, some are more interested by working late hours. So we need to give answers for this kind of questions : 
+
+* Are we each expected to be online and available to each other during specific hours? 
+* Is it necessary to signify when we’re offline for a certain period of time? 
+* If so, will we do this through any specific method (ex: a calendar block)?
+
+At Heetch, except for the care team, we don't really "count" hours we're doing. We're more focused on outcome than hours. 
+To be fair, if you focus on hours, you'll get people coming on time and leaving late, but are they really productive? We prefer setting clear goals and provide the means to achieve them. In the end, we don't care how people are organizing their agenda as long as they deliver what we agreed on. 
+So by empowering people with goals instead of tasks, they care more about the outcome.  
+
+### Metrics and performance
+
+### Career Path
 
 
-
-
-
-## Over Communication
+## Over Communication (yes AGAIN)
 ## Async AND Sync
 
 
