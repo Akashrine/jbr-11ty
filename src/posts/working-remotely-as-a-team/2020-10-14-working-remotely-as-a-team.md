@@ -21,7 +21,7 @@ Let's talk about **remote work**.
 # What do we need to be efficient
 
 ## Strong team trust
-Looks pretty obvious but it's one of the hardest challenge to conquer. Usually when going remote, what can happen is the too recurrent question : Do my employees work less now they're home ? The worst result is falling into micro-management for a manager and overcompensate by working too much for employees. The final result is always the same for both : Burnout.
+Looks pretty obvious but it's one of the hardest challenge to conquer. Usually when going remote, what can happen is the too recurrent question : Do people work less now they're home ? The worst result is falling into micro-management for a manager and overcompensate by working too much for employees. The final result is always the same for both : Burnout.
 
 Trust is something really hard to acquire, if you're the type of person to prefer doing something by himself to be sure it is well done, I'm not gonna lie ... it'll be hard. If you're the kind of manager who thinks his reps won't work when at home well it'll be hard too ...
 **So how to bring trust in remote team ? **
@@ -88,12 +88,15 @@ To be fair, if you focus on hours, you'll get people coming on time and leaving 
 So by empowering people with goals instead of tasks, they care more about the outcome.  
 
 ### Metrics and performance
-
+We have a strong result-oriented culture and people's productivity is measured by their results. Every one has a common team goal + individual goal linked to their specificities. I set with the EM and the PD all the priority projects, how we'll measure the success, why it's a priority what the awaited output etc ...
 
 ### Career Path
-
+Last but not least, expectations are not only based on the project you're working on, or the productivity you can provide. Your career path is at all time available and defines all the aspects you have to complete in order to progress in your level path. When you're lost on what's attented from you, you can always take a look at what you should do. 
+This tool is also really great to know what you miss in order to increase your level, and it's the best tool to get a raise 🤑.  
 
 ## Over Communication (yes AGAIN)
+
+
 ## Async AND Sync
 
 
