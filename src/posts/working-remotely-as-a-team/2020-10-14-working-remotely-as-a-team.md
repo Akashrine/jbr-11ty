@@ -5,22 +5,14 @@ image: video-conference.png
 description: "Now that Covid-19 has forced a lot of people to work remotely, it's more than ever the time to be good to work with your team as a team. Good practices and some examples of what we're doing on our team."
 ---
 
-<<<<<<< HEAD
 <p class="lead"><a href="https://heetch.com/" title="Heetch - VTC">Heetch</a> has always been a remote-friendly company, even before the crisis situation I was working with a fully distributed team. Now that Covid-19 has forced a lot of persons to work from home, it's time to share a little how we succeed in working remotely. </p>
-=======
-<p class="lead">Heetch has always been a remote-friendly company, even before the crisis situation I was working with a fully distributed team. Now that Covid-19 has forced a lot of persons to work from home, it's time to share a little how we succeed in working remotely. </p>
->>>>>>> 9adf689695a8f25ad4c34742ad999babe47d70e2
 
 <figure class="extent">
     <img src="undraw_video_call.png" data-zoomable />
     <figcaption>Video Call</figcaption>
 </figure>
 
-<<<<<<< HEAD
 As the product manager of the customer care team which owns the internal platform, builds the B2B offer and manage the customer care domain (I should talk about [DDD](https://en.wikipedia.org/wiki/Domain-driven_design) one day), I'm facing a lot of issues, talking to a lot of stakeholders, synchronizing with all my peers, following multiple features development. If we were not organized, I'd be drowning under pressure, stress and would be close to burnout. 
-=======
-As the product manager of the customer care team which owns the internal platform, builds the B2B offer and manage the customer care domain (I should talk about DDD one day), I'm facing a lot of issues, talking to a lot of stakeholders, synchronizing with all my peers, following multiple features development. If we were not organized, I'd be drowning under pressure, stress and would be close to burnout. 
->>>>>>> 9adf689695a8f25ad4c34742ad999babe47d70e2
 Good news for me, I'm not because, we've succeeded as a team to find our organisations and how to balance the nice rhythm of synchrone VS asynchrone. 
 
 Let's talk about **remote work**. 
@@ -28,7 +20,6 @@ Let's talk about **remote work**.
 
 # What do we need to be efficient
 
-<<<<<<< HEAD
 ## Strong team trust 💪
 Looks pretty obvious but it's one of the hardest challenge to conquer. Usually when going remote, what can happen is the too recurrent question : Do people work less now they're home ? The worst result is falling into micro-management for a manager and overcompensate by working too much for employees. The final result is always the same for both : Burnout.
 
@@ -37,13 +28,6 @@ Looks pretty obvious but it's one of the hardest challenge to conquer. Usually w
 
 Trust is something really hard to acquire, if you're the type of person to prefer doing something by himself to be sure it is well done, I'm not gonna lie ... it'll be hard. If you're the kind of manager who thinks his reps won't work when at home well it'll be hard too ...
 **So how to bring trust in remote team ?**
-=======
-## Strong team trust
-Looks pretty obvious but it's one of the hardest challenge to conquer. Usually when going remote, what can happen is the too recurrent question : Do people work less now they're home ? The worst result is falling into micro-management for a manager and overcompensate by working too much for employees. The final result is always the same for both : Burnout.
-
-Trust is something really hard to acquire, if you're the type of person to prefer doing something by himself to be sure it is well done, I'm not gonna lie ... it'll be hard. If you're the kind of manager who thinks his reps won't work when at home well it'll be hard too ...
-**So how to bring trust in remote team ? **
->>>>>>> 9adf689695a8f25ad4c34742ad999babe47d70e2
 
 ### Transparency
 In our team, there's no bad or good news, there's only news. With distance it is REALLY easy to withhold an information or not provide context enough for your teammates. At Buffer, they've put transparency as their first [value](https://buffer.com/about#values) : 
