@@ -230,6 +230,9 @@
         }
         &.full-width{
             @extend .full-width;
+            img{
+                width: 100%;
+            }
         }
     }
 
