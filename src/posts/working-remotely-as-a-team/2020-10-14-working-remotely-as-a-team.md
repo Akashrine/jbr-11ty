@@ -224,7 +224,7 @@ Touchpoints are just a quick way to exchange on an ongoing project, listing call
 
 ## Don't forget to chill 
 It's not because you don't "see" your colleague that you can't have break time with them. For example we have another ritual I haven't listed above that we call the "banter". 
-It's at the end of the week and it's a great moment with everyone who can / want to attend to talk about everything but work. We usually drink a bear, play a game (Skribbble for example) and talk about silly things. 
+It's at the end of the week and it's a great moment with everyone who can/wants to attend to talk about everything but work. We usually drink a beer, play a game (Skribbble for example) and talk about silly things. 
 We also usually do some small coffee chat break whenever the need. 
 
 ## Conclusion
