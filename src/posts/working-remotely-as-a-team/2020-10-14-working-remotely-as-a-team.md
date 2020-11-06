@@ -16,7 +16,7 @@ As the product manager of the customer care team which owns the internal platfor
 Good news for me, I'm not because, we've succeeded as a team to find our organisations and how to balance the nice rhythm of synchrone VS asynchrone. 
 
 Let's talk about **remote work**. 
-*NB : This is written in the state of the 14th of October, we're trying to adjust, adapt and evolve continuously our processes*
+*NB : This is written in the state of the 14th of October, we're trying to adjust, adapt and evolve our processes continuously*
 
 # What do we need to be efficient
 
