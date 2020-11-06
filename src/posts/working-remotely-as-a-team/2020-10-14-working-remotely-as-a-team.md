@@ -27,7 +27,7 @@ It looks pretty obvious but it's one of the hardest challenge to conquer. Usuall
 </q>
 
 Trust is something really hard to acquire, if you're the type of person who prefers doing something by themselves to be sure it is well done, I'm not gonna lie ... it'll be hard. If you're the kind of manager who thinks his reps won't work when at home well it'll be hard too ...
-**So how to bring trust in remote team ?**
+**So how to build trust in remote team ?**
 
 ### Transparency
 In our team, there's no bad or good news, there's only news. With distance it is REALLY easy to withhold an information or not provide context enough for your teammates. At Buffer, they've put transparency as their first [value](https://buffer.com/about#values) : 
