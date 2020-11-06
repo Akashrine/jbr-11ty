@@ -30,6 +30,7 @@
     "del-cli": "^3.0.1",
     "dotenv": "^8.2.0",
     "eleventy-plugin-embed-tweet": "^0.2.0",
+    "eleventy-plugin-svg-contents": "^0.7.0",
     "focus-trap": "^5.1.0",
     "focus-visible": "^5.1.0",
     "html-minifier": "^4.0.0",
