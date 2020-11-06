@@ -228,4 +228,4 @@ It's at the end of the week and it's a great moment with everyone who can/wants 
 We also usually do some small coffee chat break whenever the need. 
 
 ## Conclusion
-From a force position due to the covid-19 crisis, I'm now enjoying a lot being full remote as I have found an equilibre between perso and pro life and I've never been so beamed about my professional situation. I hope what I've shared will help you a little with your potential current situation.  
+From a forced position due to the Covid-19 crisis, I'm now enjoying a lot being full remote as I have found an equilibrium between personal and professional life and I've never been so pleased about my professional situation. I hope what I've shared will help you a little with your potential current situation.  
