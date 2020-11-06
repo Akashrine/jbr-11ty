@@ -212,7 +212,7 @@ Touchpoints are just a quick way to exchange on an ongoing project, listing call
 ### Retropective
 <dl>
     <dt>Time</dt>
-    <dd>30 minutes on friday at the end of the sprint</dd>
+    <dd>30 minutes on Friday at the end of the sprint</dd>
     <dt>Objective</dt>
     <dd>Debrief on what went well, what was painful and how to continuously progress, evolve ...</dd>
     <dt>Attendees</dt>
