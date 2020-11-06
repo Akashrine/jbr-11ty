@@ -21,7 +21,7 @@ Let's talk about **remote work**.
 # What do we need to be efficient
 
 ## Strong team trust 💪
-Looks pretty obvious but it's one of the hardest challenge to conquer. Usually when going remote, what can happen is the too recurrent question : Do people work less now they're home ? The worst result is falling into micro-management for a manager and overcompensate by working too much for employees. The final result is always the same for both : Burnout.
+It looks pretty obvious but it's one of the hardest challenge to conquer. Usually when going remote, what can happen is the often recurring question : Do people work less now they're home? The worst result is falling into micro-management for a manager and overcompensating by working too much for employees. The final result is always the same for both : Burnout.
 
 <q>The land of burnout is not a place I ever want to go back to.<br /><cite class="small">A.Huffington</cite>
 </q>
