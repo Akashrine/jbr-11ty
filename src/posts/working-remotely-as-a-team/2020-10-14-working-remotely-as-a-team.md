@@ -1,8 +1,8 @@
 ---
 title: Working remotely as a team
 tags: product, process, methodology
-image: video-conference.png
-description: "Now that Covid-19 has forced a lot of people to work remotely, it's more than ever the time to be good to work with your team as a team. Good practices and some examples of what we're doing on our team."
+image: bg9-1.png
+description: "Now that Covid-19 has forced a lot of people to work remotely, it's more than ever the time to be good at working with your team. Good practices and some examples of what we're doing on our team."
 ---
 
 <p class="lead"><a href="https://heetch.com/" title="Heetch - VTC">Heetch</a> has always been a remote-friendly company, even before the crisis situation I was working with a fully distributed team. Now that Covid-19 has forced a lot of people to work from home, it's time to share a little how we succeed in working remotely. </p>
