@@ -39,6 +39,12 @@ p {
         font-size: 2rem;
     }
 }
+.small {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-style: normal;
+    color: var(--color-secondary);
+}
 a {
     color: var(--color-primary);
     text-decoration: none;
