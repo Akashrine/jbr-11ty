@@ -218,7 +218,7 @@ Touchpoints are just a quick way to exchange on an ongoing project, listing call
     <dt>Attendees</dt>
     <dd>All the team</dd>
     <dt>What's the structure</dt>
-    <dd>We're doing it asynchronously. With a Mad / Sad / Glad format on Miro, everyone had post-it, everyone comment on post and try to find call to actions. When we see each other we talked about voted and commented post it and talk about the action points. </dd>
+    <dd>We're doing it asynchronously. With a Mad / Sad / Glad format on Miro, everyone adds a post-it, everyone comments on a post and tries to find call to actions. When we see each other we talk about, vote and comment on the post-its and talk about the potential actions. </dd>
     <dt>Tool used : Miro</dt>
 </dl>
 
