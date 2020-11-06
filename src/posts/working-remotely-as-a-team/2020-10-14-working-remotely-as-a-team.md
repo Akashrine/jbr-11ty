@@ -26,7 +26,7 @@ It looks pretty obvious but it's one of the hardest challenge to conquer. Usuall
 <q>The land of burnout is not a place I ever want to go back to.<br /><cite class="small">A.Huffington</cite>
 </q>
 
-Trust is something really hard to acquire, if you're the type of person to prefer doing something by himself to be sure it is well done, I'm not gonna lie ... it'll be hard. If you're the kind of manager who thinks his reps won't work when at home well it'll be hard too ...
+Trust is something really hard to acquire, if you're the type of person who prefers doing something by themselves to be sure it is well done, I'm not gonna lie ... it'll be hard. If you're the kind of manager who thinks his reps won't work when at home well it'll be hard too ...
 **So how to bring trust in remote team ?**
 
 ### Transparency
