@@ -13,7 +13,7 @@ description: "Now that Covid-19 has forced a lot of people to work remotely, it'
 </figure>
 
 As the product manager of the customer care team which owns the internal platform, builds the B2B offer and manages the customer care domain (I should talk about [DDD](https://en.wikipedia.org/wiki/Domain-driven_design) one day), I'm facing a lot of issues, talking to a lot of stakeholders, synchronizing with all my peers, following up with the development of multiple features. If we were not organized, I'd be drowning under pressure, stress and would be close to burnout. 
-Good news for me, I'm not because, we've succeeded as a team to find our organisations and how to balance the nice rhythm of synchrone VS asynchrone. 
+Good news for me, I'm not because, we've succeeded as a team to organise ourselves and to balance the nice rhythm of synchronous VS asynchronous. 
 
 Let's talk about **remote work**. 
 *NB : This is written in the state of the 14th of October, we're trying to adjust, adapt and evolve our processes continuously*
