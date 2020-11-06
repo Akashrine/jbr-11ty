@@ -40,22 +40,22 @@ In our team, there's no bad or good news, there's only news. With distance it is
 So how does it translate on a day to day basics ? 
 
 **Communication**
-Slack is our first tool to communicate altogether and what's great is that, by definition Slack is a [transparent communication tool](https://slack.com/intl/en-fr/blog/transformation/a-modern-leaders-guide-to-organizational-transparency). Most of our channels are public and there's almost no noise at all in this kind of channels. If I take an example of my current Slack, here's the chans concerning only my team : 
+Slack is our first tool to communicate all together and what's great is that, by definition Slack is a [transparent communication tool](https://slack.com/intl/en-fr/blog/transformation/a-modern-leaders-guide-to-organizational-transparency). Most of our channels are public and there's almost no noise at all in this kind of channels. If I take an example of my current Slack, here are the channels concerning only my team: 
 
 ![Slack Configuration](slack.png)
 
-Every channel has a **purpose** and **everyone** can follow / interact in the channel. A **topic** is defined for every room to be sure to avoid talking in the wrong place. Even when we need the answer of one person in particular, we don't ask directly in direct message. With this way of functionning, we don't receive mail from the intern and everyone can be aware of anything he wants. I'll talk more about communication below. 
+Every channel has a **purpose** and **everyone** can follow / interact in the channel. A **topic** is defined for every room to be sure to avoid talking in the wrong place. Even when we need the answer of one person in particular, we don't ask directly in direct message. With this way of functioning, we don't receive mail from the intern and everyone can be aware of anything they want. I'll talk more about communication below. 
 
 **Meeting notes & Documentations**
-We're using [notion](https://notion.so) to write down every information needed for the whole company. From company values to technical specs to "How to". **Everything is written down** and accessible for everyone. It means, even our meeting notes of One on One are public. 
+We're using [notion](https://notion.so) to write down all the information needed for the whole company. From company values to technical specs to "How to". **Everything is written down** and accessible for everyone. It means, even our meeting notes of One on One are public. 
 
 <figure class="extent">
     <img src="undraw_Taking_notes_re_bnaf.png" data-zoomable />
     <figcaption>Taking notes</figcaption>
 </figure>
 
-**Feedbacks**
-Feedbacks are really important to enhance the trust of our team, everyone has the right to say anything he wants without being judged. It's the best way to face all the challenges we want to accomplish, and it's the safest way to continuously improve.
+**Feedback**
+Feedback is really important to enhance the trust of our team, everyone has the right to say anything they want without being judged. It's the best way to face all the challenges we want to accomplish, and it's the safest way to continuously improve.
 We're doing our retrospectives in Retrium or Miro
 
 <figure class="extent">
@@ -67,19 +67,19 @@ We're doing our retrospectives in Retrium or Miro
 We are quite predictable and consistent. We work with workflows, process and protocols and we tend to respect them everytime. It concerns every member of the team whatever the skills.
 
 ### Confidence
-We're in the team for a reason, for a competence, for an experience and for a personality and we're here for a common goal : have impact for the team and the company. We trust each other through the confidence we have for every team members. 
+We're in the team for a reason, for a competence, for an experience and for a personality and we're here for a common goal: have an impact for the team and the company. We trust each other through the confidence we have for each team member. 
 
 ### Accountability
 Everyone is delivering what they are attending to deliver. No one want to carry the team or a task because another member is not playing the game.
 
 ### Commitment
-We need to be commited to meeting deadlines, we need to accomplish the goals we've setted to ourself our by our leaders.
+We need to be commited to meeting deadlines, we need to accomplish the goals we've set for ourselves by our leaders.
 
 
 
 
 ## Setting clear expectations
-You can't work in a proper way with a remote team if you don't what is expected from you. And i'm not talking just about "what is my mission exactly ?". I'm talking about being clear on every aspects awaited by / from you on your team. Just saying is NOT enough.
+You can't work in a proper way with a remote team if you don't what is expected from you. And I'm not talking just about "What is my mission exactly?". I'm talking about being clear on every aspect expected by / from you on your team. Just saying it out loud is NOT enough.
 
 <figure class="extent">
     <img src="communication.png" data-zoomable />
@@ -95,7 +95,7 @@ As my colleagues are not just behind / next to me, to avoid communication to fal
 * When are you doing a meeting instead of a long Slack message ... 
 
 ### Work hours
-Some people in the team have kids and prefer starting early in the morning then having a break to get the kid to the kindergarten, some are more interested by working late hours. So we need to give answers for this kind of questions : 
+Some people in the team have kids and prefer starting early in the morning, then have a break to get the kid to the kindergarten, some are more interested in working late hours. So we need to give answers for these kinds of questions : 
 
 * Are we each expected to be online and available to each other during specific hours? 
 * Is it necessary to signify when we’re offline for a certain period of time? 
@@ -106,14 +106,14 @@ To be fair, if you focus on hours, you'll get people coming on time and leaving 
 So by empowering people with goals instead of tasks, they care more about the outcome.  
 
 ### Metrics and performance
-We have a strong **result-oriented culture** and people's productivity is measured by their results. Every one has a common team goal + individual goal linked to their specificities. I set with the EM and the PD all the priority projects, how we'll measure the success, why it's a priority what the awaited output etc ...
+We have a strong **result-oriented culture** and people's productivity is measured by their results. Every one has a common team goal + individual goal linked to their specificities. I set with the EM and the PD all the priority projects, how we'll measure the success, why it's a priority, what's the expected output etc...
 
 ### Career Path
-Last but not least, expectations are not only based on the project you're working on, or the productivity you can provide. Your career path is at all time available and defines all the aspects you have to complete in order to progress in your level path. When you're lost on what's attented from you, you can always take a look at what you should do. 
+Last but not least, expectations are not only based on the project you're working on, or the productivity you can provide. Your career path is at all times available and defines all the aspects you have to complete in order to progress in your path. When you're lost on what's expected from you, you can always take a look at what you should do. 
 This tool is also really great to know what you miss in order to increase your level, and it's the best tool to get a raise 🤑.  
 
 ## Over Communication (yes AGAIN)
-As you should now understand, communications is one the most important point of an efficient remote team. But it's also one of the hardest key to master. 
+As you should now understand, communication is one of the most important points for an efficient remote team. But it's also one of the hardest keys to master. 
 
 Remote communication can mess up with the normal pace of a direct communication. Also it is important to remember that the kinds of nuanced communication you get in an office setting don't necessarly translate online. So you must set, once again, rules. 
 
@@ -136,23 +136,23 @@ You can decide when to check your messages and when to respond to them. And that
 </figure>
 
 ### Written communications are a bless 
-We do use a lot of written communications in order to provide status, to present a case, to ask for an answer and so on. 
-Being behind a screen can create opportunities for the team members less inclined to speak out publicly. When you're writting, you place less importance on interpersonal skills and physical appearance and it offers an efficient way to share power and decision. 
+We do use a lot of written communication in order to provide status, to present a case, to ask for an answer and so on. 
+Being behind a screen can create opportunities for the team members less inclined to speak out publicly. When you're writing, you place less importance on interpersonal skills and physical appearance and it offers an efficient way to share power and decisions. 
 It is proven than introverted people are less inhibited in online interactions. 
 
-Now, be careful, writting communication is not something that easy to do. We're looking for clear communications and not brief communications. It's sometimes better to write less often but with more impacts. Being clear means, exposing the context (don't assume people understand your understandings), defining the meaning of the communication, what your are waiting for after this message etc... 
+Now, be careful, written communication is not something that easy to do. We're looking for clear communication and not brief communication. It's sometimes better to write less often but with more impact. Being clear means, exposing the context (don't assume people understand your understandings), defining the meaning of the communication, what your are expecting after this message etc... 
 Be careful also with the virtual unconscious bias, where punctuation, grammar and word choice might reveal prejudiced attitudes towards certain groups.
 
-Finally, to have a good written communication, you also need to set some standards. For example, we're using a lot of emoji to help understand what's the meaning of our communication, or to invite people to speak out on what they think of your communication. 
+Finally, to have good written communication, you also need to set some standards. For example, we're using a lot of emoji to help understand the meaning behind our communication, or to invite people to speak out on what they think of your communication. 
 
 ### Don't spam
-Over communication doesn't mean communicating everytime on everything. You don't have to follow up a slack message with a mail and a phone call. Every medium used create different demands on the time of the receiver. Choose wisely ! 
+Over communication doesn't mean communicating everytime on everything. You don't have to follow up a slack message with a mail and a phone call. Every medium used creates different demands on the time of the receiver. Choose wisely! 
 
 
 
 ## Rituals
 
-Just to provide a small context, our team is composed of :
+Just to provide a small context, our team is composed of:
 * 1 product manager
 * 1 product designer
 * 1 engineering manager
@@ -171,16 +171,16 @@ So it makes a lot of people, and all this small world should be able to work in 
 ### Delivery weekly meeting
 <dl>
     <dt>Time</dt>
-    <dd> 1 hour once a week on tuesday</dd>
+    <dd> 1 hour once a week on Tuesday</dd>
     <dt>Objective</dt> 
-    <dd>Align the team on everything they have to know, from next quarter objectives, next big move in the company, measures, feedback. It's the meeting where everyone has the opportunity to demo his current work to everyone. Init the sprint</dd>
+    <dd>Align the team on everything they have to know, from next quarter objectives, to the next big move in the company, measures, feedback. It's the meeting where everyone has the opportunity to demo their current work to everyone. Init the sprint</dd>
     <dt>Attendees</dt>
     <dd>All the team is in it</dd>
     <dt>What's the structure ?</dt>
     <dd>
         <ul>
             <li>Talk about the news</li>
-            <li>outages or big error</li>
+            <li>Outages or big errors</li>
             <li>Team status</li>
             <li>Support Leader</li>
             <li>Focus of the week (Delivery and Discovery)</li>
@@ -189,27 +189,27 @@ So it makes a lot of people, and all this small world should be able to work in 
             <li>Open Topics</li>
         </ul>
     </dd>
-    <dt>Tool used</dt> <dd>Notion with a nice template. The script changes every weeks.</dd>
+    <dt>Tool used</dt> <dd>Notion with a nice template. The script changes every week.</dd>
 </dl>
 
-If we had to keep only one it would be this one. It's where everything important is share, where everything is shown.  
+If we had to keep only one it would be this one. It's where everything important is shared, where everything is shown.  
 
 ### Project Touchpoint
 <dl>
     <dt>Time</dt>
     <dd>20 minutes once a week per project (usually 2)</dd>
     <dt>Objective</dt>
-    <dd>Small point for the follow-up. What's the status of the loaded task in the sprint, what is blocking and what are the action plan</dd>
+    <dd>Small point for the follow-up. What's the status of the loaded tasks in the sprint, what is blocking and what is the action plan</dd>
     <dt>Attendees</dt>
     <dd>People in the project</dd>
     <dt>What's the structure</dt>
-    <dd>Usually done by the lead dev of the project, list all the current tasks in details (based on the user stories) and list all the subject we'll have to discuss</dd>
+    <dd>Usually done by the lead dev of the project, list all the current tasks in details (based on the user stories) and lists all the subject we'll have to discuss</dd>
     <dt>Tool used : Jira & Notion</dt>
 </dl>
 
 Touchpoints are just a quick way to exchange on an ongoing project, listing call to actions etc ...
 
-### Retropective
+### Retrospective
 <dl>
     <dt>Time</dt>
     <dd>30 minutes on Friday at the end of the sprint</dd>
