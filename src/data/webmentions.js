@@ -4,7 +4,7 @@
 const fs = require('fs')
 const fetch = require('node-fetch')
 const unionBy = require('lodash/unionBy')
-const domain = require('./meta.json').domain
+const domain = require('./meta.json').url
 
 // Load environment variables
 require('dotenv').config()
@@ -22,12 +22,13 @@ async function fetchWebmentions(since, perPage = 10000) {
       return false
     }
     
-    let url = `${API}/mentions.jf2?domain=${domain}&token=${TOKEN}&per-page=${perPage}`
+    let url = `${API}/mentions.jf2?target=${domain}&token=${TOKEN}&per-page=${perPage}`
       if (since) url += `&since=${since}` // Fetch new webmentions
   
     const response = await fetch(url)
     if (response.ok) {
       const feed = await response.json()
+      console.log(`${url}`)
       console.log(`>>> ${feed.children.length} new webmentions fetched through ${API}`)
       return feed
     }
