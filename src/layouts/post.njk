@@ -4,7 +4,7 @@ layout: base
 <article 
   id="{{ title | slug }}"
   role="article"
-  class="post"
+  class="post h-entry"
   itemscope 
   itemtype="http://schema.org/BlogPosting" 
   aria-labelledby="{{ title | slug }}-title"
@@ -20,8 +20,9 @@ layout: base
       <time class="post__date" itemprop="datePublished" datetime="{{ page.date | iso }}">{{ page.date | readableDate('dd LLL yyyy') }}</time>
     </div>
   </header>
-  <div class="post__content edito" itemprop="articleBody">
+  <div class="post__content edito e-content" itemprop="articleBody">
     {{ content | safe }}
+    <a href="https://brid.gy/publish/twitter"></a>
   </div>
   <div class="post__webmentions edito" itemprop="webmentions">
     <h2>Webmentions</h2>
