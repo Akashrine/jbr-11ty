@@ -88,6 +88,8 @@ module.exports = {
         return webmentions.children.filter(entry => entry['wm-target'] === url)
     },
 
+    
+
     size: (mentions) => {
         return !mentions ? 0 : mentions.length
     },

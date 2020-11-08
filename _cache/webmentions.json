@@ -14,8 +14,8 @@
       "wm-received": "2020-11-07T13:40:03Z",
       "wm-id": 901890,
       "wm-source": "https://headbang.fr/le-debut/",
-      "wm-target": "https://julien-brionne.fr",
-      "mention-of": "https://julien-brionne.fr",
+      "wm-target": "http://localhost:8080/posts/what-is-the-real-mvp/",
+      "mention-of": "http://localhost:8080/posts/what-is-the-real-mvp/",
       "wm-property": "mention-of",
       "wm-private": false,
       "rels": {
