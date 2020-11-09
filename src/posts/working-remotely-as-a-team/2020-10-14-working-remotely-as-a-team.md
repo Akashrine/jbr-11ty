@@ -79,7 +79,7 @@ We need to be commited to meeting deadlines, we need to accomplish the goals we'
 
 
 ## Setting clear expectations
-You can't work in a proper way with a remote team if you don't what is expected from you. And I'm not talking just about "What is my mission exactly?". I'm talking about being clear on every aspect expected by / from you on your team. Just saying it out loud is NOT enough.
+You can't work in a proper way with a remote team if you don't know what is expected from you. And I'm not talking just about "What is my mission exactly?". I'm talking about being clear on every aspect expected by / from you on your team. Just saying it out loud is NOT enough.
 
 <figure class="extent">
     <img src="communication.png" data-zoomable />
