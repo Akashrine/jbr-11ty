@@ -1,7 +1,8 @@
 const fs = require('fs')
 const fetch = require('node-fetch')
 const unionBy = require('lodash/unionBy')
-const metadata = require('./meta.json')
+const domain = require('./meta.json').domain
+
 
 // Load .env variables with dotenv
 require('dotenv').config()
@@ -12,22 +13,22 @@ const API_ORIGIN = 'https://webmention.io/api/mentions.jf2'
 const TOKEN = process.env.WEBMENTION_IO_TOKEN
 
 async function fetchWebmentions(since) {
-  const { domain } = metadata
-
-  if (!domain || domain === 'julien-brionne.fr') {
+  
+  if (!domain) {
     // If we dont have a domain name, abort
     console.warn(
-      'unable to fetch webmentions: no domain specified in metadata.'
+        '>>> unable to fetch webmentions: no domain name specified in site.json'
     )
     return false
-  }
-  if (!TOKEN) {
+}
+
+if (!TOKEN) {
     // If we dont have a domain access token, abort
     console.warn(
-      'unable to fetch webmentions: no access token specified in environment.'
+        '>>> unable to fetch webmentions: no access token specified in environment.'
     )
     return false
-  }
+}
 
   let url = `${API_ORIGIN}?domain=${domain}&token=${TOKEN}`
   if (since) {
