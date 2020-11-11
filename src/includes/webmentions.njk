@@ -1,5 +1,4 @@
-{%- set absoluteUrl -%}{{ page.url | url | absoluteUrl(metadata.url) }}{%- endset -%}
-{%- set mentions = webmentions.children | webmentionsForUrl(absoluteUrl) -%}
+{%- set mentions = webmentions.children | webmentionsForUrl(webmentionUrl) -%}
 <div class="webmentions" id="webmentions">
   <h3>Webmentions</h3>
 
