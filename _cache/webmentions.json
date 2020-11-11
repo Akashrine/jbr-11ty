@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-11-09T21:53:18.461Z",
+  "lastFetched": "2020-11-11T13:40:41.197Z",
   "children": [
     {
       "type": "entry",
@@ -13,6 +13,379 @@
       "published": null,
       "wm-received": "2020-11-07T13:40:03Z",
       "wm-id": 901890,
+      "wm-source": "https://headbang.fr/le-debut/",
+      "wm-target": "https://julien-brionne.fr/posts/what-is-the-real-mvp/",
+      "mention-of": "https://julien-brionne.fr/posts/what-is-the-real-mvp/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://headbang.fr/le-debut/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Yannick Grenzinger",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e3cad346d3e64b6aa9678414e0d92f60d67a63aca144c7ee95f6dafbb9492d26.jpg",
+        "url": "https://twitter.com/ygrenzinger"
+      },
+      "url": "https://twitter.com/akashrine/status/1325430231805595651#favorited-by-28535233",
+      "published": null,
+      "wm-received": "2020-11-11T12:50:42Z",
+      "wm-id": 906680,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/akashrine/1325430231805595651/28535233",
+      "wm-target": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "like-of": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "AurélienPelletier",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/03738cc243c66d83bd20e93a134117dbfa1ab9558798145107e8edf7e0bbaebe.jpg",
+        "url": "https://twitter.com/toutantic"
+      },
+      "url": "https://twitter.com/toutantic/status/1326473199270432768",
+      "published": "2020-11-11T10:33:50+00:00",
+      "wm-received": "2020-11-11T11:12:09Z",
+      "wm-id": 906608,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/akashrine/1326473199270432768",
+      "wm-target": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "content": {
+        "html": "Must read when working remotely!\n<a class=\"u-mention\" href=\"https://julien-brionne.fr/posts/working-remotely-as-a-team/\"></a>",
+        "text": "Must read when working remotely!"
+      },
+      "mention-of": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Progi1984",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f66089fe6184ef5f9ebb3a506068cea7d0deb1e7633311a801aa29194ea0f760.png",
+        "url": "https://twitter.com/Progi1984"
+      },
+      "url": "https://twitter.com/akashrine/status/1325430231805595651#favorited-by-309097159",
+      "published": null,
+      "wm-received": "2020-11-11T11:12:08Z",
+      "wm-id": 906607,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/akashrine/1325430231805595651/309097159",
+      "wm-target": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "like-of": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Julien Brionne",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/54f4741893f0e682a2e541808ad2c09a825053fe33e1f5c1e43b0132318e4f88.png",
+        "url": "https://twitter.com/akashrine"
+      },
+      "url": "https://twitter.com/akashrine/status/1325756032027594752",
+      "published": "2020-11-09T11:04:04+00:00",
+      "wm-received": "2020-11-09T11:05:38Z",
+      "wm-id": 903871,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/akashrine/1325430231805595651/1325756032027594752",
+      "wm-target": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "content": {
+        "html": "Thanks a lot !\n<a class=\"u-mention\" href=\"https://twitter.com/ScullWM\"></a>",
+        "text": "Thanks a lot !"
+      },
+      "in-reply-to": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Inside Heetch",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/29d3bccbce2e7f3b80ff2200bd1fe25cca6e42a4b7871d9779b6dfd6e447fca6.jpg",
+        "url": "https://twitter.com/insideheetch"
+      },
+      "url": "https://twitter.com/insideheetch/status/1325746755082866688",
+      "published": "2020-11-09T10:27:12+00:00",
+      "wm-received": "2020-11-09T11:05:03Z",
+      "wm-id": 903870,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/akashrine/1325746755082866688",
+      "wm-target": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "content": {
+        "html": "Great article from our very own <a href=\"https://twitter.com/akashrine\">@akashrine</a> about how we succeed in working remotely at <a href=\"https://twitter.com/Heetch\">@Heetch</a>, way before the current situation 📖 (since 2013 actually 😉)\n<a class=\"u-mention\" href=\"https://julien-brionne.fr/posts/working-remotely-as-a-team/\"></a>",
+        "text": "Great article from our very own @akashrine about how we succeed in working remotely at @Heetch, way before the current situation 📖 (since 2013 actually 😉)"
+      },
+      "mention-of": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Carlos C",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/28c060b81df652ac7999ecb0f377fe1718f1e455a8e586cc8ebc9e049a6252d4.jpg",
+        "url": "https://twitter.com/carloseroto"
+      },
+      "url": "https://twitter.com/akashrine/status/1325430231805595651#favorited-by-132078341",
+      "published": null,
+      "wm-received": "2020-11-09T10:25:19Z",
+      "wm-id": 903769,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/akashrine/1325430231805595651/132078341",
+      "wm-target": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "like-of": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David Guyon",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f28769c4a61c985c3cc133cd1cde305d9271c2c0ac40d7fd937fe3bf9d85f477.jpg",
+        "url": "https://twitter.com/DavidGuyon"
+      },
+      "url": "https://twitter.com/DavidGuyon/status/1325442882392756224",
+      "published": "2020-11-08T14:19:43+00:00",
+      "wm-received": "2020-11-09T10:25:01Z",
+      "wm-id": 903768,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/akashrine/1325442882392756224",
+      "wm-target": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "content": {
+        "html": "Leading a team remotely requires a way different mindset alongside some processes. Every companies/teams have their own recipes.\n\nHere's how one team that I lead is doing it daily, courtesy of our Product Manager. 💞 <a href=\"https://twitter.com/search?q=%23remote\">#remote</a> <a href=\"https://twitter.com/search?q=%23distributedteam\">#distributedteam</a> <a href=\"https://twitter.com/search?q=%23customercare\">#customercare</a>\n\n<a class=\"u-mention\" href=\"https://julien-brionne.fr/posts/working-remotely-as-a-team/\"></a>",
+        "text": "Leading a team remotely requires a way different mindset alongside some processes. Every companies/teams have their own recipes.\n\nHere's how one team that I lead is doing it daily, courtesy of our Product Manager. 💞 #remote #distributedteam #customercare"
+      },
+      "mention-of": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Obed Parlapiano",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/60c344a096809e7e8b54a3c599900c8b20d316643b1e4f171d9ce85738e890d8.png",
+        "url": "https://twitter.com/ObedParla"
+      },
+      "url": "https://twitter.com/ObedParla/status/1325445719969443840",
+      "published": "2020-11-08T14:30:59+00:00",
+      "wm-received": "2020-11-09T10:25:00Z",
+      "wm-id": 903767,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/akashrine/1325445719969443840",
+      "wm-target": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "content": {
+        "html": "This is a fantastic roundup of the processes my previous team uses to get shit done remotely. \n\nBest, most productive and cohesive team I've been in, and a big part of it was our team culture 👌\n<a class=\"u-mention\" href=\"https://julien-brionne.fr/posts/working-remotely-as-a-team/\"></a>",
+        "text": "This is a fantastic roundup of the processes my previous team uses to get shit done remotely. \n\nBest, most productive and cohesive team I've been in, and a big part of it was our team culture 👌"
+      },
+      "mention-of": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Laetitia Bordier",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/fd27d08cae21bedd9170efffd3694086457ebe76902ad86af2d65df0df86aec7.jpg",
+        "url": "https://twitter.com/BordierLaetitia"
+      },
+      "url": "https://twitter.com/BordierLaetitia/status/1325745631927922689",
+      "published": "2020-11-09T10:22:44+00:00",
+      "wm-received": "2020-11-09T10:25:00Z",
+      "wm-id": 903766,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/akashrine/1325745631927922689",
+      "wm-target": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "content": {
+        "html": "Your Monday read ⬇️📖 Thanks <a href=\"https://twitter.com/akashrine\">@akashrine</a> !\n<a class=\"u-mention\" href=\"https://julien-brionne.fr/posts/working-remotely-as-a-team/\"></a>",
+        "text": "Your Monday read ⬇️📖 Thanks @akashrine !"
+      },
+      "mention-of": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Cédric D.",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/4a43fe7d7c3e8659f41c88fc3b3e6b15c4af35d439fa931840ac9d4c25f3c36c.jpg",
+        "url": "https://twitter.com/Ph3nol"
+      },
+      "url": "https://twitter.com/akashrine/status/1325430231805595651#favorited-by-7425612",
+      "published": null,
+      "wm-received": "2020-11-09T10:24:59Z",
+      "wm-id": 903765,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/akashrine/1325430231805595651/7425612",
+      "wm-target": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "like-of": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Laetitia Bordier",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/fd27d08cae21bedd9170efffd3694086457ebe76902ad86af2d65df0df86aec7.jpg",
+        "url": "https://twitter.com/BordierLaetitia"
+      },
+      "url": "https://twitter.com/akashrine/status/1325430231805595651#favorited-by-705646378",
+      "published": null,
+      "wm-received": "2020-11-09T10:24:58Z",
+      "wm-id": 903764,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/akashrine/1325430231805595651/705646378",
+      "wm-target": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "like-of": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ulysse Petit",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/dd977204fe9c682196398b442b6ff4f60a48d89cf95278202d4422a15ab09613.jpg",
+        "url": "https://twitter.com/ulysse_petit"
+      },
+      "url": "https://twitter.com/akashrine/status/1325430231805595651#favorited-by-828955500129697793",
+      "published": null,
+      "wm-received": "2020-11-09T10:24:58Z",
+      "wm-id": 903763,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/akashrine/1325430231805595651/828955500129697793",
+      "wm-target": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "like-of": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "H3❄️+",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/16898f06de44afb59eac30c5ceda6bbd7a1fadd19295baade2ca984eb0f5c6a8.jpg",
+        "url": "https://twitter.com/Oxonium"
+      },
+      "url": "https://twitter.com/akashrine/status/1325430231805595651#favorited-by-6798942",
+      "published": null,
+      "wm-received": "2020-11-09T10:24:56Z",
+      "wm-id": 903762,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/akashrine/1325430231805595651/6798942",
+      "wm-target": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "like-of": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Félix R.",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d11eac9efcab9f855e50232ddf21501779940f55a48e17da011a3b7acac756e0.jpg",
+        "url": "https://twitter.com/Torzka"
+      },
+      "url": "https://twitter.com/akashrine/status/1325430231805595651#favorited-by-7104642",
+      "published": null,
+      "wm-received": "2020-11-09T10:24:56Z",
+      "wm-id": 903761,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/akashrine/1325430231805595651/7104642",
+      "wm-target": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "like-of": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thomas P",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/605ca2a825f334c24a3562e2360a1eddebbd0941f8ec2cc37aea79a58147949b.jpg",
+        "url": "https://twitter.com/ScullWM"
+      },
+      "url": "https://twitter.com/akashrine/status/1325430231805595651#favorited-by-351592779",
+      "published": null,
+      "wm-received": "2020-11-09T10:24:55Z",
+      "wm-id": 903760,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/akashrine/1325430231805595651/351592779",
+      "wm-target": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "like-of": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Giovanni Benussi",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0292c4c78c7ed55388cae7208c5bf69fd32018e3b95de5a8616f06f201653f34.jpg",
+        "url": "https://twitter.com/giovannibenussi"
+      },
+      "url": "https://twitter.com/akashrine/status/1325430231805595651#favorited-by-41866644",
+      "published": null,
+      "wm-received": "2020-11-09T10:24:54Z",
+      "wm-id": 903759,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/akashrine/1325430231805595651/41866644",
+      "wm-target": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "like-of": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thomas P",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/605ca2a825f334c24a3562e2360a1eddebbd0941f8ec2cc37aea79a58147949b.jpg",
+        "url": "https://twitter.com/ScullWM"
+      },
+      "url": "https://twitter.com/ScullWM/status/1325452248579776514",
+      "published": "2020-11-08T14:56:56+00:00",
+      "wm-received": "2020-11-09T10:24:47Z",
+      "wm-id": 903758,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/akashrine/1325430231805595651/1325452248579776514",
+      "wm-target": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "content": {
+        "html": "Awesome article! Thanks for sharing your \"meeting structure\" 👍 (and I think there's a typo on \"[...] with a remote team if you don’t what is expected from you\")\n<a class=\"u-mention\" href=\"https://julien-brionne.fr/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/akashrine\"></a>",
+        "text": "Awesome article! Thanks for sharing your \"meeting structure\" 👍 (and I think there's a typo on \"[...] with a remote team if you don’t what is expected from you\")"
+      },
+      "in-reply-to": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Inside Heetch",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/29d3bccbce2e7f3b80ff2200bd1fe25cca6e42a4b7871d9779b6dfd6e447fca6.jpg",
+        "url": "https://twitter.com/insideheetch"
+      },
+      "url": "https://twitter.com/akashrine/status/1325430231805595651#favorited-by-1123519771134300160",
+      "published": null,
+      "wm-received": "2020-11-09T10:24:46Z",
+      "wm-id": 903757,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/akashrine/1325430231805595651/1123519771134300160",
+      "wm-target": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "like-of": "https://julien-brionne.fr/posts/working-remotely-as-a-team/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://headbang.fr/le-debut/",
+      "published": null,
+      "wm-received": "2020-11-07T16:20:44Z",
+      "wm-id": 901973,
       "wm-source": "https://headbang.fr/le-debut/",
       "wm-target": "https://julien-brionne.fr/posts/what-is-the-real-mvp/",
       "mention-of": "https://julien-brionne.fr/posts/what-is-the-real-mvp/",
