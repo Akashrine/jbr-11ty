@@ -25,8 +25,7 @@ layout: base
     <a href="https://brid.gy/publish/twitter"></a>
   </div>
   <div class="post__webmentions edito" itemprop="webmentions">
-    <h2>Webmentions</h2>
-    {% set webmentionUrl %}{{ page.url | url | absoluteUrl(site.url) }}{% endset %}
+    {%- set webmentionUrl -%}{{ page.url | url | absoluteUrl(site.url) }}{%- endset -%}
     {% include 'webmentions.njk' %}
   </div>
 </article>
