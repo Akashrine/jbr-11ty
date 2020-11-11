@@ -30,9 +30,9 @@ if (!TOKEN) {
     return false
 }
 
-  let url = `${API_ORIGIN}?domain=${domain}&token=${TOKEN}`
+  let url = `${API_ORIGIN}?token=${TOKEN}`
   if (since) {
-    url += `&per-page=100&&since=${since}`
+    url += `&per-page=100`
   } else {
     url += `&per-page=999`
   }
