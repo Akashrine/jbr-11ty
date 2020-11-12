@@ -2,13 +2,13 @@
     {% for post in postlist | reverse %}
         <li class="postlist__item h-entry">
             <div class="postlist__meta">
-                <span aria-hidden="true">🕐</span>
+                <span aria-hidden="true">{% icon "time" %}</span>
                 <time class="postlist__date dt-published">
                     {{ post.date | readableDate('dd LLL yyyy') }}
                 </time>
 
                 {% if post.data.tags %}
-                    <span aria-hidden="true">🏷️</span>
+                    <span aria-hidden="true">{% icon "tag" %}</span>
                     <span class="postlist__tags p-category">
                         {{ post.data.tags|join(', ') }}
                     </span>

@@ -47,7 +47,7 @@
         text-shadow: 0 0 1px rgba(255,255,255,0.3);
         white-space: nowrap;
         @include mq(lg){
-            color: var(--color-text-offset);
+            color: var(--color-text);
         }
     }
     &__togglebtn {

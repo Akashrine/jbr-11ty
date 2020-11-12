@@ -1,10 +1,15 @@
 const { DateTime } = require('luxon')
+const sanitizeHTML = require('sanitize-html')
+
 
 module.exports = {
     dateToFormat: function (date, format) {
         return DateTime.fromJSDate(date, { zone: 'utc' }).toFormat(
             String(format)
         )
+    },
+    dateFromTimestamp: function (timestamp) {
+        return DateTime.fromISO(timestamp, { zone: 'utc' }).toJSDate()
     },
 
     iso: function (date) {
@@ -87,6 +92,63 @@ module.exports = {
 
     readableDateFromISO: (dateStr, formatStr = "dd LLL yyyy 'at' hh:mma") => {
         return DateTime.fromISO(dateStr).toFormat(formatStr);
+    },
+
+    isOwnWebmention: function (webmention) {
+        const urls = [
+            'https://julien-brionne.fr',
+            'https://twitter.com/akashrine'
+        ]
+        const authorUrl = webmention.author ? webmention.author.url : false
+        // check if a given URL is part of this site.
+        return authorUrl && urls.includes(authorUrl)
+    },
+    webmentionCountByType: function (webmentions, url, ...types) {
+
+        return String(
+            webmentions
+                .filter((entry) => types.includes(entry['wm-property'])).length
+        )
+    },
+    webmentionsByUrl: function (webmentions, url) {
+        const allowedTypes = ['mention-of', 'in-reply-to']
+        const allowedHTML = {
+            allowedTags: ['b', 'i', 'em', 'strong', 'a'],
+            allowedAttributes: {
+                a: ['href']
+            }
+        }
+
+        const orderByDate = (a, b) =>
+            new Date(a.published) - new Date(b.published)
+
+        const checkRequiredFields = (entry) => {
+            const { author, published, content } = entry
+            return !!author && !!author.name && !!published && !!content
+        }
+
+        const clean = (entry) => {
+            const { html, text } = entry.content
+
+            if (html) {
+                // really long html mentions, usually newsletters or compilations
+                entry.content.value =
+                    html.length > 2000
+                        ? `mentioned this in <a href="${entry['wm-source']}">${entry['wm-source']}</a>`
+                        : sanitizeHTML(html, allowedHTML)
+            } else {
+                entry.content.value = sanitizeHTML(text, allowedHTML)
+            }
+
+            return entry
+        }
+
+        return webmentions
+            .filter((entry) => entry['wm-target'].includes(url))
+            .filter((entry) => allowedTypes.includes(entry['wm-property']))
+            .filter(checkRequiredFields)
+            .sort(orderByDate)
+            .map(clean)
     },
 
     excerpt: function (content) {
