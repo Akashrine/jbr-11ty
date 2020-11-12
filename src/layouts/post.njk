@@ -13,10 +13,10 @@ layout: base
     <h1 id="{{ title | slug }}" class="post__title">{{ title }}</h1>
     <div class="post__meta">
       {% if tags %}
-        <span aria-hidden="true">🏷️</span>
+        <span aria-hidden="true">{% icon "tag" %}</span>
         <span class="post__tags p-category">{{ tags | join(', ') }}</span>
       {% endif %}
-      <span aria-hidden="true">🕐</span>
+      <span aria-hidden="true">{% icon "time" %}</span>
       <time class="post__date" itemprop="datePublished" datetime="{{ page.date | iso }}">{{ page.date | readableDate('dd LLL yyyy') }}</time>
     </div>
   </header>
@@ -24,7 +24,7 @@ layout: base
     {{ content | safe }}
     <a href="https://brid.gy/publish/twitter"></a>
   </div>
-  <div class="post__webmentions edito" itemprop="webmentions">
+  <div class="post__webmentions u-mb2" itemprop="webmentions">
     {%- set webmentionUrl -%}{{ page.url | url | absoluteUrl(site.url) }}{%- endset -%}
     {% include 'webmentions.njk' %}
   </div>

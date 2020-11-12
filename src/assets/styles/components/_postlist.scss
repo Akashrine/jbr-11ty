@@ -23,6 +23,12 @@
         font-size: 1.125rem;
         color: var(--color-text-offset);
         font-variant-caps: all-small-caps;
+        svg{
+            font-size: 1rem;
+        }
+    }
+    &__date {
+        margin-right: $spacing-x;
     }
     &__tags {
         font-family: $font-family-serif;
