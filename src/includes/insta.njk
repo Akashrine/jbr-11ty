@@ -8,10 +8,8 @@
         {% for insta in instagram %}
             <li class="instagram__shot {{ insta.id }}">
                 <figure class="instagram__roll">
-                    <a href="{{ insta.instagramURL }}">
-                        <img class="instagram__photo" src="{{ insta.imageURL }}" alt="{{ insta.title }}">
-                        <figcaption>{{ insta.title }}</figcaption>
-                    </a>
+                  <img class="instagram__photo" src="{{ insta.imageURL }}" alt="{{ insta.title }}" data-zoomable />
+                  <figcaption>{{ insta.title }}</figcaption>
                 </figure>
             </li>
         {% endfor %}

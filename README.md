@@ -2,8 +2,6 @@
 
 ## TodoList  
 
-* Finish webmentions + microformat management
-* About Me Pages
 * Links / Notes / Small article section ? 
 * Write on 
     * Prioritization
