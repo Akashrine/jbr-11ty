@@ -33,10 +33,15 @@
         font-weight: bold;
         margin-right: 1.5rem;
     }
-    &__webmentions {
+    &__webmentions, &__internal-nav {
         @include container-blog;
         margin-top: $spacing-y;
         padding-top: $spacing-y;
         border-top: 1px solid var(--color-border);
+    }
+    &__internal-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }

@@ -24,6 +24,12 @@ layout: base
     {{ content | safe }}
     <a href="https://brid.gy/publish/twitter"></a>
   </div>
+  {% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+  {% set nextPost = collections.posts | getNextCollectionItem(page) %}
+  <div class="post__internal-nav">
+    {% if nextPost %}<div class="post__recent">{% icon "left-arrow" %}<a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></div>{% endif %}
+    {% if previousPost %}<div class="post__old"><a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>{% icon "right-arrow" %}</div>{% endif %}
+  </div>
   <div class="post__webmentions u-mb2" itemprop="webmentions">
     {%- set webmentionUrl -%}{{ page.url | url | absoluteUrl(site.url) }}{%- endset -%}
     {% include 'webmentions.njk' %}
