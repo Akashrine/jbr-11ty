@@ -37,6 +37,8 @@
     "lodash": "^4.17.20",
     "luxon": "^1.25.0",
     "markdown-it": "^10.0.0",
+    "markdown-it-anchor": "^6.0.1",
+    "markdown-it-footnote": "^3.0.2",
     "medium-zoom": "^1.0.6",
     "memfs": "^3.2.0",
     "node-fetch": "^2.6.1",

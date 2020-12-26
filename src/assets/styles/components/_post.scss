@@ -44,4 +44,19 @@
         justify-content: space-between;
         align-items: center;
     }
+    &__footnotes {
+        background-color: var(--color-border);
+    }
+    &__footnotes-list {
+        padding-left: $spacing-y;
+
+        li{
+            font-size: 1rem;
+            padding-left: $spacing-y;
+            p{
+                display: inline;
+            }
+        }
+    }
+    
 }
