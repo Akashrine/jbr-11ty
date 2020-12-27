@@ -28,9 +28,15 @@ At the beginning of 2020 I decided to go back on Front-End and decided to play w
 
 If you're interested in how it's done, well you can check the source on [github](https://github.com/Akashrine/jbr-11ty) .
 
-Everything's based on a SSG ^[A **static site generator** is a software application that creates HTML pages from templates or components and a given content source.] called [Eleventy](https://www.11ty.dev/) , templating is done in Nunjuck, style is in SCSS and some javascripts here and there. My writting workflow looks like this : 
+Everything's based on a SSG ^[A **static site generator** is a software application that creates HTML pages from templates or components and a given content source.] called [Eleventy](https://www.11ty.dev/) , templating is done in Nunjuck, style is in SCSS and some javascripts here and there. There's no CMS behind it even if I'd like to try [stapi](https://strapi.io/) as an headless CMS. 
 
-- Writing article in markdown in Typora 
+So what's the idea behind a static site generator ? 
+
+
+
+My writting workflow looks like this : 
+
+- Writing article in markdown with [Typora](https://typora.io/) 
 - Generating post in Eleventy 
 - Git push 
 - Netlify magic 
@@ -41,14 +47,14 @@ It was really a challenge to keep my motivation up after finishing the design an
 
 ## Side Projects
 
-Being a dad, having a lot of hobbies don't leave me with a lot of extra times but this is really something i'm looking forward.  It's hard for me to go to the bed early and it's making me anxious to go to bed without "creating" something. So usually I end up doing some small code project, or some unnecessary design or create some music I'm not really finishing. 
+Being a dad, having a lot of hobbies don't leave me with a lot of extra times but when I find some I usually try to do everything in a row, .  It's hard for me to go to the bed early and it's making me anxious to go to bed without "creating" something. So usually I end up doing some small code project, or some unnecessary design or create some music I'm not really finishing. 
 
 This 2020 being over, 2021 will be about having in mind a project for every stuff I'd like to experiment with. So here's what I'd like to do : 
 
 Combining music and design : 
 
 * Creating a soundtrack for a false movie 
-* Creating the poster for the movie
+* Creating the poster for this same false movie
 
 Code + Design + Music : 
 
@@ -62,7 +68,7 @@ Design
 
 ## Family
 
-Even if this year was hard on everyone, that a lof of bad stuff has happened, I have one good news on this subject, I'll be a dad for the second time in May 2021 ! 
+Even if this year was hard on everyone, that a lof of bad stuff happened, I have one good news on this subject, I'll be a dad for the second time in May 2021 ! 
 
 
 

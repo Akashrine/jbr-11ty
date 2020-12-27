@@ -48,7 +48,7 @@
         background-color: var(--color-border);
     }
     &__footnotes-list {
-        padding-left: $spacing-y;
+        padding: $spacing-y;
 
         li{
             font-size: 1rem;
