@@ -1,15 +1,25 @@
 const { DateTime } = require('luxon')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const pluginNavigation = require('@11ty/eleventy-navigation')
-const pluginEmbedTweet = require("eleventy-plugin-embed-tweet")
+const pluginEmbedTweet = require('eleventy-plugin-embed-tweet')
 const markdownIt = require('markdown-it')
 
 const filters = require('./utils/filters.js')
 const transforms = require('./utils/transforms.js')
 const shortcodes = require('./utils/shortcodes.js')
 const iconsprite = require('./utils/iconsprite.js')
-const svgContents = require("eleventy-plugin-svg-contents");
-
+const svgContents = require('eleventy-plugin-svg-contents')
+const markdownItFootnote = require('markdown-it-footnote')
+const markdownItAnchor = require('markdown-it-anchor')
+const anchorSlugify = (s) =>
+    encodeURIComponent(
+        'h-' +
+            String(s)
+                .trim()
+                .toLowerCase()
+                .replace(/[.,\/#!$%\^&\*;:{}=_`~()]/g, '')
+                .replace(/\s+/g, '-')
+    )
 
 module.exports = function (config) {
     // Plugins
@@ -46,15 +56,51 @@ module.exports = function (config) {
     config.addWatchTarget('./src/assets')
 
     // Markdown
-    config.setLibrary(
-        'md',
-        markdownIt({
-            html: true,
-            breaks: true,
-            linkify: true,
-            typographer: true
+    
+    // config.setLibrary(
+    //     'md',
+    //     markdownIt({
+    //         html: true,
+    //         breaks: true,
+    //         linkify: true,
+    //         typographer: true
+    //     })
+    //     .use(markdownItAnchor, {
+    //         permalink: true,
+    //         permalinkSymbol: '#',
+    //         permalinkClass: 'heading-anchor',
+    //         permalinkBefore: true,
+    //         level: 2,
+    //         slugify: anchorSlugify
+    //       })
+    //     .use(markdownItFootnote)
+    // )
+
+    let markdownLibrary = markdownIt({
+        html: true,
+        breaks: true,
+        linkify: true,
+        typographer: true,
+      })
+        .use(markdownItAnchor, {
+            permalink: true,
+            permalinkSymbol: '#',
+            permalinkClass: 'heading-anchor',
+            permalinkBefore: true,
+            level: 2,
+            slugify: anchorSlugify
         })
-    )
+        .use(markdownItFootnote);
+
+        markdownLibrary.renderer.rules.footnote_block_open = () => (
+            '<footer class="post__footnotes">\n' +
+            '<h2 class="sr-only" id="footnote-label">Footnotes</h2>\n' +
+            '<ol class="post__footnotes-list">\n'
+        );
+    
+      
+    config.setLibrary("md", markdownLibrary);
+      
 
     // Layouts
     config.addLayoutAlias('base', 'base.njk')
@@ -67,8 +113,8 @@ module.exports = function (config) {
     config.addPassthroughCopy('src/keybase.txt')
     config.addPassthroughCopy('src/assets/images')
     config.addPassthroughCopy('src/assets/fonts')
-    config.addPassthroughCopy("src/posts/**/*.jpg")
-    config.addPassthroughCopy("src/posts/**/*.png")
+    config.addPassthroughCopy('src/posts/**/*.jpg')
+    config.addPassthroughCopy('src/posts/**/*.png')
 
     // Collections: Posts
     config.addCollection('posts', function (collection) {
@@ -83,7 +129,7 @@ module.exports = function (config) {
 
 
     // Get the first `n` elements of a collection.
-    config.addFilter("head", (array, n) => {
+    config.addFilter('head', (array, n) => {
         if( n < 0 ) {
         return array.slice(n);
         }
