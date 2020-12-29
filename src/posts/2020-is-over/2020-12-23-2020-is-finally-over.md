@@ -1,7 +1,7 @@
 ---
 title: 2020 is over
 tags: personal
-image: 
+image: ssg-workflow.jpg
 description: "What a year... That was shitstorm over shitstorm but let's be positive, there's some stuff that happened in my life that are good."
 ---
 
