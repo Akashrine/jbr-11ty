@@ -1,5 +1,5 @@
 ---
-title: 2020 is finally over
+title: 2020 is over
 tags: personal
 image: 
 description: "What a year... That was shitstorm over shitstorm but let's be positive, there's some stuff that happened in my life that are good."
@@ -9,7 +9,7 @@ description: "What a year... That was shitstorm over shitstorm but let's be posi
 
 ## A new job
 
-Well, I’m glad to say I’ve spent this all 2020 within [Heetch](https://www.heetch.com/fr). Maybe the best company I’ve ever work with. Even if the year was rough for the ride-hailing business, I must say the direction made all the efforts to make us go through all the different challenges we’d face.
+Well, I’m glad to say I’ve spent this whole 2020 within [Heetch](https://www.heetch.com/fr). Maybe the best company I’ve ever worked with. Even if the year was rough for the ride-hailing business, I must say the direction made all the efforts to make us go through all the different challenges we’d face.
 
 Even if the office is not far from my home, I’ve spent almost all year working remotely and I’ve discovered that I was more than pleased to [work in this situation](https://julien-brionne.fr/posts/working-remotely-as-a-team/). My year was spent on multiple projects I’ll certainly share more in detail in 2021. Focused on the customer care domain, we’ve touched on elements like trust, safety, FAQ, feedbacks.
 
@@ -29,6 +29,11 @@ Everything’s based on an SSG ^[A **static site generator** is a software appli
 
 So what’s the idea behind a static site generator?
 
+<figure class="extent">
+    <img src="ssg-workflow.jpg" data-zoomable />
+    <figcaption>SSG workflow</figcaption>
+</figure>
+
 My writing workflow looks like this :
 
 - Writing article in markdown with [Typora](https://typora.io/)
@@ -41,9 +46,9 @@ It was a challenge to keep my motivation up after finishing the design and the c
 
 ## Side Projects
 
-Being a dad, having a lot of hobbies don’t leave me with a lot of extra times but when I find some I usually try to do everything in a row, It’s hard for me to go to the bed early and it’s making me anxious to go to bed without “creating” something. So usually I end up doing some small code project, or some unnecessary design or create some music I’m not finishing.
+Being a dad, having a lot of hobbies don’t leave me with a lot of extra times but when I find some I usually try to do everything in a row, It’s hard for me to go to bed early and it’s making me anxious to go to bed without “creating” something. So usually I end up doing some small code project, or some unnecessary design or create some music I’m not finishing.
 
-This 2020 being over, 2021 will be about having in mind a project for every stuff I’d like to experiment with. So here’s what I’d like to do :
+2020 being over, 2021 will be about having in mind a project for every stuff I’d like to experiment with. So here’s what I’d like to do :
 
 Combining music and design :
 
@@ -52,7 +57,7 @@ Combining music and design :
 
 Code + Design + Music :
 
-- Create a small web app listing all your favorite artists with their most listened to music and trying to link some third parties to access lyrics etc …
+- Create a small web app listing all your favorite artists with their most listened music and trying to link some third parties to access lyrics etc …
 
 Design
 
