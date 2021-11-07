@@ -1,5 +1,5 @@
 import debounce from 'lodash/debounce'
-import createFocusTrap from 'focus-trap'
+import { createFocusTrap } from 'focus-trap'
 import { getWindowDimensions } from './utils'
 
 const SELECTORS = {
