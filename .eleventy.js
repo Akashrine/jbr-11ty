@@ -13,7 +13,6 @@ const markdownItFootnote = require('markdown-it-footnote')
 const markdownItAnchor = require('markdown-it-anchor')
 const anchorSlugify = (s) =>
     encodeURIComponent(
-        'h-' +
             String(s)
                 .trim()
                 .toLowerCase()
