@@ -1,11 +1,19 @@
 {
     "jobs": [
         {
-            "title" : "Senior Product Manager",
+            "title" : "Chief Product Officer",
+            "link" : "https://wizville.com",
+            "company" : "Wizville",
+            "start_date" : "Oct 2O23",
+            "end_date" : "Today",
+            "hightlights" : ""
+        },
+        {
+            "title" : "Lead Product Manager",
             "link" : "https://heetch.com",
             "company" : "Heetch",
             "start_date" : "Dec 2019",
-            "end_date" :"Today",
+            "end_date" :"Oct 2023",
             "hightlights":""
         },
         {
