@@ -1,37 +1,23 @@
-:root{
+:root {
     --color-bg: #FCFCFC;
-    --color-bg-offset: rgba(238, 59, 98, 0.05);
+    --color-bg-offset: rgba(51, 102, 255, 0.05); /* Nouvelle couleur d'offset pour le fond */
     --color-text: #072c52;
     --color-text-offset: #53536b;
     --color-border: #ebe9e9;
-    --color-primary: #ea2c62;
-    --color-primary-offset: #f0456f;
-    --color-secondary: #457B9D;
-    --color-secondary-offset: #1D3557;
-}
-
-
-[data-theme="dark--"] { 
-    --color-bg: #292929;
-    --color-bg-offset: rgba(172, 172, 172, 0.1);
-    --color-text: #F2F2F2;
-    --color-text-offset: #ebe9eb;
-    --color-border: rgb(114, 114, 114);
-    --color-primary: #F2A81D;
-    --color-primary-offset: rgb(219, 147, 14);
-    --color-secondary: #2ABFBF;
-    --color-secondary-offset: #2aa7a7;
+    --color-primary: #007bff; /* Couleur primaire bleu électrique */
+    --color-primary-offset: #6a9cff; /* Nuance de la couleur primaire */
+    --color-secondary: #da0d69; /* Nouvelle couleur secondaire (rose vif) */
+    --color-secondary-offset: #d92760; /* Nuance de la nouvelle couleur secondaire */
 }
 
 [data-theme="dark"] { 
     --color-bg: #17223b;
-    --color-bg-offset: rgba(29, 45, 80, 0.1);
+    --color-bg-offset: rgba(51, 102, 255, 0.05); /* Nouvelle couleur d'offset pour le fond */
     --color-text: #f8ece1;
     --color-text-offset: #ebe9eb;
     --color-border: #0c486b;
-    --color-primary: #ea2c62;
-    --color-primary-offset: #f58f8f;
-    --color-secondary: #6b778d;
-    --color-secondary-offset: #566788;
+    --color-primary: #007bff; /* Couleur primaire bleu électrique */
+    --color-primary-offset: #6a9cff; /* Nuance de la couleur primaire */
+    --color-secondary: #8A2BE2; /* Nouvelle couleur secondaire pour le thème sombre (violet) */
+    --color-secondary-offset: #BA55D3; /* Nuance de la nouvelle couleur secondaire pour le thème sombre */
 }
-
