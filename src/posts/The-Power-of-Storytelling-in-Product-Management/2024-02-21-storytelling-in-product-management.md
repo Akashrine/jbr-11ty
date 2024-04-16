@@ -1,12 +1,17 @@
 ---
 title: The Power of Storytelling in Product Management
 tags: product, guidelines, storytelling
-image: 
+image: cover.jpeg
 description: This article explores the power of storytelling in product management, highlighting its role in engaging stakeholders, communicating vision and strategy, as well as in persuasion and action.
 keywords: storytelling, product management, stakeholder engagement, vision communication, strategy communication, persuasion, action, product development, narrative techniques, effective communication
 ---
 
 <p class="lead">One morning you wake up with a brilliant product idea. You're certain that with it, you'll revolutionize the world, solve an incredible problem, and make people's lives enjoyable and sweet with this product. But here's the thing, an idea is just a tiny part of success. The magic happens only when people fully buy into your idea and are as excited as you are. That's when it's time to prepare your <strong>storytelling</strong>.</p>
+
+<figure class="extent">
+    <img src="cover.jpeg" data-zoomable />
+    <figcaption>The power of Storytelling in Product Management</figcaption>
+</figure>
 
 # The Power of Storytelling in Product Management
 
