@@ -1,5 +1,6 @@
 @use '../utils/_variables';
 @use '../utils/_mixins';
+@use '../base/colors';
 
 .hero{
     padding: variables.$spacing-y 0 variables.$spacing-y;
