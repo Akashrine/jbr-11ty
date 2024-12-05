@@ -1,5 +1,7 @@
 @use '../utils/_variables';
 @use '../utils/_mixins';
+@use '../base/colors';
+
 
 // UTILITY CLASSES
 // All of these have !important because they should always overrule any other style

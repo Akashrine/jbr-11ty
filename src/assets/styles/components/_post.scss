@@ -1,6 +1,7 @@
 @use '../utils/_variables';
 @use '../utils/_mixins';
 @use '../components/_page';
+@use '../base/colors';
 
 .post {
     &__header {
