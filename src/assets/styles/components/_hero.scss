@@ -1,12 +1,15 @@
+@use '../utils/_variables';
+@use '../utils/_mixins';
+
 .hero{
-    padding: $spacing-y 0 $spacing-y;
+    padding: variables.$spacing-y 0 variables.$spacing-y;
     
-    @include mq(md){
-        padding: $spacing-y 0 2*$spacing-y;
+    @include mixins.mq(md){
+        padding: variables.$spacing-y 0 2*variables.$spacing-y;
     }
 
-    @include mq(lg){
-        padding: $spacing-y 0 4*$spacing-y;
+    @include mixins.mq(lg){
+        padding: variables.$spacing-y 0 4*variables.$spacing-y;
     }
 
     &__inner{
@@ -19,18 +22,18 @@
         line-height: 1.1;
         margin-bottom: 0.33em;
 
-        @include mq(md) {
+        @include mixins.mq(md) {
             font-size: 3rem;
             font-weight: bold;
         }
-        @include mq(lg) {
+        @include mixins.mq(lg) {
             font-size: 4.2rem;
             font-weight: bolder;
         }
     }
 
     &__social{
-        margin-top: $spacing-y;
+        margin-top: variables.$spacing-y;
     }
 
     &__link{

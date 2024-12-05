@@ -6,41 +6,41 @@
 // UTILITIES
 //--------------------
 
-@import 'utils/functions';
-@import 'utils/variables';
-@import 'utils/mixins';
+@use 'utils/_functions';
+@use 'utils/_variables';
+@use 'utils/_mixins';
 
 //--------------------
 // BASE MODULES
 // partials with global scope
 //--------------------
 
-@import 'base/colors';
-@import 'base/fonts';
-@import 'base/normalize';
-@import 'base/normalize-opentype';
-@import 'base/reboot';
-@import 'base/layout';
-@import 'base/typography';
-@import 'base/focus';
-@import 'base/utilities';
-@import 'base/screenreader';
-@import 'base/animation';
+@use 'base/_colors';
+@use 'base/_fonts';
+@use 'base/_normalize';
+@use 'base/_normalize-opentype';
+@use 'base/_reboot';
+@use 'base/_layout';
+@use 'base/_typography';
+@use 'base/_focus';
+@use 'base/_utilities';
+@use 'base/_screenreader';
+@use 'base/_animation';
 
 //--------------------
 // COMPONENTS
 // partials with local scope to a component
 //--------------------
 
-@import 'components/header';
-@import 'components/nav';
-@import 'components/themeselector';
-@import 'components/footer';
-@import 'components/hero';
-@import 'components/section';
-@import 'components/postlist';
-@import 'components/post';
-@import 'components/page';
-@import 'components/edito';
-@import 'components/icon';
-@import 'components/webmention';
+@use 'components/_header';
+@use 'components/_nav';
+@use 'components/_themeselector';
+@use 'components/_footer';
+@use 'components/_hero';
+@use 'components/_section';
+@use 'components/_postlist';
+@use 'components/_post';
+@use 'components/_page';
+@use 'components/_edito';
+@use 'components/_icon';
+@use 'components/_webmention';

@@ -1,12 +1,15 @@
+@use '../utils/_variables';
+@use '../utils/_mixins';
+
 .postlist {
-    @include container-blog;
+    @include mixins.container-blog;
 
     &__item {
         padding-bottom: 1.5rem;
         padding-top: 1.5rem;
         border-bottom: 1px solid var(--color-border);
 
-        @include mq(md) {
+        @include mixins.mq(md) {
             padding-bottom: 2.5rem;
             padding-top: 2.5rem;
         }
@@ -29,10 +32,10 @@
         }
     }
     &__date {
-        margin-right: $spacing-x;
+        margin-right: variables.$spacing-x;
     }
     &__tags {
-        font-family: $font-family-serif;
+        font-family: variables.$font-family-serif;
         color: var(--color-secondary);
         letter-spacing: 1px;
         font-weight: bold;
@@ -41,8 +44,8 @@
         width: 100%;
     }
     &__excerpt {
-        @include body-text();
         margin-bottom: 1.125rem;
+        @include mixins.body-text();
     }
     &__readmore {
         color: var(--color-text);

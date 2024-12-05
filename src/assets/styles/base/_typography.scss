@@ -1,3 +1,6 @@
+@use '../utils/_variables';
+@use '../utils/_mixins';
+
 h1,
 h2,
 h3,
@@ -12,8 +15,8 @@ h1 {
     font-size: 2.5rem;
     font-weight: 400;
     text-rendering: optimizeLegibility;
-    font-family: $font-family-serif;
-    @include mq(lg) {
+    font-family: variables.$font-family-serif;
+    @include mixins.mq(lg) {
         font-size: 3.5rem;
     }
 }
@@ -21,7 +24,7 @@ h1 {
 h2 {
     font-size: 2.125rem;
     font-weight: 700;
-    @include mq(lg) {
+    @include mixins.mq(lg) {
         font-size: 3rem;
     }
 }
@@ -35,7 +38,7 @@ p {
     font-weight: 300;
     line-height: 1.4;
 
-    @include mq(md) {
+    @include mixins.mq(md) {
         font-size: 2rem;
     }
 }
@@ -49,7 +52,7 @@ a {
     color: var(--color-primary);
     text-decoration: none;
 
-    @include hover-focus {
+    @include mixins.hover-focus {
         color: var(--color-primary-offset);
         font-weight: bold;
     }

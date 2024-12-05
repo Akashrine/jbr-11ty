@@ -1,12 +1,12 @@
 const fs = require('fs')
 const path = require('path')
-const sass = require('node-sass')
+const sass = require('sass') // Use Dart Sass
 const CleanCSS = require('clean-css')
 const cssesc = require('cssesc')
 
 const isProd = process.env.ELEVENTY_ENV === 'production'
 
-// main entry point name
+// Main entry point name
 const ENTRY_FILE_NAME = 'main.scss'
 
 module.exports = class {
@@ -19,41 +19,31 @@ module.exports = class {
         }
     }
 
-    // Compile Sass to CSS,
-    // Embed Source Map in Development
-    async compile(config) {
-        return new Promise((resolve, reject) => {
-            if (!isProd) {
-                config.sourceMap = true
-                config.sourceMapEmbed = true
-                config.outputStyle = 'expanded'
-            }
-            return sass.render(config, (err, result) => {
-                if (err) {
-                    return reject(err)
-                }
-                resolve(result.css.toString())
-            })
-        })
+    // Compile Sass to CSS
+    async compile(filePath) {
+        try {
+            return sass.compile(filePath, {
+                style: isProd ? 'compressed' : 'expanded',
+                sourceMap: !isProd,
+            }).css
+        } catch (err) {
+            throw new Error(err)
+        }
     }
 
     // Minify & Optimize with CleanCSS in Production
     async minify(css) {
-        return new Promise((resolve, reject) => {
-            if (!isProd) {
-                resolve(css)
-            }
-            const minified = new CleanCSS().minify(css)
-            if (!minified.styles) {
-                return reject(minified.error)
-            }
-            resolve(minified.styles)
-        })
+        if (!isProd) {
+            return css
+        }
+        const minified = new CleanCSS().minify(css)
+        if (!minified.styles) {
+            throw new Error(minified.error || 'CleanCSS failed to minify.')
+        }
+        return minified.styles
     }
 
-    // display an error overlay when CSS build fails.
-    // this brilliant idea is taken from Mike Riethmuller / Supermaya
-    // @see https://github.com/MadeByMike/supermaya/blob/master/site/utils/compile-scss.js
+    // Display an error overlay when CSS build fails
     renderError(error) {
         return `
         /* Error compiling stylesheet */
@@ -69,7 +59,7 @@ module.exports = class {
             min-height: 100vh;
             font-family: monospace;
             font-size: 1.25rem;
-            line-height:1.5;
+            line-height: 1.5;
         } 
         body::before { 
             content: ''; 
@@ -89,28 +79,25 @@ module.exports = class {
             padding: 30px;
             margin: 50px;
             width: calc(100% - 100px);
-            color:#721c24;
+            color: #721c24;
             background: #f8d7da;
             border: solid 2px red;
             position: fixed;
         }`
     }
 
-    // render the CSS file
+    // Render the CSS file
     async render({ entryPath }) {
         try {
-            const css = await this.compile({ file: entryPath })
+            const css = await this.compile(entryPath)
             const result = await this.minify(css)
             return result
-        } catch (err) {
-            // if things go wrong
+        } catch (err) { 
             if (isProd) {
-                // throw and abort in production
                 throw new Error(err)
             } else {
-                // otherwise display the error overly
                 console.error(err)
-                const msg = err.formatted || err.message
+                const msg = err.message || 'Unknown error'
                 return this.renderError(msg)
             }
         }

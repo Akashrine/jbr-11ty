@@ -1,3 +1,5 @@
+@use '../utils/_mixins';
+
 @media (prefers-reduced-motion: reduce) {
     * {
         animation-duration: 0.01s !important;

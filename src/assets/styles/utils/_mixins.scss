@@ -1,9 +1,14 @@
+@use '_variables';
+@use '_functions';
+@use '../base/_colors';
+
+
 //--------------------
 // SCSS MIXINS
 //--------------------
 
 @mixin mq($name) {
-    $min: breakpoint-min($name, $breakpoints);
+    $min: functions.breakpoint-min($name, variables.$breakpoints);
     @if $min {
         @media (min-width: $min) {
             @content;
@@ -14,7 +19,7 @@
 }
 
 @mixin mq-down($name) {
-    $min: breakpoint-min($name, $breakpoints);
+    $min: functions.breakpoint-min($name, variables.$breakpoints);
     @if $min {
         @media (max-width: ($min - 1px)) {
             @content;
@@ -54,8 +59,10 @@
     }
 }
 @mixin body-text() {
-    font-size: 1.125rem;
-    line-height: 1.65;
+    & {
+        font-size: 1.125rem;
+        line-height: 1.65;
+    }
 
     @include mq(md) {
         font-size: 1.375rem;
@@ -96,7 +103,7 @@
 
 @mixin container-blog() {
     width: 100%;
-    max-width: $container-blog-max-width;
+    max-width: variables.$container-blog-max-width;
     margin-left: auto;
     margin-right: auto;
 }

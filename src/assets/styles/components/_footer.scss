@@ -1,5 +1,8 @@
+@use '../utils/_variables';
+@use '../utils/_mixins';
+
 .footer {
-    padding: 2*$spacing-y 0;
+    padding: 2*variables.$spacing-y 0;
     background: var(--color-bg-offset);
     border-top: 1px solid var(--color-border);
 
@@ -25,7 +28,7 @@
     }
     
     &__icon {
-        @include button-reset;
+        @include mixins.button-reset;
         display: inline-block;
 
         & + & {
@@ -33,7 +36,7 @@
         }
     }
 
-    @include mq(md) {
+    @include mixins.mq(md) {
         &__inner {
             flex-wrap: nowrap;
         }
@@ -49,7 +52,7 @@
         }
     }
 
-    @include mq(lg) {
+    @include mixins.mq(lg) {
         &__item {
             padding-right: 4rem;
         }

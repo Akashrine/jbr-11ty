@@ -1,13 +1,16 @@
+@use '../utils/_variables';
+@use '../utils/_mixins';
+
 /*Simple css to style it like a toggle switch*/
 .theme-switch-wrapper {
     display: flex;
     align-items: center;
     order: -1;
     margin-right: 2rem;
-    @include mq(lg){
+    @include mixins.mq(lg){
       order:1;
       margin-top:5px;
-      margin-left: $spacing-y;
+      margin-left: variables.$spacing-y;
     }
   
     svg {

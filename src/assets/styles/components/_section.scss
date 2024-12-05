@@ -1,10 +1,13 @@
+@use '../utils/_variables';
+@use '../utils/_mixins';
+
 .section{
     margin-bottom: 4rem;
-    @include mq(lg) {
+    @include mixins.mq(lg) {
         margin-bottom: 8rem;
     }
 
-    @include body-text();
+    @include mixins.body-text();
 
     &__subline{
         text-transform: uppercase;
@@ -19,7 +22,7 @@
         margin:0 0 6px 2rem;
     }
     header{
-        margin-bottom: $spacing-y;
+        margin-bottom: variables.$spacing-y;
     }
 }
 
@@ -27,7 +30,7 @@
     z-index: 3;
     &__presentation{
         display: block;
-        @include mq(lg) {
+        @include mixins.mq(lg) {
             display: flex;
             -webkit-box-pack: justify;
             justify-content: space-between;
@@ -39,9 +42,9 @@
     &__left{
         color: var(--color-text-offset);
         font-size: 1.8rem;
-        margin: $spacing-y 0;
+        margin: variables.$spacing-y 0;
 
-        @include mq(lg) {
+        @include mixins.mq(lg) {
             width: 35%;
             max-width: 480px;
             font-size: 2rem;
@@ -49,9 +52,9 @@
         }
     }
     &__right{
-        margin-top: $spacing-y;
+        margin-top: variables.$spacing-y;
 
-        @include mq(lg) {
+        @include mixins.mq(lg) {
             width: 65%;
             max-width: 680px;
             margin-left:  60px;
@@ -61,7 +64,7 @@
         font-size: 1rem;
         color: var(--color-text);
         margin-right: 0.5rem;
-        @include hover-focus{
+        @include mixins.hover-focus{
             color: var(--color-primary);
         }
     }
@@ -70,22 +73,22 @@
 .lastarticle{
     text-align: center;
     background: var(--color-bg-offset);
-    padding: $spacing-y 0;
+    padding: variables.$spacing-y 0;
     position: relative;
-    @include mq(lg){
+    @include mixins.mq(lg){
         padding: 8rem 0;
         transform: rotate(-3deg) skew(-3deg);
     }
 
     &__content{
-        @include mq(lg){
+        @include mixins.mq(lg){
             transform: rotate(3deg) skew(3deg);
         }
     }
 
     &__post{
         margin-bottom: 1.5rem;
-        @include mq(lg){
+        @include mixins.mq(lg){
             margin-bottom: 2.5rem;        
         }
     }
@@ -102,10 +105,10 @@
     &__shot{
         width: 100%;
         flex: 1 0 100%; /* explanation below */
-        @include mq(md) {
+        @include mixins.mq(md) {
             flex: 0 50%;
         }
-        @include mq(lg) {
+        @include mixins.mq(lg) {
             flex: 0 25%;
         }
     }
@@ -193,12 +196,12 @@
 
 .experience{
     .jobs{
-        @include container-blog;
+        @include mixins.container-blog;
         margin-right: 0;
-        margin-top: 2*$spacing-y;
+        margin-top: 2 * variables.$spacing-y;
     }
     .job{
-        margin-bottom: $spacing-y;
+        margin-bottom: variables.$spacing-y;
         
         &__locdate{
             display: flex;
