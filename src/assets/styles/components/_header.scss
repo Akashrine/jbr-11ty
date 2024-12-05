@@ -1,5 +1,8 @@
+@use '../utils/_variables';
+@use '../utils/_mixins';
+
 .header {
-    padding: $spacing-y 0;
+    padding: variables.$spacing-y 0;
 
     &__inner {
         display: flex;
@@ -11,7 +14,7 @@
         align-items: center;
         color: inherit;
 
-        @include hover-focus {
+        @include mixins.hover-focus {
             color: inherit;
         }
     }
@@ -20,11 +23,11 @@
         align-items: center;
     }
     &__branding__text {
-        font-family: $font-family-base;
+        font-family: variables.$font-family-base;
         font-size: 1.2rem;
         letter-spacing: -1px;
         color: var(--color-text);
-        @include mq(md) {
+        @include mixins.mq(md) {
             font-size: 1.4rem;
         }
     }
@@ -32,7 +35,7 @@
         display: flex;
         align-items: center;
     }
-    @include mq(md) {
+    @include mixins.mq(md) {
         padding: 5rem 0;
     }
 }

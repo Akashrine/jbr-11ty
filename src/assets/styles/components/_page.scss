@@ -1,3 +1,6 @@
+@use '../utils/_variables';
+@use '../utils/_mixins';
+
 .page {
     &__header {
         padding: 2rem 0;
@@ -8,7 +11,7 @@
         letter-spacing: 1px;
     }
     &__content {
-        @include container-blog;
+        @include mixins.container-blog;
         padding-bottom: 2rem;
 
         &--fullwidth {
@@ -16,7 +19,7 @@
         }
     }
 
-    @include mq(md) {
+    @include mixins.mq(md) {
         &__header {
             padding: 4rem 0;
             text-align: center;
@@ -30,7 +33,7 @@
         }
     }
 
-    @include mq(lg) {
+    @include mixins.mq(lg) {
         &__header {
             padding: 5rem 0;
         }

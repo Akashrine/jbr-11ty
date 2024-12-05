@@ -1,3 +1,6 @@
+@use '../utils/_variables';
+@use '../utils/_mixins';
+
 .icon {
     display: inline-block;
     font-size: 1.5em;
@@ -18,7 +21,7 @@
     height: 16px;
     position: relative;
     transform: rotate(0deg);
-    transition: transform 0.3s $animation-curve-default;
+    transition: transform 0.3s variables.$animation-curve-default;
     cursor: pointer;
     margin: 0 auto;
 

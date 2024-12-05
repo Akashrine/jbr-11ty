@@ -1,3 +1,8 @@
+@use '../utils/_mixins';
+@use '_colors';
+
+@use '../utils/_variables';
+
 // Reboot
 //
 // Global resets to common HTML elements and more for easier usage by Bootstrap.
@@ -69,16 +74,16 @@ html {
 
 html {
     // Sets a specific default `font-size` for user with `rem` type scales.
-    font-size: $font-size-root;
+    font-size: variables.$font-size-root;
     // Changes the default tap highlight to be completely transparent in iOS.
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
     // Make the `body` use the `font-size-root`
-    font-family: $font-family-base;
-    font-size: $font-size-base;
-    line-height: $line-height;
+    font-family: variables.$font-family-base;
+    font-size: variables.$font-size-base;
+    line-height: variables.$line-height;
 
     color: var(--color-text);
     transition: background-color 0.5s ease;
@@ -87,7 +92,7 @@ body {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 
-    @include scrollbars (5px, var(--color-primary), var(--color-bg));
+    @include mixins.scrollbars(5px, var(--color-primary), var(--color-bg));
 
 }
 

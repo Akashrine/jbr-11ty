@@ -1,7 +1,10 @@
+@use '../utils/_variables';
+@use '../utils/_mixins';
+
 // UTILITY CLASSES
 // All of these have !important because they should always overrule any other style
 
-// Layout Utils
+// Layout ../utils
 
 .u-mt0 {
     margin-top: 0 !important;
@@ -47,20 +50,20 @@
     text-align: right !important;
 }
 
-// Display Utils
+// Display ../utils
 
 .u-mobile-only {
-    @include mq(md) {
+    @include mixins.mq(md) {
         display: none !important;
     }
 }
 .u-tablet-only {
-    @include mq(lg) {
+    @include mixins.mq(lg) {
         display: none !important;
     }
 }
 .u-desktop-only {
-    @include mq-down(lg) {
+    @include mixins.mq-down(lg) {
         display: none !important;
     }
 }
@@ -70,7 +73,7 @@
     }
 }
 
-// Color Utils
+// Color ../utils
 
 .primary {
     color: var(--color-primary);
@@ -87,7 +90,7 @@
 
 //shape
 .shape{
-    @include mq(lg){
+    @include mixins.mq(lg){
         width: calc(100% * 8/12 - (200px / 12));
         left: calc(100% * 4/12 + (200px / 12));
         top: 0;
@@ -99,7 +102,7 @@
 }
 
 .shape2{
-    @include mq(lg){
+    @include mixins.mq(lg){
         position: absolute;
         top: 0;
         bottom: 0;

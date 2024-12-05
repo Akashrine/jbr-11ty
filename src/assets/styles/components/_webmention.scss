@@ -1,3 +1,6 @@
+@use '../utils/_variables';
+@use '../utils/_mixins';
+
 .webmention {
     display: flex;
     flex-direction: column;
@@ -68,7 +71,7 @@
     &__info {
         color: var(--color-text-offset);
 
-        @include hover-focus {
+        @include mixins.hover-focus {
             color: var(--color-text);
         }
     }
@@ -79,7 +82,7 @@
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        margin-bottom: $spacing-y;
+        margin-bottom: variables.$spacing-y;
 
         a:hover {
             text-decoration: underline;

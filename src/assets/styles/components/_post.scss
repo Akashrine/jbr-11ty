@@ -1,3 +1,7 @@
+@use '../utils/_variables';
+@use '../utils/_mixins';
+@use '../components/_page';
+
 .post {
     &__header {
         @extend .page__header;
@@ -5,12 +9,12 @@
     &__title {
         @extend .page__title;
 
-        @include mq(lg) {
+        @include mixins.mq(lg) {
             font-size: 8rem !important;
         }
     }
     &__content {
-        @include container-blog;
+        @include mixins.container-blog;
     }
     &__meta {
         display: flex;
@@ -27,16 +31,16 @@
     }
     &__tags {
         display: flex;
-        font-family: $font-family-serif;
+        font-family: variables.$font-family-serif;
         color: var(--color-secondary);
         letter-spacing: 1px;    
         font-weight: bold;
         margin-right: 1.5rem;
     }
     &__webmentions, &__internal-nav {
-        @include container-blog;
-        margin-top: $spacing-y;
-        padding-top: $spacing-y;
+        @include mixins.container-blog;
+        margin-top: variables.$spacing-y;
+        padding-top: variables.$spacing-y;
         border-top: 1px solid var(--color-border);
     }
     &__internal-nav {
@@ -48,11 +52,11 @@
         background-color: var(--color-border);
     }
     &__footnotes-list {
-        padding: $spacing-y;
+        padding: variables.$spacing-y;
 
         li{
             font-size: 1rem;
-            padding-left: $spacing-y;
+            padding-left: variables.$spacing-y;
             p{
                 display: inline;
             }

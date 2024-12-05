@@ -1,12 +1,17 @@
+@use '../utils/_variables';
+@use '../utils/_mixins';
+@use '../base/_typography';
+@use '../base/_colors';
+
 .edito{
-    @include body-text();
+    @include mixins.body-text();
     /* Vertical */
     > * {
-        margin-bottom: $spacing-y;
+        margin-bottom: variables.$spacing-y;
     }
 
     h2{
-        font-family: $font-family-serif;
+        font-family: variables.$font-family-serif;
         position: relative;
         font-size: 2.5rem;
         &::before{
@@ -25,15 +30,15 @@
         }
     }
     h3{
-        font-family: $font-family-serif;
+        font-family: variables.$font-family-serif;
         letter-spacing: normal;
         color: var(--color-secondary);
         font-size: 2rem;
     }
 
     a{
-        @include hyphenate;
-        @include hover-focus {
+        @include mixins.hyphenate;
+        @include mixins.hover-focus {
             color: var(--color-primary-offset);
             text-decoration: underline;
             font-weight: inherit;
@@ -41,14 +46,14 @@
     }
 
     p.multi-column{
-        @include mq(lg){
+        @include mixins.mq(lg){
             column-count: 2;
             column-gap: 2rem;
         }
     }
 
     q {
-        font-family: $font-family-sans-serif;
+        font-family: variables.$font-family-sans-serif;
         font-weight: 400;
         letter-spacing: 1.5px;
         font-style: normal;
@@ -56,7 +61,7 @@
         color: var(--color-primary);
         display: block;
         margin: 0;
-        @include mq(lg){
+        @include mixins.mq(lg){
             float: right;
             max-width: 350px;
             margin: 10px -15% 10px 20px;
@@ -152,7 +157,7 @@
         margin: 2rem 1rem;
         color: var(--color-text-offset);
         border-left: .5rem solid var(--color-border);
-        font-family: $font-family-serif;
+        font-family: variables.$font-family-serif;
         font-style: italic;
         quotes: "“" "”" "‘" "’";
         position: relative;
@@ -253,21 +258,21 @@
     {
         //General table style
         display: table; width: 100%; border: { width: 0px; collapse: collapse; } font-weight: 300;
-        color: color(note-text);
+        color: var(--color-text);
 
         //Table margin
         margin: { top: 0px; bottom: 20px; }
 
         //Table head
-        thead tr td { font-weight: normal; border-bottom: 2px solid color(brand); background-color: #f6f8fa; }
+        thead tr td { font-weight: normal; border-bottom: 2px solid var(--color-brand); background-color: #f6f8fa; }
 
         //Table row
-        tr td { border-bottom: 1px solid color(brand-annex); padding: { top: 10px; bottom: 10px; left: 10px; } }
+        tr td { border-bottom: 1px solid var(--color-brand-annex); padding: { top: 10px; bottom: 10px; left: 10px; } }
     }
     
     /*----------  extent  ---------*/
     .extent{
-        @include mq(lg) {
+        @include mixins.mq(lg) {
             margin-left: -8rem;
             margin-right: -8rem;
         }
