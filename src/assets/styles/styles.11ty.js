@@ -23,7 +23,7 @@ module.exports = class {
     async compile(filePath) {
         try {
             return sass.compile(filePath, {
-                style: isProd ? 'compressed' : 'expanded',
+                style: 'expanded',
                 sourceMap: !isProd,
             }).css
         } catch (err) {
