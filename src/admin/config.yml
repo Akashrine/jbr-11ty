@@ -1,7 +1,10 @@
 backend:
   name: git-gateway
   branch: master 
+  base_url: https://api.netlify.com # Utilisé pour Netlify Identity
+  auth_endpoint: /.netlify/identity
 
+site_url: https://julien-brionne.fr
 media_folder: "src/assets/images/uploads" # Où les images uploadées seront stockées
 public_folder: "/assets/images/uploads" # URL publique pour les images
 
@@ -14,5 +17,5 @@ collections:
     fields:
       - { label: "title", name: "title", widget: "string" }
       - { label: "tags", name: "tags", widget: "string" }
-      - { label:"image", name:"image", widget:"image"}
+      - { label: "image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
