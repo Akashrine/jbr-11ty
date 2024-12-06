@@ -1,7 +1,8 @@
+@use '../base/_colors';
 @use '../utils/_variables';
 @use '../utils/_mixins';
 @use '../base/_typography';
-@use '../base/_colors';
+@use '../base/layout';
 
 .edito{
     @include mixins.body-text();
