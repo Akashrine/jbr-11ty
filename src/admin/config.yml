@@ -1,0 +1,17 @@
+backend:
+  name: git
+  branch: master 
+
+media_folder: "src/assets/images/uploads" # Où les images uploadées seront stockées
+public_folder: "/assets/images/uploads" # URL publique pour les images
+
+collections:
+  - name: "posts" # Nom de la collection
+    label: "Posts" # Label affiché dans l'interface
+    folder: "src/posts" # Dossier où sont stockés les contenus
+    create: true # Permettre la création de nouveaux contenus
+    slug: "{{slug}}" # Modèle de slug
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
