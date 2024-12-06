@@ -3,7 +3,6 @@ const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginNavigation = require('@11ty/eleventy-navigation');
 const pluginEmbedTweet = require('eleventy-plugin-embed-tweet');
 const markdownIt = require('markdown-it');
-const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 const filters = require('./utils/filters.js');
 const transforms = require('./utils/transforms.js');
@@ -33,8 +32,6 @@ module.exports = function (config) {
     };
     config.addPlugin(pluginEmbedTweet, tweetEmbedOptions);
     config.addPlugin(svgContents);
-    config.addPlugin(UpgradeHelper);
-
     // Filters
     Object.keys(filters).forEach((filterName) => {
         config.addFilter(filterName, filters[filterName]);
