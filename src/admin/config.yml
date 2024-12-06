@@ -1,5 +1,5 @@
 backend:
-  name: git
+  name: git-gateway
   branch: master 
 
 media_folder: "src/assets/images/uploads" # Où les images uploadées seront stockées
@@ -12,6 +12,7 @@ collections:
     create: true # Permettre la création de nouveaux contenus
     slug: "{{slug}}" # Modèle de slug
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "title", name: "title", widget: "string" }
+      - { label: "tags", name: "tags", widget: "string" }
+      - { label:"image", name:"image", widget:"image"}
       - { label: "Body", name: "body", widget: "markdown" }
