@@ -2,11 +2,12 @@
   "name": "eleventastic",
   "version": "1.0.0",
   "description": "A boilerplate for eleventy websites",
+  "type": "module",
   "scripts": {
     "start": "npm run dev",
-    "dev": "run-s clean eleventy:dev --print-label",
+    "dev": "npm run clean && cross-env ELEVENTY_ENV=development eleventy --serve",
     "build": "NODE_ENV=production run-s clean eleventy:prod --print-label",
-    "eleventy:dev": "cross-env ELEVENTY_ENV=development eleventy --serve",
+    "eleventy:dev": "cross-env ELEVENTY_ENV=development npx eleventy --serve",
     "eleventy:prod": "cross-env ELEVENTY_ENV=production eleventy",
     "clean": "del-cli dist",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,15 +27,15 @@
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^9.1.0",
     "clean-css": "^5.2.2",
-    "critical": "^4.0.1",
+    "critical": "^7.2.1",
     "cssesc": "^3.0.0",
     "del-cli": "^4.0.1",
     "dotenv": "^10.0.0",
-    "eleventy-plugin-embed-tweet": "^0.3.3",
+    "eleventy-plugin-embed-tweet": "^0.1.1",
     "eleventy-plugin-svg-contents": "^0.7.0",
     "focus-trap": "^6.7.1",
     "focus-visible": "^5.2.0",
-    "html-minifier": "^4.0.0",
+    "html-minifier-terser": "^7.2.0",
     "lodash": "^4.17.21",
     "luxon": "^2.0.2",
     "markdown-it": "^12.2.0",
@@ -43,15 +44,17 @@
     "medium-zoom": "^1.0.6",
     "memfs": "^3.3.0",
     "netlify-cms-app": "^2.15.72",
-    "node-fetch": "^3.0.0",
+    "node-fetch": "^3.3.2",
     "npm-run-all": "^4.1.5",
+    "puppeteer": "^22.15.0",
+    "rimraf": "^4.4.1",
     "sanitize-html": "^2.5.3",
     "sass": "^1.82.0",
-    "svg-sprite": "^1.5.3",
+    "svg-sprite": "^2.0.4",
+    "uuid": "^8.3.2",
     "webpack": "^5.75.0"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3",
-    "focus-trap": "^6.7.1"
+    "cross-env": "^7.0.3"
   }
 }

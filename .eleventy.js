@@ -1,16 +1,16 @@
-const { DateTime } = require('luxon');
-const pluginRss = require('@11ty/eleventy-plugin-rss');
-const pluginNavigation = require('@11ty/eleventy-navigation');
-const pluginEmbedTweet = require('eleventy-plugin-embed-tweet');
-const markdownIt = require('markdown-it');
+import { DateTime } from 'luxon';
+import pluginRss from '@11ty/eleventy-plugin-rss';
+import pluginNavigation from '@11ty/eleventy-navigation';
+import pluginEmbedTweet from 'eleventy-plugin-embed-tweet';
+import markdownIt from 'markdown-it';
 
-const filters = require('./utils/filters.js');
-const transforms = require('./utils/transforms.js');
-const shortcodes = require('./utils/shortcodes.js');
-const iconsprite = require('./utils/iconsprite.js');
-const svgContents = require('eleventy-plugin-svg-contents');
-const markdownItFootnote = require('markdown-it-footnote');
-const markdownItAnchor = require('markdown-it-anchor');
+import filters from './utils/filters.js';
+import transforms from './utils/transforms.js';
+import shortcodes from './utils/shortcodes.js';
+import iconsprite from './utils/iconsprite.js';
+import svgContents from 'eleventy-plugin-svg-contents';
+import markdownItFootnote from 'markdown-it-footnote';
+import markdownItAnchor from 'markdown-it-anchor';
 
 const anchorSlugify = (s) =>
     encodeURIComponent(
@@ -21,31 +21,29 @@ const anchorSlugify = (s) =>
             .replace(/\s+/g, '-')
     );
 
-module.exports = function (config) {
+export default function (config) {
     // Plugins
     config.addPlugin(pluginRss);
     config.addPlugin(pluginNavigation);
 
-    let tweetEmbedOptions = {
-        cacheDirectory: '', // default: ''
-        useInlineStyles: false // default: true
-    };
-    config.addPlugin(pluginEmbedTweet, tweetEmbedOptions);
-    config.addPlugin(svgContents);
-    // Filters
-    Object.keys(filters).forEach((filterName) => {
-        config.addFilter(filterName, filters[filterName]);
+    config.addPlugin(pluginEmbedTweet, {
+        cacheDirectory: '',
+        useInlineStyles: false,
     });
+    config.addPlugin(svgContents);
+
+    // Filters
+    Object.entries(filters).forEach(([name, fn]) => config.addFilter(name, fn));
 
     // Transforms
-    Object.keys(transforms).forEach((transformName) => {
-        config.addTransform(transformName, transforms[transformName]);
-    });
+    Object.entries(transforms).forEach(([name, fn]) =>
+        config.addTransform(name, fn)
+    );
 
     // Shortcodes
-    Object.keys(shortcodes).forEach((shortcodeName) => {
-        config.addShortcode(shortcodeName, shortcodes[shortcodeName]);
-    });
+    Object.entries(shortcodes).forEach(([name, fn]) =>
+        config.addShortcode(name, fn)
+    );
 
     // Icon Sprite
     config.addNunjucksAsyncShortcode('iconsprite', iconsprite);
@@ -54,7 +52,7 @@ module.exports = function (config) {
     config.addWatchTarget('./src/assets');
 
     // Markdown
-    let markdownLibrary = markdownIt({
+    const markdownLibrary = markdownIt({
         html: true,
         breaks: true,
         linkify: true,
@@ -64,20 +62,19 @@ module.exports = function (config) {
             permalink: markdownItAnchor.permalink.linkInsideHeader({
                 symbol: '#',
                 placement: 'before',
-                class: 'heading-anchor'
+                class: 'heading-anchor',
             }),
             level: 2,
             slugify: anchorSlugify,
         })
         .use(markdownItFootnote);
 
-    markdownLibrary.renderer.rules.footnote_block_open = () => (
+    markdownLibrary.renderer.rules.footnote_block_open = () =>
         '<footer class="post__footnotes">\n' +
         '<h2 class="sr-only" id="footnote-label">Footnotes</h2>\n' +
-        '<ol class="post__footnotes-list">\n'
-    );
+        '<ol class="post__footnotes-list">\n';
 
-    config.setLibrary("md", markdownLibrary);
+    config.setLibrary('md', markdownLibrary);
 
     // Layouts
     config.addLayoutAlias('base', 'base.njk');
@@ -85,34 +82,30 @@ module.exports = function (config) {
     config.addLayoutAlias('post', 'post.njk');
 
     // Pass-through files
-    config.addPassthroughCopy('src/robots.txt');
-    config.addPassthroughCopy('src/site.webmanifest');
-    config.addPassthroughCopy('src/keybase.txt');
-    config.addPassthroughCopy('src/assets/images');
-    config.addPassthroughCopy('src/assets/fonts');
-    config.addPassthroughCopy('src/posts/**/*.jpg');
-    config.addPassthroughCopy('src/posts/**/*.png');
-    config.addPassthroughCopy('src/admin');
+    [
+        'src/robots.txt',
+        'src/site.webmanifest',
+        'src/keybase.txt',
+        'src/assets/images',
+        'src/assets/fonts',
+        'src/posts/**/*.jpg',
+        'src/posts/**/*.png',
+        'src/admin',
+    ].forEach((path) => config.addPassthroughCopy(path));
 
     // Collections: Posts
-    config.addCollection('posts', function (collection) {
-        const pathsRegex = /\/posts\//;
-        const coll = collection.getAllSorted();
-
-        return coll
-            .filter((item) => item.inputPath.match(pathsRegex) !== null)
-            .filter((item) => item.data.permalink !== false)
-            .filter((item) => !(item.data.draft && isProduction));
-    });
+    config.addCollection('posts', (collection) =>
+        collection.getAllSorted().filter((item) => {
+            const isPost = item.inputPath.includes('/posts/');
+            const notDraft = !item.data.draft || process.env.ELEVENTY_ENV !== 'production';
+            return isPost && notDraft;
+        })
+    );
 
     // Get the first `n` elements of a collection.
-    config.addFilter('head', (array, n) => {
-        if (n < 0) {
-            return array.slice(n);
-        }
-
-        return array.slice(0, n);
-    });
+    config.addFilter('head', (array, n) =>
+        n < 0 ? array.slice(n) : array.slice(0, n)
+    );
 
     // Deep-Merge
     config.setDataDeepMerge(true);
@@ -131,4 +124,4 @@ module.exports = function (config) {
         markdownTemplateEngine: 'njk',
         passthroughFileCopy: true,
     };
-};
+}

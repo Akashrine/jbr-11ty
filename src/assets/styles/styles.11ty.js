@@ -1,22 +1,22 @@
-const fs = require('fs')
-const path = require('path')
-const sass = require('sass') // Use Dart Sass
-const CleanCSS = require('clean-css')
-const cssesc = require('cssesc')
+import fs from 'fs';
+import path from 'path';
+import * as sass from 'sass';
+import CleanCSS from 'clean-css';
+import cssesc from 'cssesc';
 
-const isProd = process.env.ELEVENTY_ENV === 'production'
+const isProd = process.env.ELEVENTY_ENV === 'production';
 
 // Main entry point name
-const ENTRY_FILE_NAME = 'main.scss'
+const ENTRY_FILE_NAME = 'main.scss';
 
-module.exports = class {
+export default class {
     async data() {
-        const entryPath = path.join(__dirname, `/${ENTRY_FILE_NAME}`)
+        const entryPath = path.join(new URL('.', import.meta.url).pathname, `/${ENTRY_FILE_NAME}`);
         return {
             permalink: `/assets/styles/main.css`,
             eleventyExcludeFromCollections: true,
-            entryPath
-        }
+            entryPath,
+        };
     }
 
     // Compile Sass to CSS
@@ -25,22 +25,22 @@ module.exports = class {
             return sass.compile(filePath, {
                 style: 'expanded',
                 sourceMap: !isProd,
-            }).css
+            }).css;
         } catch (err) {
-            throw new Error(err)
+            throw new Error(err);
         }
     }
 
     // Minify & Optimize with CleanCSS in Production
     async minify(css) {
         if (!isProd) {
-            return css
+            return css;
         }
-        const minified = new CleanCSS().minify(css)
+        const minified = new CleanCSS().minify(css);
         if (!minified.styles) {
-            throw new Error(minified.error || 'CleanCSS failed to minify.')
+            throw new Error(minified.error || 'CleanCSS failed to minify.');
         }
-        return minified.styles
+        return minified.styles;
     }
 
     // Display an error overlay when CSS build fails
@@ -83,22 +83,22 @@ module.exports = class {
             background: #f8d7da;
             border: solid 2px red;
             position: fixed;
-        }`
+        }`;
     }
 
     // Render the CSS file
     async render({ entryPath }) {
         try {
-            const css = await this.compile(entryPath)
-            const result = await this.minify(css)
-            return result
+            const css = await this.compile(entryPath);
+            const result = await this.minify(css);
+            return result;
         } catch (err) { 
             if (isProd) {
-                throw new Error(err)
+                throw new Error(err);
             } else {
-                console.error(err)
-                const msg = err.message || 'Unknown error'
-                return this.renderError(msg)
+                console.error(err);
+                const msg = err.message || 'Unknown error';
+                return this.renderError(msg);
             }
         }
     }
