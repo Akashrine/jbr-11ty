@@ -18,9 +18,10 @@
   "author": "Max Böck",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "1.2.0",
+    "@11ty/eleventy-upgrade-help": "^3.0.1",
     "@babel/core": "7.20.7",
     "@babel/plugin-transform-runtime": "^7.19.6",
     "@babel/preset-env": "^7.20.2",
