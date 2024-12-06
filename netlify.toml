@@ -23,3 +23,8 @@
     from = "*"
     to = "/404"
     status = 404
+
+[[redirects]]
+  from = "/admin"
+  to = "/admin/index.html"
+  status = 200
