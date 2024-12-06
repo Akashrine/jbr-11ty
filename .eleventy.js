@@ -114,6 +114,8 @@ module.exports = function (config) {
     config.addPassthroughCopy('src/assets/fonts')
     config.addPassthroughCopy('src/posts/**/*.jpg')
     config.addPassthroughCopy('src/posts/**/*.png')
+    config.addPassthroughCopy('src/admin')
+
 
     // Collections: Posts
     config.addCollection('posts', function (collection) {
