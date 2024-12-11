@@ -43,7 +43,7 @@ The second thing about writing in English is expanding the reach of my articles 
 
 ## Kill procrastination
 
-{% tweet "1278882156983574529" %}
+https://x.com/johnassaraf/status/1278882156983574529
 
 When you have a kid, and when you have a daily job, it's really easy to become less creative/productive during your free time (unless 💤, an activity I've become good at). It's much easier to let the time flow through a good video game, a good show or even worse, a youtube marathon about some obscure subject.
 
