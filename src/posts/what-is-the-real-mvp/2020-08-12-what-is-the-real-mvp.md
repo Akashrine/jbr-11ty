@@ -33,7 +33,7 @@ An MVP is built on a series of iterations that we call "build-measure-learn".
     <figcaption>Iterate through MVP</figcaption>
 </figure>
 
-{% tweet "1172062628568543233" %}
+https://x.com/aukia/status/1172062628568543233
 
 __top line__: The misconception about iterative and incremental development. It usually is one of the main reasons for a product to fail. It focuses on the components more than on the problem to be solved. While getting closer and closer to the actual user needs. It will last 4 iterations before delivering the actual solution. And before that, your user isn’t provided with a viable solution, nor can they provide feedback to help your product evolve. While it's a way to do product in an agile way, it doesn't allow helpful feedback from the end-user. 
 

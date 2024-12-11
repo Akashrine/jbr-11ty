@@ -1,7 +1,7 @@
 import { DateTime } from 'luxon';
 import pluginRss from '@11ty/eleventy-plugin-rss';
 import pluginNavigation from '@11ty/eleventy-navigation';
-import pluginEmbedTweet from 'eleventy-plugin-embed-tweet';
+import embedTwitter from 'eleventy-plugin-embed-twitter';
 import markdownIt from 'markdown-it';
 
 import filters from './utils/filters.js';
@@ -25,11 +25,7 @@ export default function (config) {
     // Plugins
     config.addPlugin(pluginRss);
     config.addPlugin(pluginNavigation);
-
-    config.addPlugin(pluginEmbedTweet, {
-        cacheDirectory: '',
-        useInlineStyles: false,
-    });
+    config.addPlugin(embedTwitter);
     config.addPlugin(svgContents);
 
     // Filters
